@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { FormatLadder } from './FormatLadder'
+import { FILM } from '../data/film'
 
 export function FormatGuide({ onBack }: { onBack?: () => void }) {
   return (
@@ -21,9 +22,27 @@ export function FormatGuide({ onBack }: { onBack?: () => void }) {
         </Link>
       )}
 
-      <h1 className="font-display mt-4 text-3xl tracking-[0.04em] text-chalk">
-        Formato prima del posto a sedere
-      </h1>
+      <div className="relative mt-4 overflow-hidden border border-chalk/15">
+        <img
+          src={FILM.keyArtSrc}
+          alt=""
+          className="h-40 w-full object-cover object-center sm:h-48"
+          loading="lazy"
+          aria-hidden
+        />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              'linear-gradient(to top, #120f0df5 0%, #120f0d66 50%, transparent 100%)',
+          }}
+          aria-hidden
+        />
+        <h1 className="font-display absolute inset-x-0 bottom-0 p-4 text-3xl tracking-[0.04em] text-chalk">
+          Formato prima del posto a sedere
+        </h1>
+      </div>
+
       <p className="mt-3 text-sm leading-relaxed text-dust">
         Chi segue Nolan da anni lo sa: lo “schermo grande” non è tutto uguale.
         Odissea è nata in IMAX film. In Italia non c&apos;è la proiezione IMAX

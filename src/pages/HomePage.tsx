@@ -4,6 +4,7 @@ import { SiteHeader } from '../components/SiteHeader'
 import { SiteFooter } from '../components/SiteFooter'
 import { Hero } from '../components/Hero'
 import { FilmCard } from '../components/FilmCard'
+import { AtmosphereBand } from '../components/AtmosphereBand'
 import { CinemaExplorer } from '../components/CinemaExplorer'
 import { FaqBlock } from '../components/FaqBlock'
 import { FAQ_CORE, faqJsonLd } from '../data/faq'
@@ -46,8 +47,10 @@ export function HomePage() {
       <main className="mx-auto max-w-3xl">
         <Hero />
         <FilmCard />
+        <AtmosphereBand caption="Fuoco e fumo · scegli la sala che regge il master" />
 
-        <nav className="flex flex-wrap gap-2 px-4 pt-3" aria-label="Pagine utili">
+        <nav className="flex flex-wrap gap-2 px-4 pt-1" aria-label="Pagine utili">
+
           {SEO_LANDINGS.map((l) => (
             <Link
               key={l.path}

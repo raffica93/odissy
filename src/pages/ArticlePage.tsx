@@ -6,9 +6,12 @@ import { FaqBlock } from '../components/FaqBlock'
 import { ARTICLE } from '../data/article-nolan'
 import { FAQ_CORE, faqJsonLd } from '../data/faq'
 import { AdSlot } from '../components/AdSlot'
+import { AtmosphereBand } from '../components/AtmosphereBand'
+import { FILM } from '../data/film'
 
 export function ArticlePage() {
   const wordApprox = ARTICLE.paragraphs.join(' ').split(/\s+/).length
+
 
   const jsonLd = [
     {
@@ -59,7 +62,17 @@ export function ArticlePage() {
             {ARTICLE.h1}
           </h1>
 
+          <div className="mt-5 -mx-4 sm:mx-0">
+            <img
+              src={FILM.heroBannerSrc}
+              alt="Atmosfera epica ispirata a Odissea"
+              className="max-h-48 w-full object-cover border-y border-chalk/10 sm:border sm:border-chalk/15"
+              loading="lazy"
+            />
+          </div>
+
           <div className="mt-6 space-y-4 text-[15px] leading-relaxed text-dust">
+
             {ARTICLE.paragraphs.map((p, i) => (
               <p key={i} className="text-chalk/90">
                 {p}
@@ -70,6 +83,9 @@ export function ArticlePage() {
           <div className="my-8">
             <AdSlot slot="in-feed" />
           </div>
+
+          <AtmosphereBand caption="Stesso film · proiezioni diverse · scegli bene" />
+
 
           <section className="ticket-surface p-4 shadow-[4px_4px_0_#ff6b2c33]">
             <h2 className="font-display text-xl font-bold text-ink">

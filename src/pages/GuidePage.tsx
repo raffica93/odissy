@@ -12,7 +12,7 @@ export function GuidePage() {
       <Seo
         title="Guida formati Odissea: IMAX, 70mm, Atmos in Italia"
         description="Come scegliere IMAX digitale, pellicola 70mm, 35mm, Atmos e PLF per Odissea di Nolan. Gerarchia formati e FAQ."
-        path="/guida-formati"
+        path={"/guida-formati"}
         jsonLd={faqJsonLd()}
       />
       <SiteHeader />
