@@ -5,12 +5,15 @@ import { ArticlePage } from './pages/ArticlePage'
 import { GuidePage } from './pages/GuidePage'
 import { PrivacyPage } from './pages/PrivacyPage'
 import { AdSlot } from './components/AdSlot'
+import { Analytics } from './components/Analytics'
 import { SEO_LANDINGS } from './data/seo-landings'
 
 export default function App() {
   return (
     <BrowserRouter>
+      <Analytics />
       <Routes>
+
         <Route path="/" element={<HomePage />} />
         {SEO_LANDINGS.map((l) => (
           <Route

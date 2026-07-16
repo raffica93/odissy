@@ -52,6 +52,17 @@ export function Privacy({ onBack }: { onBack?: () => void }) {
         </p>
         <p>
           <span className="font-mono text-[10px] uppercase tracking-wider text-lamp">
+            Statistiche accessi
+          </span>
+          <br />
+          Usiamo GoatCounter (analytics privacy-friendly, senza cookie di
+          profilazione) per contare le visite in forma aggregata. Opzionalmente
+          Google Analytics 4, con storage analytics soggetto al consenso Google
+          CMP quando attivo.
+        </p>
+
+        <p>
+          <span className="font-mono text-[10px] uppercase tracking-wider text-lamp">
             Mappe
           </span>
           <br />
