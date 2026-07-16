@@ -4,7 +4,6 @@ import { SiteHeader } from '../components/SiteHeader'
 import { SiteFooter } from '../components/SiteFooter'
 import { Hero } from '../components/Hero'
 import { FilmCard } from '../components/FilmCard'
-import { AtmosphereBand } from '../components/AtmosphereBand'
 import { CinemaExplorer } from '../components/CinemaExplorer'
 import { FaqBlock } from '../components/FaqBlock'
 import { FAQ_CORE, faqJsonLd } from '../data/faq'
@@ -47,10 +46,10 @@ export function HomePage() {
       <main className="mx-auto max-w-3xl">
         <Hero />
         <FilmCard />
-        <AtmosphereBand caption="Fuoco e fumo · scegli la sala che regge il master" />
-
-        <nav className="flex flex-wrap gap-2 px-4 pt-1" aria-label="Pagine utili">
-
+        <nav
+          className="flex flex-wrap gap-2 px-4 pt-3"
+          aria-label="Pagine utili"
+        >
           {SEO_LANDINGS.map((l) => (
             <Link
               key={l.path}
@@ -60,15 +59,9 @@ export function HomePage() {
               {l.slug}
             </Link>
           ))}
-          <Link
-            to="/come-scegliere-sala-nolan"
-            className="min-h-9 border border-lamp/40 bg-lamp/10 px-3 py-2 font-mono text-[10px] font-semibold uppercase tracking-wider text-lamp"
-          >
-            Come scegliere
-          </Link>
         </nav>
-
         <CinemaExplorer />
+
         <FaqBlock items={FAQ_CORE} />
         <SiteFooter />
       </main>
