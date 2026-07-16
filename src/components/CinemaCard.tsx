@@ -53,10 +53,11 @@ export function CinemaCard({
             <div className="font-display text-2xl font-bold tabular-nums leading-none text-ink">
               {cinema.overallScore.toFixed(1)}
             </div>
-            <div className="mt-0.5 font-mono text-[9px] uppercase tracking-wider text-dust">
+            <div className="mt-0.5 font-mono text-[9px] font-semibold uppercase tracking-wider text-ink/55">
               voto
             </div>
           </div>
+
         </div>
 
         <div className="mt-3">

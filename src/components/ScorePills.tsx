@@ -14,14 +14,14 @@ function Meter({
   return (
     <div className={compact ? 'min-w-0 flex-1' : 'w-full'}>
       <div className="mb-1 flex items-baseline justify-between gap-2">
-        <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-dust">
+        <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-ink/55">
           {label}
         </span>
-        <span className="font-mono text-xs font-semibold tabular-nums text-chalk">
+        <span className="font-mono text-xs font-bold tabular-nums text-ink">
           {value.toFixed(1)}
         </span>
       </div>
-      <div className="meter-track bg-white/10" aria-hidden>
+      <div className="meter-track bg-ink/12" aria-hidden>
         <div className={`meter-fill ${fill}`} style={{ width: `${pct}%` }} />
       </div>
     </div>
