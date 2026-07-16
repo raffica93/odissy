@@ -13,12 +13,24 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-chalk/10 bg-void/95 backdrop-blur-md">
       <div className="mx-auto max-w-3xl px-4 py-3">
         <div className="flex items-center justify-between gap-3">
-          <Link to="/" className="min-h-11 min-w-0 shrink">
-            <span className="font-display block text-[15px] leading-none tracking-[0.06em] text-chalk sm:text-lg">
-              dove vedere l&apos;odissea
-            </span>
-            <span className="mt-1 block font-mono text-[9px] uppercase tracking-[0.2em] text-dust">
-              nolan · formato · italia
+          <Link
+            to="/"
+            className="flex min-h-11 min-w-0 items-center gap-2.5 shrink"
+          >
+            <img
+              src={`${import.meta.env.BASE_URL}logo-icon.jpg`}
+              alt=""
+              width={40}
+              height={40}
+              className="h-10 w-10 shrink-0 rounded-lg border border-chalk/15 object-cover"
+            />
+            <span className="min-w-0">
+              <span className="font-display block truncate text-[14px] leading-none tracking-[0.06em] text-chalk sm:text-[16px]">
+                dove vedere l&apos;odissea
+              </span>
+              <span className="mt-1 block font-mono text-[9px] uppercase tracking-[0.2em] text-dust">
+                nolan · formato · italia
+              </span>
             </span>
           </Link>
           <NavLink
