@@ -1,6 +1,9 @@
-# Odissy
+# Odissy — dovevedereodissea.it
 
 Sito mobile-first per trovare **dove vedere *Odissea* di Christopher Nolan in Italia**: IMAX, 70mm, Atmos, iSense, mappa e voti video/audio.
+
+**Produzione:** https://dovevedereodissea.it  
+**GitHub Pages:** https://raffica93.github.io/odissy/
 
 ## Stack (0€)
 
