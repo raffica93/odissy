@@ -24,17 +24,15 @@ export function FilmCard() {
         <div className="min-w-0 flex flex-col justify-between py-0.5">
           <div>
             <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-lamp">
-              In sala · {FILM.year}
+              Film · {FILM.year}
             </p>
             <h2 className="font-display mt-1 text-xl font-bold leading-tight text-chalk">
               {FILM.titleIt}
             </h2>
             <p className="mt-0.5 text-xs text-dust">
-              {FILM.titleEn} · {FILM.director}
+              {FILM.director} · scegli la sala, non il trailer
             </p>
-            <p className="mt-2 text-[11px] leading-snug text-dust/90">
-              {FILM.tagline}
-            </p>
+
           </div>
           <div className="mt-3 flex flex-wrap gap-2">
             <a

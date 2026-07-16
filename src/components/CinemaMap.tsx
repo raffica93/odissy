@@ -63,44 +63,64 @@ export function CinemaMap({
   onSelect: (id: string) => void
 }) {
   return (
-    <div className="h-[55vh] min-h-[320px] overflow-hidden border border-chalk/15 shadow-[4px_4px_0_#ff6b2c33]">
-      <MapContainer
-        center={[41.9, 12.5]}
-        zoom={6}
-        className="h-full w-full"
-        scrollWheelZoom={false}
-      >
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>'
-          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-        />
-        <FitBounds cinemas={cinemas} location={location} />
-        {location && (
-          <Marker position={[location.lat, location.lon]} icon={userIcon}>
-            <Popup>Tu · {location.label}</Popup>
-          </Marker>
-        )}
-        {cinemas.slice(0, 40).map((c) => (
-          <Marker key={c.id} position={[c.lat, c.lon]} icon={lampIcon}>
-            <Popup>
-              <div className="text-sm">
-                <strong className="font-display">{c.name}</strong>
-                <div className="font-mono text-xs">
-                  {c.city}
-                  {c.distanceKm != null && ` · ${formatDistance(c.distanceKm)}`}
+    <div className="overflow-hidden border border-chalk/15 shadow-[4px_4px_0_#ff6b2c33]">
+      <div className="flex flex-wrap items-center gap-4 border-b border-chalk/10 bg-booth/90 px-3 py-2 font-mono text-[10px] uppercase tracking-wider text-dust">
+        <span className="inline-flex items-center gap-1.5">
+          <span
+            className="inline-block h-2.5 w-2.5 bg-lamp"
+            style={{ boxShadow: '0 0 0 1px #efe6d4' }}
+            aria-hidden
+          />
+          arancio = sala
+        </span>
+        <span className="inline-flex items-center gap-1.5">
+          <span
+            className="inline-block h-2.5 w-2.5 rounded-full bg-tide"
+            style={{ boxShadow: '0 0 0 1px #faf6ef' }}
+            aria-hidden
+          />
+          teal = tu
+        </span>
+      </div>
+      <div className="h-[52vh] min-h-[300px]">
+        <MapContainer
+          center={[41.9, 12.5]}
+          zoom={6}
+          className="h-full w-full"
+          scrollWheelZoom={false}
+        >
+          <TileLayer
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>'
+            url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+          />
+          <FitBounds cinemas={cinemas} location={location} />
+          {location && (
+            <Marker position={[location.lat, location.lon]} icon={userIcon}>
+              <Popup>Tu · {location.label}</Popup>
+            </Marker>
+          )}
+          {cinemas.slice(0, 40).map((c) => (
+            <Marker key={c.id} position={[c.lat, c.lon]} icon={lampIcon}>
+              <Popup>
+                <div className="text-sm">
+                  <strong className="font-display">{c.name}</strong>
+                  <div className="font-mono text-xs">
+                    {c.city}
+                    {c.distanceKm != null && ` · ${formatDistance(c.distanceKm)}`}
+                  </div>
+                  <button
+                    type="button"
+                    className="mt-2 font-mono text-xs underline"
+                    onClick={() => onSelect(c.id)}
+                  >
+                    Apri scheda
+                  </button>
                 </div>
-                <button
-                  type="button"
-                  className="mt-2 font-mono text-xs underline"
-                  onClick={() => onSelect(c.id)}
-                >
-                  Apri scheda
-                </button>
-              </div>
-            </Popup>
-          </Marker>
-        ))}
-      </MapContainer>
+              </Popup>
+            </Marker>
+          ))}
+        </MapContainer>
+      </div>
     </div>
   )
 }

@@ -34,9 +34,10 @@ export function SiteFooter() {
         </Link>
       </nav>
       <p>
-        Progetto indipendente e gratuito. Non affiliato a Universal, IMAX, Nolan o
-        circuiti. Voti soggettivi — verifica sempre orari e formati.
+        Guida indipendente · non affiliata a Universal, IMAX o circuiti · voti
+        editoriali · controlla sempre formato e orari sul sito del cinema
       </p>
+
       <p>
         <a
           className="text-lamp underline decoration-lamp/40 underline-offset-2"

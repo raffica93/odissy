@@ -43,10 +43,10 @@ export function GeoPrompt({
           Partenza
         </p>
         <h2 className="font-display mt-1 text-xl font-bold text-ink">
-          Da dove parti?
+          Dove sei?
         </h2>
         <p className="mt-1 text-sm text-ink/70">
-          Posizione o città: ordiniamo per esperienza, non solo per km.
+          Ordiniamo per score + km. Prima il formato, poi la distanza.
         </p>
 
         <button
@@ -55,8 +55,9 @@ export function GeoPrompt({
           disabled={geoLoading}
           className="mt-4 flex min-h-12 w-full items-center justify-center gap-2 bg-ink px-4 py-3 text-sm font-semibold text-ticket transition hover:bg-lamp hover:text-void disabled:opacity-60"
         >
-          {geoLoading ? 'Rilevamento…' : 'Usa la mia posizione'}
+          {geoLoading ? 'Rilevamento…' : 'Usa posizione'}
         </button>
+
 
         {geoError && (
           <p className="mt-2 text-xs text-lamp-dim" role="alert">
