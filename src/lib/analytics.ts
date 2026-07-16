@@ -25,7 +25,9 @@ declare global {
 
 export function loadGoatCounter(code: string) {
   if (!code || typeof document === 'undefined') return
+  // Già in index.html: evita doppio script
   if (document.querySelector('script[data-goatcounter]')) return
+  if (document.querySelector('script[src*="gc.zgo.at/count.js"]')) return
 
   const s = document.createElement('script')
   s.async = true
@@ -33,6 +35,7 @@ export function loadGoatCounter(code: string) {
   s.src = 'https://gc.zgo.at/count.js'
   document.head.appendChild(s)
 }
+
 
 export function loadGoogleAnalytics(measurementId: string) {
   if (!measurementId || typeof document === 'undefined') return
