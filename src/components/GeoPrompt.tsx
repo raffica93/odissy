@@ -28,34 +28,45 @@ export function GeoPrompt({
   }, [query])
 
   return (
-    <section className="px-4">
-      <div className="rounded-2xl border border-gold/25 bg-navy-soft/80 p-4 shadow-lg">
-        <h2 className="font-display text-lg text-gold-soft">
+    <section className="px-4 pt-4">
+      <div className="ticket-surface relative overflow-hidden p-4 shadow-[6px_6px_0_#ff6b2c33]">
+        {/* torn edge top */}
+        <div
+          className="pointer-events-none absolute inset-x-0 top-0 h-2 opacity-40"
+          style={{
+            backgroundImage:
+              'repeating-linear-gradient(90deg, transparent 0 8px, #120f0d 8px 10px)',
+          }}
+          aria-hidden
+        />
+        <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-dust">
+          Partenza
+        </p>
+        <h2 className="font-display mt-1 text-xl font-bold text-ink">
           Da dove parti?
         </h2>
-        <p className="mt-1 text-xs text-mist">
-          Usa la posizione o cerca una città. La lista si ordina per miglior
-          esperienza raggiungibile.
+        <p className="mt-1 text-sm text-ink/70">
+          Posizione o città: ordiniamo per esperienza, non solo per km.
         </p>
 
         <button
           type="button"
           onClick={onRequestGeo}
           disabled={geoLoading}
-          className="mt-4 flex min-h-12 w-full items-center justify-center gap-2 rounded-xl bg-gold px-4 py-3 text-sm font-bold text-navy transition hover:brightness-110 disabled:opacity-60"
+          className="mt-4 flex min-h-12 w-full items-center justify-center gap-2 bg-ink px-4 py-3 text-sm font-semibold text-ticket transition hover:bg-lamp hover:text-void disabled:opacity-60"
         >
           {geoLoading ? 'Rilevamento…' : 'Usa la mia posizione'}
         </button>
 
         {geoError && (
-          <p className="mt-2 text-xs text-rose-300" role="alert">
+          <p className="mt-2 text-xs text-lamp-dim" role="alert">
             {geoError}
           </p>
         )}
 
         {location && (
-          <p className="mt-2 text-xs text-emerald-300">
-            Posizione: <strong>{location.label}</strong>
+          <p className="mt-2 font-mono text-xs text-tide">
+            → {location.label}
           </p>
         )}
 
@@ -67,17 +78,17 @@ export function GeoPrompt({
             id="city-search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="O cerca una città…"
-            className="min-h-12 w-full rounded-xl border border-mist/20 bg-navy px-4 text-sm text-ink outline-none ring-gold/40 placeholder:text-mist/50 focus:ring-2"
+            placeholder="Cerca una città…"
+            className="min-h-12 w-full border border-ink/20 bg-chalk px-4 font-mono text-sm text-ink outline-none placeholder:text-dust focus:border-lamp"
             autoComplete="off"
           />
           {matches.length > 0 && (
-            <ul className="absolute z-20 mt-1 max-h-56 w-full overflow-auto rounded-xl border border-gold/20 bg-navy-soft shadow-xl">
+            <ul className="absolute z-20 mt-1 max-h-56 w-full overflow-auto border border-ink/20 bg-chalk shadow-xl">
               {matches.map((c) => (
                 <li key={`${c.name}-${c.region}`}>
                   <button
                     type="button"
-                    className="flex min-h-11 w-full items-center justify-between px-4 py-2 text-left text-sm hover:bg-card"
+                    className="flex min-h-11 w-full items-center justify-between px-4 py-2 text-left text-sm text-ink hover:bg-ticket-edge"
                     onClick={() => {
                       onLocation({
                         lat: c.lat,
@@ -87,8 +98,10 @@ export function GeoPrompt({
                       setQuery('')
                     }}
                   >
-                    <span>{c.name}</span>
-                    <span className="text-xs text-mist">{c.region}</span>
+                    <span className="font-medium">{c.name}</span>
+                    <span className="font-mono text-[10px] uppercase text-dust">
+                      {c.region}
+                    </span>
                   </button>
                 </li>
               ))}

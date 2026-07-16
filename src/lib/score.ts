@@ -55,7 +55,6 @@ export function rankCinemas(
     if (sortMode === 'quality') {
       return b.overallScore - a.overallScore || b.experienceScore - a.experienceScore
     }
-    // experience (default)
     return b.experienceScore - a.experienceScore
   })
 
@@ -74,14 +73,15 @@ export const FORMAT_LABELS: Record<Format, string> = {
   digital_std: 'Digitale',
 }
 
+/** Ticket-stub style format chips (ink on paper) */
 export const FORMAT_COLORS: Record<Format, string> = {
-  imax_digital: 'bg-amber-500/20 text-amber-200 border-amber-500/40',
-  film_70mm: 'bg-rose-500/20 text-rose-200 border-rose-500/40',
-  film_35mm: 'bg-orange-500/20 text-orange-200 border-orange-500/40',
-  laser_4k: 'bg-cyan-500/20 text-cyan-200 border-cyan-500/40',
-  atmos: 'bg-violet-500/20 text-violet-200 border-violet-500/40',
-  isense: 'bg-emerald-500/20 text-emerald-200 border-emerald-500/40',
-  screenx: 'bg-sky-500/20 text-sky-200 border-sky-500/40',
-  luxe: 'bg-yellow-500/20 text-yellow-100 border-yellow-500/40',
-  digital_std: 'bg-slate-500/20 text-slate-300 border-slate-500/40',
+  imax_digital: 'bg-ink text-ticket border-ink',
+  film_70mm: 'bg-lamp text-void border-lamp',
+  film_35mm: 'bg-transparent text-ink border-ink/40',
+  laser_4k: 'bg-tide/15 text-tide border-tide/40',
+  atmos: 'bg-transparent text-ink border-ink/40',
+  isense: 'bg-transparent text-ink border-ink/40',
+  screenx: 'bg-transparent text-ink border-ink/40',
+  luxe: 'bg-transparent text-ink border-ink/40',
+  digital_std: 'bg-transparent text-dust border-dust/40',
 }

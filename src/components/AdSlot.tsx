@@ -1,4 +1,4 @@
-/** Placeholder ready for Google AdSense. Replace data-ad-client when approved. */
+/** Placeholder ready for Google AdSense. */
 export function AdSlot({
   slot = 'in-feed',
   className = '',
@@ -8,18 +8,15 @@ export function AdSlot({
 }) {
   return (
     <div
-      className={`ad-slot flex items-center justify-center rounded-xl border border-dashed border-gold/25 bg-navy-soft/60 text-center text-xs text-mist ${className}`}
+      className={`ad-slot flex items-center justify-center border border-dashed border-chalk/15 bg-booth/80 text-center ${className}`}
       data-ad-slot={slot}
       aria-label="Spazio pubblicitario"
     >
       <div className="px-3 py-4">
-        <div className="mb-1 text-[10px] uppercase tracking-[0.2em] text-gold/60">
-          Pubblicità
+        <div className="font-mono text-[9px] uppercase tracking-[0.2em] text-dust">
+          Intervallo · ads
         </div>
-        <div>Google AdSense — slot pronto</div>
-        <div className="mt-1 text-[10px] text-mist/70">
-          Sostituisci con il tuo ad-client dopo l&apos;approvazione
-        </div>
+        <div className="mt-1 text-xs text-dust/80">Slot AdSense pronto</div>
       </div>
     </div>
   )

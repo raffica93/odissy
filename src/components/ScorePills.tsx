@@ -1,3 +1,33 @@
+function Meter({
+  label,
+  value,
+  tone,
+  compact,
+}: {
+  label: string
+  value: number
+  tone: 'lamp' | 'tide'
+  compact?: boolean
+}) {
+  const pct = Math.max(0, Math.min(100, (value / 10) * 100))
+  const fill = tone === 'lamp' ? 'bg-lamp' : 'bg-tide'
+  return (
+    <div className={compact ? 'min-w-0 flex-1' : 'w-full'}>
+      <div className="mb-1 flex items-baseline justify-between gap-2">
+        <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-dust">
+          {label}
+        </span>
+        <span className="font-mono text-xs font-semibold tabular-nums text-chalk">
+          {value.toFixed(1)}
+        </span>
+      </div>
+      <div className="meter-track bg-white/10" aria-hidden>
+        <div className={`meter-fill ${fill}`} style={{ width: `${pct}%` }} />
+      </div>
+    </div>
+  )
+}
+
 export function ScorePills({
   video,
   audio,
@@ -7,19 +37,10 @@ export function ScorePills({
   audio: number
   compact?: boolean
 }) {
-  const box = compact ? 'px-2 py-0.5 text-[11px]' : 'px-2.5 py-1 text-xs'
   return (
-    <div className="flex gap-2">
-      <span
-        className={`rounded-lg border border-gold/30 bg-navy-soft ${box} font-semibold text-gold-soft`}
-      >
-        Video {video.toFixed(1)}
-      </span>
-      <span
-        className={`rounded-lg border border-violet-400/30 bg-navy-soft ${box} font-semibold text-violet-200`}
-      >
-        Audio {audio.toFixed(1)}
-      </span>
+    <div className={compact ? 'flex gap-4' : 'space-y-3'}>
+      <Meter label="Video" value={video} tone="lamp" compact={compact} />
+      <Meter label="Audio" value={audio} tone="tide" compact={compact} />
     </div>
   )
 }

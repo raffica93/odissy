@@ -4,44 +4,44 @@ export function Privacy({ onBack }: { onBack: () => void }) {
       <button
         type="button"
         onClick={onBack}
-        className="min-h-11 text-sm font-medium text-gold"
+        className="min-h-11 font-mono text-xs uppercase tracking-wider text-lamp"
       >
         ← Torna alla home
       </button>
-      <h1 className="font-display mt-4 text-3xl text-gold-soft">
+      <h1 className="font-display mt-4 text-3xl font-bold text-chalk">
         Privacy e cookie
       </h1>
-      <div className="mt-4 space-y-4 text-sm leading-relaxed text-mist">
+      <div className="mt-6 space-y-5 text-sm leading-relaxed text-dust">
         <p>
-          <strong className="text-gold-soft">Titolare:</strong> il gestore del
-          sito Odissy (progetto informativo indipendente).
+          <span className="font-mono text-[10px] uppercase tracking-wider text-lamp">
+            Titolare
+          </span>
+          <br />
+          Gestore di dovevedereodissea.it — progetto informativo indipendente.
         </p>
         <p>
-          <strong className="text-gold-soft">Dati trattati:</strong> posizione
-          geografica solo se la concedi al browser (resta sul tuo dispositivo
-          per ordinare le sale; non viene inviata a un nostro server). Preferenze
-          cookie in localStorage. Log tecnici del provider di hosting.
+          <span className="font-mono text-[10px] uppercase tracking-wider text-lamp">
+            Dati
+          </span>
+          <br />
+          Posizione solo se la concedi al browser (resta sul dispositivo per
+          ordinare le sale). Preferenze cookie in localStorage. Log del hosting.
         </p>
         <p>
-          <strong className="text-gold-soft">Pubblicità:</strong> se attivi i
-          cookie di marketing, potremo caricare Google AdSense, che può usare
-          cookie di profilazione secondo le policy Google. Puoi rifiutare e
-          usare solo cookie tecnici.
+          <span className="font-mono text-[10px] uppercase tracking-wider text-lamp">
+            Pubblicità
+          </span>
+          <br />
+          Con consenso marketing possiamo caricare Google AdSense. Senza
+          consenso: solo cookie tecnici.
         </p>
         <p>
-          <strong className="text-gold-soft">Base giuridica:</strong> consenso
-          (geolocalizzazione e marketing); legittimo interesse (funzionamento
-          tecnico del sito).
-        </p>
-        <p>
-          <strong className="text-gold-soft">Diritti:</strong> puoi revocare il
-          consenso cancellando i dati del sito dal browser. Per richieste
-          scrivi al contatto indicato nel footer quando disponibile.
-        </p>
-        <p>
-          <strong className="text-gold-soft">Mappe:</strong> usiamo tile
-          OpenStreetMap (terze parti). I link “Come arrivare” aprono Google Maps
-          sul tuo dispositivo.
+          <span className="font-mono text-[10px] uppercase tracking-wider text-lamp">
+            Mappe
+          </span>
+          <br />
+          Tile OpenStreetMap / Carto. “Come arrivare” apre Google Maps sul
+          telefono.
         </p>
       </div>
     </article>

@@ -29,7 +29,10 @@ export function Filters({
   onSort: (s: SortMode) => void
 }) {
   return (
-    <section className="space-y-3 px-4 pt-4">
+    <section className="space-y-3 px-4 pt-5">
+      <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-dust">
+        Formato
+      </p>
       <div className="flex gap-2 overflow-x-auto pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {FILTER_FORMATS.map((f) => {
           const on = activeFormats.includes(f)
@@ -38,10 +41,10 @@ export function Filters({
               key={f}
               type="button"
               onClick={() => onToggleFormat(f)}
-              className={`min-h-10 shrink-0 rounded-full border px-3 text-xs font-semibold ${
+              className={`min-h-10 shrink-0 border px-3 font-mono text-[11px] font-semibold uppercase tracking-wider ${
                 on
-                  ? 'border-gold bg-gold/20 text-gold-soft'
-                  : 'border-mist/20 bg-navy-soft text-mist'
+                  ? 'border-lamp bg-lamp text-void'
+                  : 'border-chalk/20 bg-booth text-dust hover:border-chalk/40 hover:text-chalk'
               }`}
             >
               {FORMAT_LABELS[f]}
@@ -50,15 +53,15 @@ export function Filters({
         })}
       </div>
 
-      <div className="flex flex-wrap items-center gap-2">
-        <label className="text-xs text-mist" htmlFor="radius">
+      <div className="flex flex-wrap items-center gap-3">
+        <label className="font-mono text-[10px] uppercase tracking-wider text-dust" htmlFor="radius">
           Raggio
         </label>
         <select
           id="radius"
           value={radiusKm}
           onChange={(e) => onRadius(Number(e.target.value))}
-          className="min-h-10 rounded-lg border border-mist/20 bg-navy-soft px-2 text-xs text-ink"
+          className="min-h-10 border border-chalk/20 bg-booth px-2 font-mono text-xs text-chalk"
         >
           {RADII.map((r) => (
             <option key={r} value={r}>
@@ -67,14 +70,14 @@ export function Filters({
           ))}
         </select>
 
-        <label className="ml-2 text-xs text-mist" htmlFor="sort">
+        <label className="font-mono text-[10px] uppercase tracking-wider text-dust" htmlFor="sort">
           Ordina
         </label>
         <select
           id="sort"
           value={sortMode}
           onChange={(e) => onSort(e.target.value as SortMode)}
-          className="min-h-10 rounded-lg border border-mist/20 bg-navy-soft px-2 text-xs text-ink"
+          className="min-h-10 border border-chalk/20 bg-booth px-2 font-mono text-xs text-chalk"
         >
           <option value="experience">Esperienza + distanza</option>
           <option value="distance">Solo distanza</option>

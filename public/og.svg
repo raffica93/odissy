@@ -1,8 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
-  <rect width="1200" height="630" fill="#0B1426"/>
-  <circle cx="900" cy="180" r="120" stroke="#C4A35A" stroke-width="3" opacity="0.35"/>
-  <circle cx="900" cy="180" r="70" stroke="#E8D5A3" stroke-width="2" opacity="0.25"/>
-  <text x="80" y="250" fill="#C4A35A" font-family="Georgia, serif" font-size="72" font-weight="700">ODISSY</text>
-  <text x="80" y="330" fill="#E8D5A3" font-family="Arial, sans-serif" font-size="36">Dove vedere Odissea di Nolan</text>
-  <text x="80" y="390" fill="#9BB0C9" font-family="Arial, sans-serif" font-size="28">IMAX · 70mm · Atmos · mappa Italia</text>
+  <rect width="1200" height="630" fill="#120f0d"/>
+  <rect x="40" y="80" width="24" height="32" fill="#efe6d4"/>
+  <rect x="40" y="140" width="24" height="32" fill="#efe6d4"/>
+  <rect x="40" y="200" width="24" height="32" fill="#efe6d4"/>
+  <rect x="40" y="260" width="24" height="32" fill="#efe6d4"/>
+  <rect x="40" y="320" width="24" height="32" fill="#efe6d4"/>
+  <rect x="40" y="380" width="24" height="32" fill="#efe6d4"/>
+  <rect x="40" y="440" width="24" height="32" fill="#efe6d4"/>
+  <rect x="40" y="500" width="24" height="32" fill="#efe6d4"/>
+  <text x="100" y="260" fill="#faf6ef" font-family="Georgia, serif" font-size="64" font-weight="700">Non tutte le sale</text>
+  <text x="100" y="340" fill="#ff6b2c" font-family="Georgia, serif" font-size="64" font-weight="700">mostrano lo stesso film.</text>
+  <text x="100" y="420" fill="#9a9286" font-family="monospace" font-size="28">dovevedereodissea.it · IMAX · 70mm · Atmos</text>
 </svg>

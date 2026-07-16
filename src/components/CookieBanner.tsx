@@ -26,23 +26,22 @@ export function CookieBanner() {
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-[60] p-3 pb-safe">
-      <div className="mx-auto max-w-lg rounded-2xl border border-gold/30 bg-navy-soft/95 p-4 shadow-2xl backdrop-blur">
-        <p className="text-sm text-gold-soft">
-          Usiamo cookie tecnici e, con il tuo consenso, cookie di profilazione per
-          annunci Google. Nessun tracking marketing senza consenso.
+      <div className="ticket-surface mx-auto max-w-lg p-4 shadow-[6px_6px_0_#ff6b2c44]">
+        <p className="text-sm text-ink/80">
+          Cookie tecnici sempre attivi. Marketing (AdSense) solo se accetti.
         </p>
         <div className="mt-3 flex flex-wrap gap-2">
           <button
             type="button"
             onClick={() => accept('necessary')}
-            className="min-h-11 flex-1 rounded-xl border border-mist/30 px-3 py-2 text-sm font-medium text-ink"
+            className="min-h-11 flex-1 border border-ink/25 px-3 py-2 text-sm font-medium text-ink"
           >
             Solo necessari
           </button>
           <button
             type="button"
             onClick={() => accept('all')}
-            className="min-h-11 flex-1 rounded-xl bg-gold px-3 py-2 text-sm font-semibold text-navy"
+            className="min-h-11 flex-1 bg-ink px-3 py-2 text-sm font-semibold text-ticket hover:bg-lamp hover:text-void"
           >
             Accetta tutti
           </button>

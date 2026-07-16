@@ -105,20 +105,23 @@ export default function App() {
 
   return (
     <div className="min-h-screen pb-28">
-      <header className="sticky top-0 z-40 border-b border-gold/15 bg-navy/90 backdrop-blur">
+      <header className="sticky top-0 z-40 border-b border-chalk/10 bg-void/90 backdrop-blur-md">
         <div className="mx-auto flex max-w-3xl items-center justify-between px-4 py-3">
-          <div className="font-display text-xl tracking-wide text-gold">
-            ODISSY
+          <div className="flex items-baseline gap-2">
+            <span className="font-display text-lg font-bold tracking-tight text-chalk">
+              dove vedere
+            </span>
+            <span className="font-display text-lg font-bold text-lamp">
+              odissea
+            </span>
           </div>
-          <nav className="flex items-center gap-3 text-sm">
-            <button
-              type="button"
-              onClick={() => setPage('guide')}
-              className="min-h-11 font-medium text-gold-soft"
-            >
-              Guida formati
-            </button>
-          </nav>
+          <button
+            type="button"
+            onClick={() => setPage('guide')}
+            className="min-h-11 font-mono text-[11px] font-medium uppercase tracking-[0.14em] text-tide-soft"
+          >
+            Guida formati
+          </button>
         </div>
       </header>
 
@@ -140,26 +143,28 @@ export default function App() {
           onSort={setSortMode}
         />
 
-        <div className="mt-4 flex gap-2 px-4">
+        <div className="mt-5 flex border border-chalk/15 mx-4">
           {(['list', 'map'] as const).map((t) => (
             <button
               key={t}
               type="button"
               onClick={() => setTab(t)}
-              className={`min-h-11 flex-1 rounded-xl text-sm font-semibold ${
+              className={`min-h-11 flex-1 font-mono text-xs font-semibold uppercase tracking-wider ${
                 tab === t
-                  ? 'bg-gold text-navy'
-                  : 'border border-mist/25 text-mist'
+                  ? 'bg-lamp text-void'
+                  : 'bg-booth text-dust hover:text-chalk'
               }`}
             >
-              {t === 'list' ? 'Lista' : 'Mappa'}
+              {t === 'list' ? 'Sale' : 'Mappa'}
             </button>
           ))}
         </div>
 
-        <p className="mt-3 px-4 text-xs text-mist">
+        <p className="mt-3 px-4 font-mono text-[11px] text-dust">
           {ranked.length} sale
-          {location ? ` da ${location.label}` : ' · imposta una posizione per le distanze'}
+          {location
+            ? ` · da ${location.label}`
+            : ' · imposta una partenza per i km'}
         </p>
 
         <div className="mt-3 px-4">
@@ -169,8 +174,8 @@ export default function App() {
         {tab === 'list' ? (
           <div className="mt-3 space-y-3 px-4">
             {ranked.length === 0 && (
-              <p className="rounded-xl border border-rose-400/30 bg-rose-500/10 p-4 text-sm text-rose-100">
-                Nessuna sala con questi filtri. Allarga il raggio o togli filtri
+              <p className="border border-lamp/40 bg-lamp/10 p-4 text-sm text-chalk">
+                Nessuna sala con questi filtri. Allarga il raggio o togli un
                 formato.
               </p>
             )}
@@ -199,28 +204,27 @@ export default function App() {
           </div>
         )}
 
-        <footer className="mt-10 space-y-3 px-4 pb-8 text-center text-xs text-mist/80">
+        <footer className="mt-12 space-y-3 border-t border-chalk/10 px-4 pb-8 pt-8 text-center font-mono text-[10px] leading-relaxed text-dust">
           <p>
-            Odissy è un progetto indipendente e gratuito. Non affiliato a
-            Universal, IMAX, Nolan o ai circuiti cinematografici. Voti
-            soggettivi — verifica sempre orari e formati sul sito del cinema.
+            Progetto indipendente e gratuito. Non affiliato a Universal, IMAX,
+            Nolan o circuiti. Voti soggettivi — verifica sempre orari e formati.
           </p>
           <p>
-            Hai trovato un errore?{' '}
             <a
-              className="text-gold underline"
-              href="mailto:feedback@odissy.local?subject=Segnalazione%20sala%20Odissy"
+              className="text-lamp underline decoration-lamp/40 underline-offset-2"
+              href="mailto:feedback@dovevedereodissea.it?subject=Segnalazione%20sala"
             >
               Segnala una sala
             </a>
+            {' · '}
+            <button
+              type="button"
+              onClick={() => setPage('privacy')}
+              className="text-lamp underline decoration-lamp/40 underline-offset-2"
+            >
+              Privacy
+            </button>
           </p>
-          <button
-            type="button"
-            onClick={() => setPage('privacy')}
-            className="text-gold underline"
-          >
-            Privacy e cookie
-          </button>
         </footer>
       </main>
 
@@ -228,7 +232,7 @@ export default function App() {
         <CinemaDetail cinema={selected} onClose={() => setSelectedId(null)} />
       )}
 
-      <div className="fixed inset-x-0 bottom-0 z-30 border-t border-gold/15 bg-navy/95 px-3 py-2 pb-safe backdrop-blur">
+      <div className="fixed inset-x-0 bottom-0 z-30 border-t border-chalk/10 bg-void/95 px-3 py-2 pb-safe backdrop-blur">
         <AdSlot slot="sticky" className="min-h-[70px] !py-1" />
       </div>
 

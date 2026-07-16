@@ -7,7 +7,6 @@ import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png'
 import markerIcon from 'leaflet/dist/images/marker-icon.png'
 import markerShadow from 'leaflet/dist/images/marker-shadow.png'
 
-// Fix default marker assets with Vite
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 delete (L.Icon.Default.prototype as any)._getIconUrl
 L.Icon.Default.mergeOptions({
@@ -16,18 +15,18 @@ L.Icon.Default.mergeOptions({
   shadowUrl: markerShadow,
 })
 
-const goldIcon = new L.DivIcon({
+const lampIcon = new L.DivIcon({
   className: '',
-  html: `<div style="width:14px;height:14px;border-radius:50%;background:#C4A35A;border:2px solid #0B1426;box-shadow:0 0 0 2px #C4A35A88"></div>`,
-  iconSize: [14, 14],
-  iconAnchor: [7, 7],
+  html: `<div style="width:12px;height:12px;background:#ff6b2c;border:2px solid #efe6d4;box-shadow:0 0 0 1px #120f0d"></div>`,
+  iconSize: [12, 12],
+  iconAnchor: [6, 6],
 })
 
 const userIcon = new L.DivIcon({
   className: '',
-  html: `<div style="width:16px;height:16px;border-radius:50%;background:#3b82f6;border:3px solid white;box-shadow:0 0 8px #3b82f6"></div>`,
-  iconSize: [16, 16],
-  iconAnchor: [8, 8],
+  html: `<div style="width:14px;height:14px;border-radius:50%;background:#1d9a8c;border:2px solid #faf6ef;box-shadow:0 0 0 1px #120f0d"></div>`,
+  iconSize: [14, 14],
+  iconAnchor: [7, 7],
 })
 
 function FitBounds({
@@ -64,7 +63,7 @@ export function CinemaMap({
   onSelect: (id: string) => void
 }) {
   return (
-    <div className="h-[55vh] min-h-[320px] overflow-hidden rounded-2xl border border-gold/20">
+    <div className="h-[55vh] min-h-[320px] overflow-hidden border border-chalk/15 shadow-[4px_4px_0_#ff6b2c33]">
       <MapContainer
         center={[41.9, 12.5]}
         zoom={6}
@@ -73,29 +72,29 @@ export function CinemaMap({
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
         />
         <FitBounds cinemas={cinemas} location={location} />
         {location && (
           <Marker position={[location.lat, location.lon]} icon={userIcon}>
-            <Popup>Tu sei qui · {location.label}</Popup>
+            <Popup>Tu · {location.label}</Popup>
           </Marker>
         )}
         {cinemas.slice(0, 40).map((c) => (
-          <Marker key={c.id} position={[c.lat, c.lon]} icon={goldIcon}>
+          <Marker key={c.id} position={[c.lat, c.lon]} icon={lampIcon}>
             <Popup>
               <div className="text-sm">
-                <strong>{c.name}</strong>
-                <div>
+                <strong className="font-display">{c.name}</strong>
+                <div className="font-mono text-xs">
                   {c.city}
                   {c.distanceKm != null && ` · ${formatDistance(c.distanceKm)}`}
                 </div>
                 <button
                   type="button"
-                  className="mt-2 underline"
+                  className="mt-2 font-mono text-xs underline"
                   onClick={() => onSelect(c.id)}
                 >
-                  Dettagli
+                  Apri scheda
                 </button>
               </div>
             </Popup>
