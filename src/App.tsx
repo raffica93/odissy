@@ -3,6 +3,7 @@ import cinemasData from './data/cinemas.json'
 import type { Cinema, Format, RankedCinema, SortMode, UserLocation } from './types'
 import { rankCinemas } from './lib/score'
 import { Hero } from './components/Hero'
+import { FilmCard } from './components/FilmCard'
 import { GeoPrompt } from './components/GeoPrompt'
 import { Filters } from './components/Filters'
 import { CinemaCard } from './components/CinemaCard'
@@ -125,6 +126,7 @@ export default function App() {
 
       <main className="mx-auto max-w-3xl">
         <Hero />
+        <FilmCard />
         <GeoPrompt
           location={location}
           onLocation={setLocation}

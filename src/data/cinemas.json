@@ -7,7 +7,11 @@
     "lat": 45.5012,
     "lon": 9.4248,
     "address": "Via Buonarroti 36, Melzo (MI)",
-    "formats": ["film_70mm", "atmos", "laser_4k"],
+    "formats": [
+      "film_70mm",
+      "atmos",
+      "laser_4k"
+    ],
     "videoScore": 9.6,
     "audioScore": 9.8,
     "overallScore": 9.7,
@@ -20,7 +24,10 @@
     "notes": "Scelta top per molti cinefili su Odissea: 70mm + schermo gigantesco + Atmos leggendario. Non è IMAX, ma l'impatto sensoriale è tra i migliori d'Italia. Verifica se lo spettacolo è in 70mm o digitale.",
     "website": "https://www.arcadiacinema.com/",
     "bookingUrl": "https://www.arcadiacinema.com/",
-    "tier": "S"
+    "tier": "S",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Attraction_Review-g1223238-d2390592-Reviews-Cinema_Arcadia_Melzo-Melzo_Province_of_Milan_Lombardy.html",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Arcadia%20Melzo%20%E2%80%94%20Sala%20Energia%20Melzo",
+    "reviewUrl": "https://www.tripadvisor.it/Attraction_Review-g1223238-d2390592-Reviews-Cinema_Arcadia_Melzo-Melzo_Province_of_Milan_Lombardy.html"
   },
   {
     "id": "uci-orio",
@@ -30,9 +37,12 @@
     "lat": 45.6685,
     "lon": 9.6985,
     "address": "Via Portico 71, Orio al Serio (BG)",
-    "formats": ["imax_digital", "atmos"],
+    "formats": [
+      "imax_digital",
+      "atmos"
+    ],
     "videoScore": 9.4,
-    "audioScore": 9.0,
+    "audioScore": 9,
     "overallScore": 9.3,
     "specialties": [
       "IMAX digitale tra i più grandi d'Italia/Europa",
@@ -42,7 +52,10 @@
     "notes": "Spesso citato come miglior IMAX d'Italia. Attenzione: è IMAX digitale, non IMAX 70mm (inesistente in Italia). Ideale se vuoi il campo visivo IMAX.",
     "website": "https://www.ucicinemas.it/",
     "bookingUrl": "https://www.ucicinemas.it/cinema/orio",
-    "tier": "S"
+    "tier": "S",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Orio%20Orio%20al%20Serio%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Orio%20Orio%20al%20Serio",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Orio%20Orio%20al%20Serio%20cinema"
   },
   {
     "id": "metropolitan-napoli",
@@ -52,7 +65,9 @@
     "lat": 40.8383,
     "lon": 14.2492,
     "address": "Via Chiaia 149, Napoli",
-    "formats": ["film_70mm"],
+    "formats": [
+      "film_70mm"
+    ],
     "videoScore": 9.3,
     "audioScore": 8.6,
     "overallScore": 9.1,
@@ -65,7 +80,10 @@
     "notes": "Riferimento Sud per la pellicola 70mm di Odissea. Esperienza analogica rara: grana e calore della film print.",
     "website": "https://www.circuitocinema.com/",
     "bookingUrl": "https://www.circuitocinema.com/p/odissea-70mm/",
-    "tier": "S"
+    "tier": "S",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Cinema%20Metropolitan%20Napoli%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinema%20Metropolitan%20Napoli",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Cinema%20Metropolitan%20Napoli%20cinema"
   },
   {
     "id": "4-fontane-roma",
@@ -75,10 +93,12 @@
     "lat": 41.9028,
     "lon": 12.4895,
     "address": "Via Quattro Fontane 23, Roma",
-    "formats": ["film_70mm"],
+    "formats": [
+      "film_70mm"
+    ],
     "videoScore": 9.2,
     "audioScore": 8.5,
-    "overallScore": 9.0,
+    "overallScore": 9,
     "specialties": [
       "Pellicola 70mm",
       "Storica sala romana",
@@ -87,7 +107,10 @@
     "notes": "Una delle poche sale italiane con 70mm per Odissea. Scelta ideale a Roma se cerchi la pellicola invece dell'IMAX digitale.",
     "website": "https://www.circuitocinema.com/",
     "bookingUrl": "https://www.circuitocinema.com/p/odissea-70mm/",
-    "tier": "S"
+    "tier": "S",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Cinema%20Quattro%20Fontane%20Roma%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinema%20Quattro%20Fontane%20Roma",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Cinema%20Quattro%20Fontane%20Roma%20cinema"
   },
   {
     "id": "cineteca-bologna",
@@ -97,7 +120,10 @@
     "lat": 44.4991,
     "lon": 11.3564,
     "address": "Via Azzo Gardino 65, Bologna",
-    "formats": ["film_70mm", "film_35mm"],
+    "formats": [
+      "film_70mm",
+      "film_35mm"
+    ],
     "videoScore": 9.1,
     "audioScore": 8.2,
     "overallScore": 8.9,
@@ -109,7 +135,10 @@
     "notes": "Istituzione del cinema su pellicola. Verifica la programmazione Odissea e il formato esatto dello spettacolo.",
     "website": "https://www.cinetecadibologna.it/",
     "bookingUrl": "https://www.cinetecadibologna.it/",
-    "tier": "S"
+    "tier": "S",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Cineteca%20di%20Bologna%20Bologna%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cineteca%20di%20Bologna%20Bologna",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Cineteca%20di%20Bologna%20Bologna%20cinema"
   },
   {
     "id": "cinergia-conegliano",
@@ -119,15 +148,23 @@
     "lat": 45.8866,
     "lon": 12.297,
     "address": "Conegliano (TV)",
-    "formats": ["film_70mm"],
-    "videoScore": 9.0,
+    "formats": [
+      "film_70mm"
+    ],
+    "videoScore": 9,
     "audioScore": 8.3,
     "overallScore": 8.8,
-    "specialties": ["Pellicola 70mm", "Tra le poche sale 70mm in Italia per Odissea"],
+    "specialties": [
+      "Pellicola 70mm",
+      "Tra le poche sale 70mm in Italia per Odissea"
+    ],
     "notes": "Sala veneta segnalata tra le location 70mm italiane. Controlla date e disponibilità biglietti sul sito.",
     "website": "https://www.cinergia.it/",
     "bookingUrl": "https://www.cinergia.it/",
-    "tier": "A"
+    "tier": "A",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Cinergia%20Conegliano%20Conegliano%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinergia%20Conegliano%20Conegliano",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Cinergia%20Conegliano%20Conegliano%20cinema"
   },
   {
     "id": "uci-porta-di-roma",
@@ -137,15 +174,24 @@
     "lat": 41.9718,
     "lon": 12.5405,
     "address": "Via Alberto Lionello 201, Roma",
-    "formats": ["imax_digital", "luxe"],
+    "formats": [
+      "imax_digital",
+      "luxe"
+    ],
     "videoScore": 8.9,
     "audioScore": 8.7,
     "overallScore": 8.8,
-    "specialties": ["IMAX XL", "Multiplex grande nord Roma"],
+    "specialties": [
+      "IMAX XL",
+      "Multiplex grande nord Roma"
+    ],
     "notes": "IMAX digitale a Roma. Buon compromesso se non trovi posto al 70mm dei 4 Fontane o se preferisci il campo IMAX.",
     "website": "https://www.ucicinemas.it/",
     "bookingUrl": "https://www.ucicinemas.it/cinema/porta-di-roma",
-    "tier": "A"
+    "tier": "A",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Porta%20di%20Roma%20Roma%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Porta%20di%20Roma%20Roma",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Porta%20di%20Roma%20Roma%20cinema"
   },
   {
     "id": "uci-campi-bisenzio",
@@ -155,15 +201,26 @@
     "lat": 43.8245,
     "lon": 11.1329,
     "address": "Via di Limite 154, Campi Bisenzio (FI)",
-    "formats": ["imax_digital", "luxe", "atmos"],
+    "formats": [
+      "imax_digital",
+      "luxe",
+      "atmos"
+    ],
     "videoScore": 8.9,
     "audioScore": 8.8,
     "overallScore": 8.8,
-    "specialties": ["IMAX", "UCI Luxe", "Poltrone premium"],
+    "specialties": [
+      "IMAX",
+      "UCI Luxe",
+      "Poltrone premium"
+    ],
     "notes": "Riferimento IMAX per Firenze e Toscana. Esperienza Luxe + IMAX digitale.",
     "website": "https://www.ucicinemas.it/",
     "bookingUrl": "https://www.ucicinemas.it/cinema/campi-bisenzio",
-    "tier": "A"
+    "tier": "A",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=UCI%20Luxe%20Campi%20Bisenzio%20Campi%20Bisenzio%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Luxe%20Campi%20Bisenzio%20Campi%20Bisenzio",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=UCI%20Luxe%20Campi%20Bisenzio%20Campi%20Bisenzio%20cinema"
   },
   {
     "id": "uci-verona",
@@ -173,15 +230,23 @@
     "lat": 45.4085,
     "lon": 10.972,
     "address": "Via Enrico Fermi 4, Verona",
-    "formats": ["imax_digital"],
+    "formats": [
+      "imax_digital"
+    ],
     "videoScore": 8.8,
     "audioScore": 8.5,
     "overallScore": 8.7,
-    "specialties": ["IMAX XL", "Veneto"],
+    "specialties": [
+      "IMAX XL",
+      "Veneto"
+    ],
     "notes": "IMAX digitale a Verona. Ottima opzione se sei nel Nord-Est e non arrivi a Conegliano 70mm o a Orio.",
     "website": "https://www.ucicinemas.it/",
     "bookingUrl": "https://www.ucicinemas.it/cinema/verona",
-    "tier": "A"
+    "tier": "A",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Verona%20Verona%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Verona%20Verona",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Verona%20Verona%20cinema"
   },
   {
     "id": "uci-fiumara-genova",
@@ -191,15 +256,25 @@
     "lat": 44.4148,
     "lon": 8.8815,
     "address": "Via Antonio Cantore, Genova",
-    "formats": ["imax_digital", "luxe"],
+    "formats": [
+      "imax_digital",
+      "luxe"
+    ],
     "videoScore": 8.8,
     "audioScore": 8.6,
     "overallScore": 8.7,
-    "specialties": ["IMAX XL", "UCI Luxe", "Prima IMAX ligure"],
+    "specialties": [
+      "IMAX XL",
+      "UCI Luxe",
+      "Prima IMAX ligure"
+    ],
     "notes": "Sala IMAX recente a Genova con comfort Luxe. Riferimento Liguria per Odissea in grande formato.",
     "website": "https://www.ucicinemas.it/",
     "bookingUrl": "https://www.ucicinemas.it/cinema/fiumara",
-    "tier": "A"
+    "tier": "A",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=UCI%20Luxe%20Fiumara%20Genova%20Genova%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Luxe%20Fiumara%20Genova%20Genova",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=UCI%20Luxe%20Fiumara%20Genova%20Genova%20cinema"
   },
   {
     "id": "notorious-sesto",
@@ -209,7 +284,9 @@
     "lat": 45.5348,
     "lon": 9.2352,
     "address": "Viale Italia, Sesto San Giovanni (MI)",
-    "formats": ["imax_digital"],
+    "formats": [
+      "imax_digital"
+    ],
     "videoScore": 8.5,
     "audioScore": 8.3,
     "overallScore": 8.4,
@@ -221,7 +298,10 @@
     "notes": "IMAX più comodo da Milano città rispetto a Orio. Esperienza valida, ma i puristi preferiscono Orio per dimensioni/impatto.",
     "website": "https://www.notoriouscinemas.it/",
     "bookingUrl": "https://www.notoriouscinemas.it/",
-    "tier": "A"
+    "tier": "A",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Notorious%20Cinemas%20Sesto%20Sesto%20San%20Giovanni%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Notorious%20Cinemas%20Sesto%20Sesto%20San%20Giovanni",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Notorious%20Cinemas%20Sesto%20Sesto%20San%20Giovanni%20cinema"
   },
   {
     "id": "happy-afragola",
@@ -231,15 +311,23 @@
     "lat": 40.9245,
     "lon": 14.311,
     "address": "Afragola (NA)",
-    "formats": ["imax_digital"],
+    "formats": [
+      "imax_digital"
+    ],
     "videoScore": 8.6,
     "audioScore": 8.4,
     "overallScore": 8.5,
-    "specialties": ["IMAX digitale", "Area Napoli"],
+    "specialties": [
+      "IMAX digitale",
+      "Area Napoli"
+    ],
     "notes": "IMAX del napoletano. Alternativa digitale se non prendi il 70mm al Metropolitan.",
     "website": "https://www.happymaxicinema.it/",
     "bookingUrl": "https://www.happymaxicinema.it/",
-    "tier": "A"
+    "tier": "A",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Happy%20MaxiCinema%20Afragola%20Afragola%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Happy%20MaxiCinema%20Afragola%20Afragola",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Happy%20MaxiCinema%20Afragola%20Afragola%20cinema"
   },
   {
     "id": "uci-pioltello",
@@ -249,15 +337,22 @@
     "lat": 45.4968,
     "lon": 9.3305,
     "address": "Pioltello (MI)",
-    "formats": ["imax_digital"],
+    "formats": [
+      "imax_digital"
+    ],
     "videoScore": 8.4,
     "audioScore": 8.2,
     "overallScore": 8.3,
-    "specialties": ["IMAX digitale Est Milano"],
+    "specialties": [
+      "IMAX digitale Est Milano"
+    ],
     "notes": "IMAX nell'est milanese. Confronta con Orio e Sesto in base a distanza e disponibilità posti.",
     "website": "https://www.ucicinemas.it/",
     "bookingUrl": "https://www.ucicinemas.it/",
-    "tier": "A"
+    "tier": "A",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Pioltello%20Pioltello%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Pioltello%20Pioltello",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Pioltello%20Pioltello%20cinema"
   },
   {
     "id": "movie-planet-castelletto",
@@ -267,7 +362,10 @@
     "lat": 45.72,
     "lon": 8.645,
     "address": "Castelletto sopra Ticino (NO)",
-    "formats": ["atmos", "laser_4k"],
+    "formats": [
+      "atmos",
+      "laser_4k"
+    ],
     "videoScore": 8.3,
     "audioScore": 8.7,
     "overallScore": 8.4,
@@ -279,7 +377,10 @@
     "notes": "Non IMAX/70mm, ma ottima resa se non vuoi spostarti su Melzo o Orio. Buon bilanciamento schermo + Atmos.",
     "website": "https://www.movieplanet.it/",
     "bookingUrl": "https://www.movieplanet.it/",
-    "tier": "A"
+    "tier": "A",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Movie%20Planet%20Castelletto%20Ticino%20Castelletto%20sopra%20Ticino%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Movie%20Planet%20Castelletto%20Ticino%20Castelletto%20sopra%20Ticino",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Movie%20Planet%20Castelletto%20Ticino%20Castelletto%20sopra%20Ticino%20cinema"
   },
   {
     "id": "anteo-palazzo",
@@ -289,7 +390,11 @@
     "lat": 45.4772,
     "lon": 9.1835,
     "address": "Via Milazzo 17, Milano",
-    "formats": ["film_35mm", "laser_4k", "atmos"],
+    "formats": [
+      "film_35mm",
+      "laser_4k",
+      "atmos"
+    ],
     "videoScore": 8.2,
     "audioScore": 8.4,
     "overallScore": 8.2,
@@ -301,7 +406,10 @@
     "notes": "Ideale in centro Milano. Verifica se Odissea è in digitale laser o in 35mm nelle date speciali.",
     "website": "https://www.spaziocinema.info/",
     "bookingUrl": "https://www.spaziocinema.info/",
-    "tier": "A"
+    "tier": "A",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Anteo%20Palazzo%20del%20Cinema%20Milano%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Anteo%20Palazzo%20del%20Cinema%20Milano",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Anteo%20Palazzo%20del%20Cinema%20Milano%20cinema"
   },
   {
     "id": "anteo-citylife",
@@ -311,15 +419,26 @@
     "lat": 45.4815,
     "lon": 9.155,
     "address": "Piazza Tre Torri, Milano",
-    "formats": ["isense", "atmos", "laser_4k"],
+    "formats": [
+      "isense",
+      "atmos",
+      "laser_4k"
+    ],
     "videoScore": 8.4,
     "audioScore": 8.5,
     "overallScore": 8.4,
-    "specialties": ["iSense", "Comfort premium CityLife", "Laser"],
+    "specialties": [
+      "iSense",
+      "Comfort premium CityLife",
+      "Laser"
+    ],
     "notes": "PLF immersivo in zona CityLife. Buona opzione urbana se non esci da Milano.",
     "website": "https://www.spaziocinema.info/",
     "bookingUrl": "https://www.spaziocinema.info/",
-    "tier": "A"
+    "tier": "A",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Anteo%20CityLife%20Milano%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Anteo%20CityLife%20Milano",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Anteo%20CityLife%20Milano%20cinema"
   },
   {
     "id": "andromeda-roma",
@@ -329,15 +448,24 @@
     "lat": 41.932,
     "lon": 12.548,
     "address": "Via Tortona, Roma",
-    "formats": ["isense", "atmos"],
+    "formats": [
+      "isense",
+      "atmos"
+    ],
     "videoScore": 8.2,
     "audioScore": 8.4,
     "overallScore": 8.2,
-    "specialties": ["iSense", "Esperienza sensoriale premium"],
+    "specialties": [
+      "iSense",
+      "Esperienza sensoriale premium"
+    ],
     "notes": "PLF iSense a Roma: vibrazioni e immersione extra. Diverso da IMAX/70mm ma spettacolare se ti piace l'effetto “total body”.",
     "website": "https://www.andromedacinema.it/",
     "bookingUrl": "https://www.andromedacinema.it/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Multisala%20Andromeda%20Roma%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Multisala%20Andromeda%20Roma",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Multisala%20Andromeda%20Roma%20cinema"
   },
   {
     "id": "arcadia-stezzano",
@@ -347,15 +475,25 @@
     "lat": 45.6505,
     "lon": 9.6502,
     "address": "Stezzano (BG)",
-    "formats": ["isense", "atmos"],
+    "formats": [
+      "isense",
+      "atmos"
+    ],
     "videoScore": 8.1,
     "audioScore": 8.3,
     "overallScore": 8.1,
-    "specialties": ["iSense", "Gruppo Arcadia", "Vicino Bergamo"],
+    "specialties": [
+      "iSense",
+      "Gruppo Arcadia",
+      "Vicino Bergamo"
+    ],
     "notes": "Alternativa Arcadia nell'area bergamasca. Se Orio è full, valuta qui per comfort PLF.",
     "website": "https://www.arcadiacinema.com/",
     "bookingUrl": "https://www.arcadiacinema.com/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Arcadia%20Stezzano%20Stezzano%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Arcadia%20Stezzano%20Stezzano",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Arcadia%20Stezzano%20Stezzano%20cinema"
   },
   {
     "id": "adriano-roma",
@@ -365,15 +503,24 @@
     "lat": 41.9125,
     "lon": 12.4592,
     "address": "Piazza Cavour, Roma",
-    "formats": ["film_35mm", "digital_std"],
+    "formats": [
+      "film_35mm",
+      "digital_std"
+    ],
     "videoScore": 7.8,
     "audioScore": 7.5,
     "overallScore": 7.6,
-    "specialties": ["Storica sala", "Proiezioni 35mm in date selezionate"],
+    "specialties": [
+      "Storica sala",
+      "Proiezioni 35mm in date selezionate"
+    ],
     "notes": "Storica sala romana; 35mm quando programmato. Meno “evento” del 70mm ma charme analogico.",
     "website": "https://www.circuitocinema.com/",
     "bookingUrl": "https://www.circuitocinema.com/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Cinema%20Adriano%20Roma%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinema%20Adriano%20Roma",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Cinema%20Adriano%20Roma%20cinema"
   },
   {
     "id": "movie-planet-lux-torino",
@@ -383,15 +530,25 @@
     "lat": 45.0755,
     "lon": 7.672,
     "address": "Torino",
-    "formats": ["film_35mm", "atmos", "digital_std"],
+    "formats": [
+      "film_35mm",
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.9,
-    "audioScore": 8.0,
+    "audioScore": 8,
     "overallScore": 7.9,
-    "specialties": ["35mm in date selezionate", "Atmos"],
+    "specialties": [
+      "35mm in date selezionate",
+      "Atmos"
+    ],
     "notes": "Opzione torinese con tradizione pellicola. Verifica formato Odissea sul cartellone.",
     "website": "https://www.movieplanet.it/",
     "bookingUrl": "https://www.movieplanet.it/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Movie%20Planet%20Lux%20Torino%20Torino%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Movie%20Planet%20Lux%20Torino%20Torino",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Movie%20Planet%20Lux%20Torino%20Torino%20cinema"
   },
   {
     "id": "the-space-venezia-screenx",
@@ -401,9 +558,13 @@
     "lat": 45.482,
     "lon": 12.245,
     "address": "Venezia Mestre / area The Space",
-    "formats": ["screenx", "atmos", "digital_std"],
-    "videoScore": 8.0,
-    "audioScore": 8.0,
+    "formats": [
+      "screenx",
+      "atmos",
+      "digital_std"
+    ],
+    "videoScore": 8,
+    "audioScore": 8,
     "overallScore": 7.9,
     "specialties": [
       "ScreenX (schermi laterali)",
@@ -412,7 +573,10 @@
     "notes": "ScreenX: film anche sui lati. Non è il formato “voluto da Nolan”, ma è un'esperienza immersiva unica se sei in zona.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Venezia%20(ScreenX)%20Venezia%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Venezia%20(ScreenX)%20Venezia",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Venezia%20(ScreenX)%20Venezia%20cinema"
   },
   {
     "id": "uci-bicocca",
@@ -422,15 +586,25 @@
     "lat": 45.5215,
     "lon": 9.2135,
     "address": "Viale dell'Innovazione, Milano",
-    "formats": ["atmos", "luxe", "digital_std"],
+    "formats": [
+      "atmos",
+      "luxe",
+      "digital_std"
+    ],
     "videoScore": 7.6,
-    "audioScore": 8.0,
+    "audioScore": 8,
     "overallScore": 7.7,
-    "specialties": ["Grande multiplex", "Sale Luxe/Atmos selezionate"],
+    "specialties": [
+      "Grande multiplex",
+      "Sale Luxe/Atmos selezionate"
+    ],
     "notes": "Comodo in città. Per Odissea valuta se conviene lo spostamento a Melzo/Orio/Sesto.",
     "website": "https://www.ucicinemas.it/",
     "bookingUrl": "https://www.ucicinemas.it/cinema/bicocca",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Bicocca%20Milano%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Bicocca%20Milano",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Bicocca%20Milano%20cinema"
   },
   {
     "id": "the-space-milano-beata",
@@ -440,15 +614,25 @@
     "lat": 45.446,
     "lon": 9.245,
     "address": "Via Beata Paola Montaldi, Milano",
-    "formats": ["atmos", "laser_4k", "digital_std"],
+    "formats": [
+      "atmos",
+      "laser_4k",
+      "digital_std"
+    ],
     "videoScore": 7.5,
     "audioScore": 7.9,
     "overallScore": 7.6,
-    "specialties": ["Laser in sale selezionate", "Atmos"],
+    "specialties": [
+      "Laser in sale selezionate",
+      "Atmos"
+    ],
     "notes": "Buona sala urbana. Per massima resa, confronta con Arcadia Melzo o IMAX Orio.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Milano%20Beata%20Milano%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Milano%20Beata%20Milano",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Milano%20Beata%20Milano%20cinema"
   },
   {
     "id": "the-space-roma-moderno",
@@ -458,15 +642,24 @@
     "lat": 41.9015,
     "lon": 12.4948,
     "address": "Piazza della Repubblica, Roma",
-    "formats": ["atmos", "digital_std"],
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.4,
     "audioScore": 7.8,
     "overallScore": 7.5,
-    "specialties": ["Centro Roma", "Atmos in sale selezionate"],
+    "specialties": [
+      "Centro Roma",
+      "Atmos in sale selezionate"
+    ],
     "notes": "Posizione comoda al centro. Per Odissea i puristi preferiscono 70mm (4 Fontane) o IMAX Porta di Roma.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Moderno%20Roma%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Moderno%20Roma",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Moderno%20Roma%20cinema"
   },
   {
     "id": "uci-torino-lingotto",
@@ -476,15 +669,25 @@
     "lat": 45.0335,
     "lon": 7.665,
     "address": "Via Nizza 262, Torino",
-    "formats": ["luxe", "atmos", "digital_std"],
+    "formats": [
+      "luxe",
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.5,
     "audioScore": 7.8,
     "overallScore": 7.5,
-    "specialties": ["Luxe", "Grande complesso Lingotto"],
+    "specialties": [
+      "Luxe",
+      "Grande complesso Lingotto"
+    ],
     "notes": "Riferimento multiplex torinese. Se puoi, confronta con eventuali date 35mm al Lux.",
     "website": "https://www.ucicinemas.it/",
     "bookingUrl": "https://www.ucicinemas.it/cinema/lingotto",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Lingotto%20Torino%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Lingotto%20Torino",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Lingotto%20Torino%20cinema"
   },
   {
     "id": "uci-firenze-reggello",
@@ -494,15 +697,23 @@
     "lat": 43.68,
     "lon": 11.53,
     "address": "Reggello (FI)",
-    "formats": ["digital_std", "atmos"],
+    "formats": [
+      "digital_std",
+      "atmos"
+    ],
     "videoScore": 7.2,
     "audioScore": 7.5,
     "overallScore": 7.2,
-    "specialties": ["Area Firenze Est"],
+    "specialties": [
+      "Area Firenze Est"
+    ],
     "notes": "Per Odissea in Toscana l'opzione forte resta Campi Bisenzio IMAX se raggiungibile.",
     "website": "https://www.ucicinemas.it/",
     "bookingUrl": "https://www.ucicinemas.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Firenze%20Reggello%20Reggello%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Firenze%20Reggello%20Reggello",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Firenze%20Reggello%20Reggello%20cinema"
   },
   {
     "id": "the-space-bologna",
@@ -512,15 +723,24 @@
     "lat": 44.505,
     "lon": 11.36,
     "address": "Bologna",
-    "formats": ["atmos", "digital_std"],
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.3,
     "audioScore": 7.7,
     "overallScore": 7.4,
-    "specialties": ["Atmos", "Multiplex"],
+    "specialties": [
+      "Atmos",
+      "Multiplex"
+    ],
     "notes": "Comodo, ma a Bologna la scelta “event” per Odissea è la Cineteca se c'è 70mm.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Bologna%20Bologna%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Bologna%20Bologna",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Bologna%20Bologna%20cinema"
   },
   {
     "id": "multisala-barberini",
@@ -530,15 +750,24 @@
     "lat": 41.9039,
     "lon": 12.4885,
     "address": "Piazza Barberini, Roma",
-    "formats": ["isense", "digital_std"],
+    "formats": [
+      "isense",
+      "digital_std"
+    ],
     "videoScore": 7.6,
     "audioScore": 7.6,
     "overallScore": 7.5,
-    "specialties": ["iSense", "Centro storico"],
+    "specialties": [
+      "iSense",
+      "Centro storico"
+    ],
     "notes": "Posizione top. Valuta iSense vs 70mm/IMAX in base a cosa cerchi.",
     "website": "https://www.barberinicinema.it/",
     "bookingUrl": "https://www.barberinicinema.it/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Multisala%20Barberini%20Roma%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Multisala%20Barberini%20Roma",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Multisala%20Barberini%20Roma%20cinema"
   },
   {
     "id": "the-space-napoli",
@@ -548,15 +777,24 @@
     "lat": 40.853,
     "lon": 14.275,
     "address": "Napoli",
-    "formats": ["atmos", "digital_std"],
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.2,
     "audioScore": 7.6,
     "overallScore": 7.3,
-    "specialties": ["Multiplex", "Atmos selezionate"],
+    "specialties": [
+      "Multiplex",
+      "Atmos selezionate"
+    ],
     "notes": "Per Odissea a Napoli priorità a Metropolitan 70mm o Happy Afragola IMAX.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Napoli%20Napoli%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Napoli%20Napoli",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Napoli%20Napoli%20cinema"
   },
   {
     "id": "uci-cinemas-lisora",
@@ -566,15 +804,24 @@
     "lat": 45.612,
     "lon": 9.24,
     "address": "Lissone (MB)",
-    "formats": ["digital_std", "atmos"],
+    "formats": [
+      "digital_std",
+      "atmos"
+    ],
     "videoScore": 7.1,
     "audioScore": 7.4,
     "overallScore": 7.1,
-    "specialties": ["Brianza", "Comodo da Monza"],
+    "specialties": [
+      "Brianza",
+      "Comodo da Monza"
+    ],
     "notes": "Sala di prossimità. Se puoi, spingi su Melzo/Orio/Sesto per Odissea.",
     "website": "https://www.ucicinemas.it/",
     "bookingUrl": "https://www.ucicinemas.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Lissone%20Lissone%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Lissone%20Lissone",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Lissone%20Lissone%20cinema"
   },
   {
     "id": "the-space-palermo",
@@ -584,15 +831,24 @@
     "lat": 38.125,
     "lon": 13.35,
     "address": "Palermo",
-    "formats": ["atmos", "digital_std"],
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.2,
     "audioScore": 7.5,
     "overallScore": 7.2,
-    "specialties": ["Riferimento Sicilia Ovest", "Atmos"],
+    "specialties": [
+      "Riferimento Sicilia Ovest",
+      "Atmos"
+    ],
     "notes": "In Sicilia non ci sono IMAX/70mm noti: scegli la sala con schermo più grande e audio migliore a te vicina.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Palermo%20Palermo%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Palermo%20Palermo",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Palermo%20Palermo%20cinema"
   },
   {
     "id": "the-space-catania",
@@ -602,15 +858,24 @@
     "lat": 37.515,
     "lon": 15.07,
     "address": "Catania",
-    "formats": ["atmos", "digital_std"],
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.2,
     "audioScore": 7.5,
     "overallScore": 7.2,
-    "specialties": ["Riferimento Sicilia Est", "Atmos"],
+    "specialties": [
+      "Riferimento Sicilia Est",
+      "Atmos"
+    ],
     "notes": "Stesso discorso Sicilia: massimizza schermo + audio locale; niente IMAX 70mm in regione.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Catania%20Catania%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Catania%20Catania",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Catania%20Catania%20cinema"
   },
   {
     "id": "the-space-bari",
@@ -620,15 +885,24 @@
     "lat": 41.12,
     "lon": 16.87,
     "address": "Bari",
-    "formats": ["atmos", "digital_std"],
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.1,
     "audioScore": 7.4,
     "overallScore": 7.1,
-    "specialties": ["Puglia", "Atmos"],
+    "specialties": [
+      "Puglia",
+      "Atmos"
+    ],
     "notes": "Miglior sala raggiungibile in zona: preferisci Atmos e schermo grande.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Bari%20Bari%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Bari%20Bari",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Bari%20Bari%20cinema"
   },
   {
     "id": "uci-cagliari",
@@ -638,15 +912,23 @@
     "lat": 39.23,
     "lon": 9.12,
     "address": "Cagliari",
-    "formats": ["digital_std", "luxe"],
-    "videoScore": 7.0,
+    "formats": [
+      "digital_std",
+      "luxe"
+    ],
+    "videoScore": 7,
     "audioScore": 7.2,
-    "overallScore": 7.0,
-    "specialties": ["Riferimento Sardegna"],
+    "overallScore": 7,
+    "specialties": [
+      "Riferimento Sardegna"
+    ],
     "notes": "In Sardegna non risultano IMAX/70mm: scegli la sala premium locale più comoda.",
     "website": "https://www.ucicinemas.it/",
     "bookingUrl": "https://www.ucicinemas.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Cagliari%20Cagliari%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Cagliari%20Cagliari",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Cagliari%20Cagliari%20cinema"
   },
   {
     "id": "the-space-padova",
@@ -656,15 +938,24 @@
     "lat": 45.407,
     "lon": 11.877,
     "address": "Padova",
-    "formats": ["atmos", "digital_std"],
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.3,
     "audioScore": 7.6,
     "overallScore": 7.3,
-    "specialties": ["Veneto", "Atmos"],
+    "specialties": [
+      "Veneto",
+      "Atmos"
+    ],
     "notes": "Confronta con Verona IMAX e Conegliano 70mm se sei disposto a spostarti.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Padova%20Padova%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Padova%20Padova",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Padova%20Padova%20cinema"
   },
   {
     "id": "uci-mestre",
@@ -674,15 +965,24 @@
     "lat": 45.49,
     "lon": 12.24,
     "address": "Mestre (VE)",
-    "formats": ["luxe", "digital_std"],
+    "formats": [
+      "luxe",
+      "digital_std"
+    ],
     "videoScore": 7.2,
     "audioScore": 7.4,
     "overallScore": 7.2,
-    "specialties": ["Area Mestre", "Luxe"],
+    "specialties": [
+      "Area Mestre",
+      "Luxe"
+    ],
     "notes": "Se disponibile ScreenX in zona, valuta anche quella per un'esperienza diversa.",
     "website": "https://www.ucicinemas.it/",
     "bookingUrl": "https://www.ucicinemas.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Venezia%20Mestre%20Venezia%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Venezia%20Mestre%20Venezia",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Venezia%20Mestre%20Venezia%20cinema"
   },
   {
     "id": "the-space-genova",
@@ -692,15 +992,23 @@
     "lat": 44.405,
     "lon": 8.95,
     "address": "Genova",
-    "formats": ["atmos", "digital_std"],
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.1,
     "audioScore": 7.4,
     "overallScore": 7.1,
-    "specialties": ["Multiplex"],
+    "specialties": [
+      "Multiplex"
+    ],
     "notes": "A Genova la scelta premium per Odissea è UCI Luxe Fiumara IMAX.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Genova%20Genova%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Genova%20Genova",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Genova%20Genova%20cinema"
   },
   {
     "id": "multisala-odeon-brescia",
@@ -710,15 +1018,24 @@
     "lat": 45.54,
     "lon": 10.22,
     "address": "Brescia",
-    "formats": ["atmos", "digital_std"],
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.2,
     "audioScore": 7.5,
     "overallScore": 7.2,
-    "specialties": ["Atmos", "Lombardia Est"],
+    "specialties": [
+      "Atmos",
+      "Lombardia Est"
+    ],
     "notes": "Da Brescia Orio IMAX e Melzo 70mm sono spostamenti realistici per un'esperienza top.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Brescia%20Brescia%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Brescia%20Brescia",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Brescia%20Brescia%20cinema"
   },
   {
     "id": "the-space-parma",
@@ -728,15 +1045,24 @@
     "lat": 44.801,
     "lon": 10.328,
     "address": "Parma",
-    "formats": ["atmos", "digital_std"],
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.1,
     "audioScore": 7.4,
     "overallScore": 7.1,
-    "specialties": ["Emilia", "Atmos"],
+    "specialties": [
+      "Emilia",
+      "Atmos"
+    ],
     "notes": "Valuta Cineteca Bologna 70mm se vuoi l'esperienza pellicola.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Parma%20Parma%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Parma%20Parma",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Parma%20Parma%20cinema"
   },
   {
     "id": "uci-roma-eur",
@@ -746,15 +1072,25 @@
     "lat": 41.83,
     "lon": 12.47,
     "address": "Roma EUR",
-    "formats": ["luxe", "digital_std", "atmos"],
+    "formats": [
+      "luxe",
+      "digital_std",
+      "atmos"
+    ],
     "videoScore": 7.4,
     "audioScore": 7.7,
     "overallScore": 7.4,
-    "specialties": ["Luxe", "Sud Roma"],
+    "specialties": [
+      "Luxe",
+      "Sud Roma"
+    ],
     "notes": "Comodo a sud. Per formato speciale punta a 4 Fontane 70mm o Porta di Roma IMAX.",
     "website": "https://www.ucicinemas.it/",
     "bookingUrl": "https://www.ucicinemas.it/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Roma%20EUR%20Roma%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Roma%20EUR%20Roma",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Roma%20EUR%20Roma%20cinema"
   },
   {
     "id": "famous-angelicum",
@@ -764,15 +1100,23 @@
     "lat": 45.49,
     "lon": 9.22,
     "address": "Milano",
-    "formats": ["digital_std"],
-    "videoScore": 7.0,
+    "formats": [
+      "digital_std"
+    ],
+    "videoScore": 7,
     "audioScore": 6.8,
     "overallScore": 6.9,
-    "specialties": ["Sala d'essai / di quartiere", "Atmosfera cinefila"],
+    "specialties": [
+      "Sala d'essai / di quartiere",
+      "Atmosfera cinefila"
+    ],
     "notes": "Non PLF: inclusa come alternativa di prossimità. Per Odissea meglio Melzo/Orio se puoi.",
     "website": "https://www.cinemabeltrade.it/",
     "bookingUrl": "https://www.cinemabeltrade.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Cinema%20Beltrade%20Milano%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinema%20Beltrade%20Milano",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Cinema%20Beltrade%20Milano%20cinema"
   },
   {
     "id": "teatro-delle-muse-ancona",
@@ -782,15 +1126,23 @@
     "lat": 43.616,
     "lon": 13.519,
     "address": "Ancona",
-    "formats": ["digital_std", "atmos"],
-    "videoScore": 7.0,
+    "formats": [
+      "digital_std",
+      "atmos"
+    ],
+    "videoScore": 7,
     "audioScore": 7.2,
-    "overallScore": 7.0,
-    "specialties": ["Marche"],
+    "overallScore": 7,
+    "specialties": [
+      "Marche"
+    ],
     "notes": "In regione non ci sono IMAX/70mm noti: massimizza la sala locale migliore.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Multisala%20Circus%20Ancona%20Ancona%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Multisala%20Circus%20Ancona%20Ancona",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Multisala%20Circus%20Ancona%20Ancona%20cinema"
   },
   {
     "id": "the-space-pescara",
@@ -800,15 +1152,24 @@
     "lat": 42.46,
     "lon": 14.21,
     "address": "Pescara",
-    "formats": ["atmos", "digital_std"],
-    "videoScore": 7.0,
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
+    "videoScore": 7,
     "audioScore": 7.3,
-    "overallScore": 7.0,
-    "specialties": ["Abruzzo", "Atmos"],
+    "overallScore": 7,
+    "specialties": [
+      "Abruzzo",
+      "Atmos"
+    ],
     "notes": "Scegli Atmos e schermo ampio; nessun IMAX in regione al momento del dataset.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Pescara%20Pescara%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Pescara%20Pescara",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Pescara%20Pescara%20cinema"
   },
   {
     "id": "the-space-trieste",
@@ -818,15 +1179,23 @@
     "lat": 45.65,
     "lon": 13.77,
     "address": "Trieste",
-    "formats": ["atmos", "digital_std"],
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.1,
     "audioScore": 7.3,
     "overallScore": 7.1,
-    "specialties": ["FVG"],
+    "specialties": [
+      "FVG"
+    ],
     "notes": "Da qui Conegliano 70mm o Verona IMAX sono trasferte da valutare per l'event experience.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Trieste%20Trieste%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Trieste%20Trieste",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Trieste%20Trieste%20cinema"
   },
   {
     "id": "uci-cinemas-vicenza",
@@ -836,15 +1205,23 @@
     "lat": 45.546,
     "lon": 11.535,
     "address": "Vicenza",
-    "formats": ["atmos", "digital_std"],
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.1,
     "audioScore": 7.4,
     "overallScore": 7.1,
-    "specialties": ["Veneto"],
+    "specialties": [
+      "Veneto"
+    ],
     "notes": "Vicino a Verona IMAX e non lontanissimo da Conegliano 70mm.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Vicenza%20Vicenza%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Vicenza%20Vicenza",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Vicenza%20Vicenza%20cinema"
   },
   {
     "id": "multicinema-modena",
@@ -854,15 +1231,23 @@
     "lat": 44.647,
     "lon": 10.925,
     "address": "Modena",
-    "formats": ["atmos", "digital_std"],
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.1,
     "audioScore": 7.3,
     "overallScore": 7.1,
-    "specialties": ["Emilia"],
+    "specialties": [
+      "Emilia"
+    ],
     "notes": "Cineteca Bologna resta la meta 70mm di riferimento in regione.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Modena%20Modena%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Modena%20Modena",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Modena%20Modena%20cinema"
   },
   {
     "id": "arena-estiva-note",
@@ -872,15 +1257,22 @@
     "lat": 45.695,
     "lon": 9.67,
     "address": "Bergamo",
-    "formats": ["digital_std"],
-    "videoScore": 7.0,
-    "audioScore": 7.0,
+    "formats": [
+      "digital_std"
+    ],
+    "videoScore": 7,
+    "audioScore": 7,
     "overallScore": 6.9,
-    "specialties": ["Città di Bergamo"],
+    "specialties": [
+      "Città di Bergamo"
+    ],
     "notes": "Per Odissea da Bergamo la meta naturale è UCI Orio IMAX (pochissimi km).",
     "website": "https://www.spaziocinema.info/",
     "bookingUrl": "https://www.spaziocinema.info/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Anteo%20Aquila%20Reale%20(Bergamo)%20Bergamo%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Anteo%20Aquila%20Reale%20(Bergamo)%20Bergamo",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Anteo%20Aquila%20Reale%20(Bergamo)%20Bergamo%20cinema"
   },
   {
     "id": "happy-maxicinema-casoria",
@@ -890,33 +1282,51 @@
     "lat": 40.905,
     "lon": 14.293,
     "address": "Area nord Napoli",
-    "formats": ["digital_std", "atmos"],
-    "videoScore": 7.0,
+    "formats": [
+      "digital_std",
+      "atmos"
+    ],
+    "videoScore": 7,
     "audioScore": 7.3,
-    "overallScore": 7.0,
-    "specialties": ["Rete Happy", "Area napoletana"],
+    "overallScore": 7,
+    "specialties": [
+      "Rete Happy",
+      "Area napoletana"
+    ],
     "notes": "Se non prendi IMAX Afragola o 70mm Metropolitan, scegli la sala Happy con schermo più grande.",
     "website": "https://www.happymaxicinema.it/",
     "bookingUrl": "https://www.happymaxicinema.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=Happy%20MaxiCinema%20(rete%20Napoli)%20Casoria%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Happy%20MaxiCinema%20(rete%20Napoli)%20Casoria",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=Happy%20MaxiCinema%20(rete%20Napoli)%20Casoria%20cinema"
   },
   {
     "id": "the-space-roma-parco-leonardo",
     "name": "The Space Cinema Parco Leonardo",
     "city": "Fiumicino",
     "region": "Lazio",
-    "lat": 41.80,
-    "lon": 12.30,
+    "lat": 41.8,
+    "lon": 12.3,
     "address": "Parco Leonardo, Fiumicino",
-    "formats": ["atmos", "digital_std"],
+    "formats": [
+      "atmos",
+      "digital_std"
+    ],
     "videoScore": 7.3,
     "audioScore": 7.6,
     "overallScore": 7.3,
-    "specialties": ["Grande multiplex", "Vicino aeroporto FCO"],
+    "specialties": [
+      "Grande multiplex",
+      "Vicino aeroporto FCO"
+    ],
     "notes": "Comodo se sei a Fiumicino. Per formato speciale resta 70mm centro o IMAX Porta di Roma.",
     "website": "https://www.thespacecinema.it/",
     "bookingUrl": "https://www.thespacecinema.it/",
-    "tier": "B"
+    "tier": "B",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Parco%20Leonardo%20Fiumicino%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Parco%20Leonardo%20Fiumicino",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=The%20Space%20Cinema%20Parco%20Leonardo%20Fiumicino%20cinema"
   },
   {
     "id": "uci-cinemas-marcianise",
@@ -924,16 +1334,25 @@
     "city": "Marcianise",
     "region": "Campania",
     "lat": 41.02,
-    "lon": 14.30,
+    "lon": 14.3,
     "address": "Marcianise (CE)",
-    "formats": ["luxe", "digital_std"],
+    "formats": [
+      "luxe",
+      "digital_std"
+    ],
     "videoScore": 7.2,
     "audioScore": 7.4,
     "overallScore": 7.2,
-    "specialties": ["Campania", "Luxe"],
+    "specialties": [
+      "Campania",
+      "Luxe"
+    ],
     "notes": "Confronta con Afragola IMAX e Metropolitan 70mm prima di prenotare digitale standard.",
     "website": "https://www.ucicinemas.it/",
     "bookingUrl": "https://www.ucicinemas.it/",
-    "tier": "C"
+    "tier": "C",
+    "tripadvisorUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Marcianise%20Marcianise%20cinema",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Marcianise%20Marcianise",
+    "reviewUrl": "https://www.tripadvisor.it/Search?q=UCI%20Cinemas%20Marcianise%20Marcianise%20cinema"
   }
 ]

@@ -27,8 +27,13 @@ export type Cinema = {
   notes: string
   bookingUrl?: string
   website?: string
+  /** Link recensioni (TripAdvisor o ricerca) */
+  tripadvisorUrl?: string
+  reviewUrl?: string
+  mapsUrl?: string
   tier: Tier
 }
+
 
 export type City = {
   name: string

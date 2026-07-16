@@ -3,6 +3,32 @@ import { formatDistance, mapsDirectionsUrl } from '../lib/geo'
 import { FormatBadges } from './FormatBadges'
 import { ScorePills } from './ScorePills'
 import { AdSlot } from './AdSlot'
+import { FILM } from '../data/film'
+
+function ExtLink({
+  href,
+  children,
+  primary = false,
+}: {
+  href: string
+  children: React.ReactNode
+  primary?: boolean
+}) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={
+        primary
+          ? 'flex min-h-12 items-center justify-center bg-ink text-sm font-semibold text-ticket hover:bg-lamp hover:text-void'
+          : 'flex min-h-11 items-center justify-center border border-ink/25 text-sm font-medium text-ink hover:border-ink/50'
+      }
+    >
+      {children}
+    </a>
+  )
+}
 
 export function CinemaDetail({
   cinema,
@@ -30,6 +56,12 @@ export function CinemaDetail({
     }
   }
 
+  const booking = cinema.bookingUrl || cinema.website
+  const site = cinema.website
+  const reviews = cinema.reviewUrl || cinema.tripadvisorUrl
+  const maps =
+    cinema.mapsUrl || mapsDirectionsUrl(cinema.lat, cinema.lon)
+
   return (
     <div
       className="fixed inset-0 z-50 flex items-end justify-center bg-void/80 p-0 sm:items-center sm:p-4"
@@ -45,7 +77,7 @@ export function CinemaDetail({
         <div className="sprocket hidden w-5 shrink-0 bg-ink sm:block" aria-hidden />
         <div className="min-w-0 flex-1 overflow-y-auto p-5">
           <div className="mb-3 flex items-start justify-between gap-3">
-            <div>
+            <div className="min-w-0">
               <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-dust">
                 Classe {cinema.tier}
                 {cinema.distanceKm != null &&
@@ -64,12 +96,40 @@ export function CinemaDetail({
             <button
               type="button"
               onClick={onClose}
-              className="min-h-11 min-w-11 border border-ink/20 text-lg text-ink"
+              className="min-h-11 min-w-11 shrink-0 border border-ink/20 text-lg text-ink"
               aria-label="Chiudi"
             >
               ×
             </button>
           </div>
+
+          {/* Mini film strip */}
+          <a
+            href={FILM.imdbUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mb-4 flex gap-3 border border-ink/10 bg-chalk/70 p-2 hover:border-lamp/40"
+          >
+            <img
+              src={FILM.posterSrc}
+              alt=""
+              width={48}
+              height={72}
+              className="h-[72px] w-12 object-cover border border-ink/10"
+              loading="lazy"
+            />
+            <div className="min-w-0 self-center">
+              <p className="font-mono text-[9px] uppercase tracking-wider text-dust">
+                Film
+              </p>
+              <p className="font-display text-base font-bold text-ink">
+                {FILM.titleIt}
+              </p>
+              <p className="font-mono text-[10px] text-lamp-dim">
+                IMDb → scheda completa
+              </p>
+            </div>
+          </a>
 
           <FormatBadges formats={cinema.formats} onTicket />
           <div className="mt-4 border border-ink/10 bg-chalk/60 p-3">
@@ -96,29 +156,29 @@ export function CinemaDetail({
             </div>
           )}
 
-          <div className="mt-5 grid gap-2">
-            {(cinema.bookingUrl || cinema.website) && (
-              <a
-                href={cinema.bookingUrl || cinema.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex min-h-12 items-center justify-center bg-ink text-sm font-semibold text-ticket hover:bg-lamp hover:text-void"
-              >
+          <div className="mt-5 space-y-2">
+            <p className="font-mono text-[10px] uppercase tracking-[0.16em] text-dust">
+              Link utili
+            </p>
+            {booking && (
+              <ExtLink href={booking} primary>
                 Orari e prenotazione
-              </a>
+              </ExtLink>
             )}
-            <a
-              href={mapsDirectionsUrl(cinema.lat, cinema.lon)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex min-h-12 items-center justify-center border border-ink/30 text-sm font-semibold text-ink"
-            >
-              Come arrivare
-            </a>
+            <div className="grid grid-cols-2 gap-2">
+              {site && (
+                <ExtLink href={site}>Sito cinema</ExtLink>
+              )}
+              {reviews && (
+                <ExtLink href={reviews}>Recensioni</ExtLink>
+              )}
+              <ExtLink href={maps}>Mappa</ExtLink>
+              <ExtLink href={FILM.imdbUrl}>IMDb film</ExtLink>
+            </div>
             <button
               type="button"
               onClick={share}
-              className="flex min-h-12 items-center justify-center border border-dashed border-ink/25 text-sm font-medium text-ink/70"
+              className="flex min-h-11 w-full items-center justify-center border border-dashed border-ink/25 text-sm font-medium text-ink/70"
             >
               Condividi questa sala
             </button>
@@ -129,8 +189,9 @@ export function CinemaDetail({
           </div>
 
           <p className="mt-4 font-mono text-[10px] leading-relaxed text-dust">
-            Voti editoriali. Controlla formato e orari sul sito del cinema. Non
-            affiliato a Universal, IMAX o circuiti.
+            Voti editoriali. Controlla formato e orari sul sito del cinema. Link
+            esterni (IMDb, TripAdvisor, circuiti) non affiliati. Locandina ©
+            rispettivi titolari — uso informativo.
           </p>
         </div>
       </div>
