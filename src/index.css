@@ -14,10 +14,12 @@
   --color-chalk: #faf6ef;
   --color-dust: #9a9286;
   --color-ink: #1a1512;
-  --font-display: "Fraunces", ui-serif, Georgia, serif;
-  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  /* Spartano: condensed display + sans geometrico austero */
+  --font-display: "Oswald", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Barlow", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 }
+
 
 html,
 body,
@@ -55,8 +57,11 @@ body::before {
 
 .font-display {
   font-family: var(--font-display);
-  font-optical-sizing: auto;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
+
 
 .font-mono {
   font-family: var(--font-mono);

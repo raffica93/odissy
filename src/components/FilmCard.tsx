@@ -24,15 +24,15 @@ export function FilmCard() {
         <div className="min-w-0 flex flex-col justify-between py-0.5">
           <div>
             <p className="font-mono text-[10px] uppercase tracking-[0.18em] text-lamp">
-              Film · {FILM.year}
+              Master · {FILM.year}
             </p>
-            <h2 className="font-display mt-1 text-xl font-bold leading-tight text-chalk">
+            <h2 className="font-display mt-1 text-xl tracking-[0.04em] text-chalk">
               {FILM.titleIt}
             </h2>
-            <p className="mt-0.5 text-xs text-dust">
-              {FILM.director} · scegli la sala, non il trailer
+            <p className="mt-1 text-xs leading-snug text-dust">
+              {FILM.director}. Interamente IMAX film. In sala conta il
+              proiettore, non il trailer in 16:9.
             </p>
-
           </div>
           <div className="mt-3 flex flex-wrap gap-2">
             <a
@@ -49,7 +49,7 @@ export function FilmCard() {
               rel="noopener noreferrer"
               className="inline-flex min-h-9 items-center border border-chalk/25 bg-void px-2.5 font-mono text-[10px] font-semibold uppercase tracking-wider text-chalk hover:border-lamp hover:text-lamp"
             >
-              Sito ufficiale
+              Ufficiale
             </a>
             <a
               href={FILM.wikipediaUrl}

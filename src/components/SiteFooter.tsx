@@ -34,9 +34,11 @@ export function SiteFooter() {
         </Link>
       </nav>
       <p>
-        Guida indipendente · non affiliata a Universal, IMAX o circuiti · voti
-        editoriali · controlla sempre formato e orari sul sito del cinema
+        dove vedere l&apos;odissea · guida da sala, non da streaming · non
+        affiliata a Universal / IMAX / circuiti · verifica sempre il formato sul
+        biglietto
       </p>
+
 
       <p>
         <a

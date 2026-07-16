@@ -48,18 +48,19 @@ export function HeroMark({ className = '' }: { className?: string }) {
       {/* ticket perforation line */}
       <line x1="72" y1="42" x2="72" y2="118" stroke="#1a1512" strokeWidth="1" strokeDasharray="3 4" opacity="0.35" />
       {/* ticket text marks */}
-      <text x="82" y="58" fill="#1a1512" fontFamily="IBM Plex Mono, monospace" fontSize="9" fontWeight="600" letterSpacing="1.5">
+      <text x="82" y="58" fill="#1a1512" fontFamily="Oswald, sans-serif" fontSize="10" fontWeight="600" letterSpacing="2">
         ADMIT ONE
       </text>
-      <text x="82" y="78" fill="#ff6b2c" fontFamily="Georgia, serif" fontSize="16" fontWeight="700">
+      <text x="82" y="78" fill="#ff6b2c" fontFamily="Oswald, sans-serif" fontSize="18" fontWeight="700" letterSpacing="1">
         ODISSEA
       </text>
-      <text x="82" y="96" fill="#1a1512" fontFamily="IBM Plex Mono, monospace" fontSize="8" opacity="0.7">
-        SCEGLI LA SALA
+      <text x="82" y="96" fill="#1a1512" fontFamily="Oswald, sans-serif" fontSize="9" letterSpacing="1.5" opacity="0.85">
+        SCEGLI IL FORMATO
       </text>
       <text x="82" y="112" fill="#1d9a8c" fontFamily="IBM Plex Mono, monospace" fontSize="7" letterSpacing="1">
         IMAX · 70mm · ATMOS
       </text>
+
       {/* stub notch */}
       <circle cx="176" cy="70" r="7" fill="#120f0d" />
       <circle cx="176" cy="70" r="4" fill="none" stroke="#efe6d4" strokeWidth="1" />

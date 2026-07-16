@@ -10,22 +10,43 @@ const nav = [
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-40 border-b border-chalk/10 bg-void/90 backdrop-blur-md">
-      <div className="mx-auto flex max-w-3xl items-center justify-between gap-2 px-4 py-3">
-        <Link to="/" className="flex min-h-11 items-baseline gap-1.5 shrink-0">
-          <span className="font-display text-lg font-bold tracking-tight text-chalk">
-            dove vedere
-          </span>
-          <span className="font-display text-lg font-bold text-lamp">odissea</span>
-        </Link>
-        <nav className="flex items-center gap-1 overflow-x-auto [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+    <header className="sticky top-0 z-40 border-b border-chalk/10 bg-void/95 backdrop-blur-md">
+      <div className="mx-auto max-w-3xl px-4 py-3">
+        <div className="flex items-center justify-between gap-3">
+          <Link to="/" className="min-h-11 min-w-0 shrink">
+            <span className="font-display block text-[15px] leading-none tracking-[0.06em] text-chalk sm:text-lg">
+              dove vedere l&apos;odissea
+            </span>
+            <span className="mt-1 block font-mono text-[9px] uppercase tracking-[0.2em] text-dust">
+              nolan · formato · italia
+            </span>
+          </Link>
+          <NavLink
+            to="/come-scegliere-sala-nolan"
+            className={({ isActive }) =>
+              `min-h-9 shrink-0 border px-2.5 py-1.5 font-mono text-[10px] font-semibold uppercase tracking-wider ${
+                isActive
+                  ? 'border-lamp bg-lamp text-void'
+                  : 'border-chalk/25 text-chalk hover:border-lamp'
+              }`
+            }
+          >
+            Manifesto
+          </NavLink>
+        </div>
+        <nav
+          className="mt-3 flex items-center gap-1 overflow-x-auto border-t border-chalk/10 pt-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+          aria-label="Città e formati"
+        >
           {nav.map((n) => (
             <NavLink
               key={n.to}
               to={n.to}
               className={({ isActive }) =>
-                `min-h-9 shrink-0 px-2 font-mono text-[10px] font-semibold uppercase tracking-wider ${
-                  isActive ? 'text-lamp' : 'text-dust hover:text-chalk'
+                `min-h-8 shrink-0 px-2.5 py-1 font-display text-[12px] tracking-[0.12em] ${
+                  isActive
+                    ? 'bg-lamp/15 text-lamp'
+                    : 'text-dust hover:text-chalk'
                 }`
               }
             >
@@ -33,14 +54,14 @@ export function SiteHeader() {
             </NavLink>
           ))}
           <NavLink
-            to="/come-scegliere-sala-nolan"
+            to="/guida-formati"
             className={({ isActive }) =>
-              `min-h-9 shrink-0 px-2 font-mono text-[10px] font-semibold uppercase tracking-wider ${
-                isActive ? 'text-lamp' : 'text-tide-soft hover:text-chalk'
+              `min-h-8 shrink-0 px-2.5 py-1 font-display text-[12px] tracking-[0.12em] ${
+                isActive ? 'bg-lamp/15 text-lamp' : 'text-dust hover:text-chalk'
               }`
             }
           >
-            Guida
+            Formati
           </NavLink>
         </nav>
       </div>

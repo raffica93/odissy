@@ -133,10 +133,14 @@ export function FormatLadder() {
         ))}
       </ol>
 
-      <p className="border border-lamp/30 bg-lamp/10 p-3 font-mono text-xs leading-relaxed text-chalk">
-        Regola in una riga: tra le sale a ≤1,5 h, prendi lo score più alto — non
-        il cinema sotto casa per abitudine.
+      <p className="border border-lamp/30 bg-lamp/10 p-3 text-sm leading-relaxed text-chalk">
+        <span className="font-display text-[12px] tracking-[0.12em] text-lamp">
+          Regola da forum Nolan ·{' '}
+        </span>
+        tra le sale a ≤1,5 h prendi lo score più alto. Il multiplex comodo è il
+        nemico silenzioso del master.
       </p>
+
     </section>
   )
 }

@@ -30,7 +30,6 @@ export function GeoPrompt({
   return (
     <section className="px-4 pt-4">
       <div className="ticket-surface relative overflow-hidden p-4 shadow-[6px_6px_0_#ff6b2c33]">
-        {/* torn edge top */}
         <div
           className="pointer-events-none absolute inset-x-0 top-0 h-2 opacity-40"
           style={{
@@ -40,24 +39,24 @@ export function GeoPrompt({
           aria-hidden
         />
         <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-dust">
-          Partenza
+          Punto di partenza
         </p>
-        <h2 className="font-display mt-1 text-xl font-bold text-ink">
-          Dove sei?
+        <h2 className="font-display mt-1 text-xl tracking-[0.06em] text-ink">
+          Da dove parti per la sala?
         </h2>
         <p className="mt-1 text-sm text-ink/70">
-          Ordiniamo per score + km. Prima il formato, poi la distanza.
+          Ordiniamo per resa (formato + video/audio), non per “il più vicino al
+          parcheggio”.
         </p>
 
         <button
           type="button"
           onClick={onRequestGeo}
           disabled={geoLoading}
-          className="mt-4 flex min-h-12 w-full items-center justify-center gap-2 bg-ink px-4 py-3 text-sm font-semibold text-ticket transition hover:bg-lamp hover:text-void disabled:opacity-60"
+          className="mt-4 flex min-h-12 w-full items-center justify-center gap-2 bg-ink px-4 py-3 font-display text-[13px] tracking-[0.12em] text-ticket transition hover:bg-lamp hover:text-void disabled:opacity-60"
         >
-          {geoLoading ? 'Rilevamento…' : 'Usa posizione'}
+          {geoLoading ? 'Rilevamento…' : 'Usa la mia posizione'}
         </button>
-
 
         {geoError && (
           <p className="mt-2 text-xs text-lamp-dim" role="alert">
@@ -66,9 +65,7 @@ export function GeoPrompt({
         )}
 
         {location && (
-          <p className="mt-2 font-mono text-xs text-tide">
-            → {location.label}
-          </p>
+          <p className="mt-2 font-mono text-xs text-tide">→ {location.label}</p>
         )}
 
         <div className="relative mt-3">
@@ -79,7 +76,7 @@ export function GeoPrompt({
             id="city-search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Cerca una città…"
+            placeholder="O digita una città…"
             className="min-h-12 w-full border border-ink/20 bg-chalk px-4 font-mono text-sm text-ink outline-none placeholder:text-dust focus:border-lamp"
             autoComplete="off"
           />
