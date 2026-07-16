@@ -11,6 +11,7 @@ import { CinemaDetail } from './components/CinemaDetail'
 import { FormatGuide } from './components/FormatGuide'
 import { Privacy } from './components/Privacy'
 import { AdSlot } from './components/AdSlot'
+import { AdSenseLoader } from './components/AdSenseLoader'
 import { CookieBanner } from './components/CookieBanner'
 
 const cinemas = cinemasData as Cinema[]
@@ -89,6 +90,7 @@ export default function App() {
     return (
       <div className="min-h-screen pb-safe">
         <FormatGuide onBack={() => setPage('home')} />
+        <AdSenseLoader />
         <CookieBanner />
       </div>
     )
@@ -98,6 +100,7 @@ export default function App() {
     return (
       <div className="min-h-screen pb-safe">
         <Privacy onBack={() => setPage('home')} />
+        <AdSenseLoader />
         <CookieBanner />
       </div>
     )
@@ -236,6 +239,7 @@ export default function App() {
         <AdSlot slot="sticky" className="min-h-[70px] !py-1" />
       </div>
 
+      <AdSenseLoader />
       <CookieBanner />
     </div>
   )
