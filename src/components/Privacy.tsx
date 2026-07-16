@@ -21,19 +21,23 @@ export function Privacy({ onBack }: { onBack: () => void }) {
         </p>
         <p>
           <span className="font-mono text-[10px] uppercase tracking-wider text-lamp">
-            Dati
+            Dati del sito
           </span>
           <br />
-          Posizione solo se la concedi al browser (resta sul dispositivo per
-          ordinare le sale). Preferenze cookie in localStorage. Log del hosting.
+          Posizione solo se la concedi al browser (usata in locale per ordinare
+          le sale; non inviamo coordinate a un nostro server). Log tecnici del
+          hosting (GitHub Pages).
         </p>
         <p>
           <span className="font-mono text-[10px] uppercase tracking-wider text-lamp">
-            Pubblicità
+            Pubblicità e consenso (UE/UK/CH)
           </span>
           <br />
-          Con consenso marketing possiamo caricare Google AdSense. Senza
-          consenso: solo cookie tecnici.
+          Mostriamo annunci tramite Google AdSense. Per utenti nello Spazio
+          economico europeo, Regno Unito e Svizzera il consenso cookie/pubblicità
+          è gestito dalla piattaforma di consenso certificata Google (CMP /
+          Privacy &amp; messaging): puoi accettare, rifiutare o gestire le
+          opzioni dal messaggio che compare sul sito.
         </p>
         <p>
           <span className="font-mono text-[10px] uppercase tracking-wider text-lamp">
@@ -41,7 +45,15 @@ export function Privacy({ onBack }: { onBack: () => void }) {
           </span>
           <br />
           Tile OpenStreetMap / Carto. “Come arrivare” apre Google Maps sul
-          telefono.
+          dispositivo.
+        </p>
+        <p>
+          <span className="font-mono text-[10px] uppercase tracking-wider text-lamp">
+            Contatti
+          </span>
+          <br />
+          Per richieste privacy: usa il link “Segnala una sala” in fondo alla
+          home oppure il contatto indicato su AdSense per il publisher.
         </p>
       </div>
     </article>

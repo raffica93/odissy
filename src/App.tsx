@@ -11,8 +11,6 @@ import { CinemaDetail } from './components/CinemaDetail'
 import { FormatGuide } from './components/FormatGuide'
 import { Privacy } from './components/Privacy'
 import { AdSlot } from './components/AdSlot'
-import { AdSenseLoader } from './components/AdSenseLoader'
-import { CookieBanner } from './components/CookieBanner'
 
 const cinemas = cinemasData as Cinema[]
 
@@ -90,8 +88,6 @@ export default function App() {
     return (
       <div className="min-h-screen pb-safe">
         <FormatGuide onBack={() => setPage('home')} />
-        <AdSenseLoader />
-        <CookieBanner />
       </div>
     )
   }
@@ -100,14 +96,13 @@ export default function App() {
     return (
       <div className="min-h-screen pb-safe">
         <Privacy onBack={() => setPage('home')} />
-        <AdSenseLoader />
-        <CookieBanner />
       </div>
     )
   }
 
   return (
-    <div className="min-h-screen pb-28">
+    <div className="min-h-screen pb-8">
+
       <header className="sticky top-0 z-40 border-b border-chalk/10 bg-void/90 backdrop-blur-md">
         <div className="mx-auto flex max-w-3xl items-center justify-between px-4 py-3">
           <div className="flex items-baseline gap-2">
@@ -235,12 +230,9 @@ export default function App() {
         <CinemaDetail cinema={selected} onClose={() => setSelectedId(null)} />
       )}
 
-      <div className="fixed inset-x-0 bottom-0 z-30 border-t border-chalk/10 bg-void/95 px-3 py-2 pb-safe backdrop-blur">
-        <AdSlot slot="sticky" className="min-h-[70px] !py-1" />
-      </div>
-
-      <AdSenseLoader />
-      <CookieBanner />
+      {/* Sticky unit only if VITE_ADSENSE_SLOT_STICKY is set; Auto ads otherwise */}
+      <AdSlot slot="sticky" className="fixed inset-x-0 bottom-0 z-30" />
     </div>
   )
 }
+
