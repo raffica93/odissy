@@ -1,4 +1,6 @@
-export function FormatGuide({ onBack }: { onBack: () => void }) {
+import { Link } from 'react-router-dom'
+
+export function FormatGuide({ onBack }: { onBack?: () => void }) {
   const steps = [
     {
       code: 'IMAX 70',
@@ -39,15 +41,24 @@ export function FormatGuide({ onBack }: { onBack: () => void }) {
 
   return (
     <article className="mx-auto max-w-2xl px-4 py-6">
-      <button
-        type="button"
-        onClick={onBack}
-        className="min-h-11 font-mono text-xs uppercase tracking-wider text-lamp"
-      >
-        ← Torna alle sale
-      </button>
+      {onBack ? (
+        <button
+          type="button"
+          onClick={onBack}
+          className="min-h-11 font-mono text-xs uppercase tracking-wider text-lamp"
+        >
+          ← Torna alle sale
+        </button>
+      ) : (
+        <Link
+          to="/"
+          className="inline-flex min-h-11 items-center font-mono text-xs uppercase tracking-wider text-lamp"
+        >
+          ← Torna alle sale
+        </Link>
+      )}
 
-      <h1 className="font-display mt-4 text-3xl font-bold leading-tight text-chalk sm:text-4xl">
+      <h1 className="font-display mt-4 text-3xl font-bold leading-tight text-chalk">
         Come scegliere il formato
       </h1>
       <p className="mt-3 text-sm leading-relaxed text-dust">

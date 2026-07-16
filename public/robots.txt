@@ -4,4 +4,4 @@ Allow: /
 User-agent: Mediapartners-Google
 Allow: /
 
-Sitemap: https://dovevedereodissea.it/
+Sitemap: https://dovevedereodissea.it/sitemap.xml

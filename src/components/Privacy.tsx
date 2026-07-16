@@ -1,13 +1,24 @@
-export function Privacy({ onBack }: { onBack: () => void }) {
+import { Link } from 'react-router-dom'
+
+export function Privacy({ onBack }: { onBack?: () => void }) {
   return (
     <article className="mx-auto max-w-2xl px-4 py-6">
-      <button
-        type="button"
-        onClick={onBack}
-        className="min-h-11 font-mono text-xs uppercase tracking-wider text-lamp"
-      >
-        ← Torna alla home
-      </button>
+      {onBack ? (
+        <button
+          type="button"
+          onClick={onBack}
+          className="min-h-11 font-mono text-xs uppercase tracking-wider text-lamp"
+        >
+          ← Torna alla home
+        </button>
+      ) : (
+        <Link
+          to="/"
+          className="inline-flex min-h-11 items-center font-mono text-xs uppercase tracking-wider text-lamp"
+        >
+          ← Torna alla home
+        </Link>
+      )}
       <h1 className="font-display mt-4 text-3xl font-bold text-chalk">
         Privacy e cookie
       </h1>
