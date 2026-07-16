@@ -45,9 +45,9 @@ export function GeoPrompt({
           Da dove parti per la sala?
         </h2>
         <p className="mt-1 text-sm text-ink/70">
-          Ordiniamo per resa (formato + video/audio), non per “il più vicino al
-          parcheggio”.
+          Ordiniamo per formato e qualità di proiezione, poi per distanza.
         </p>
+
 
         <button
           type="button"

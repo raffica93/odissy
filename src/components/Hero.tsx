@@ -25,12 +25,14 @@ export function Hero() {
           <p className="font-mono text-[10px] font-medium uppercase tracking-[0.2em] text-lamp">
             IMAX · 70mm · Italia
           </p>
-          <h1 className="font-display mt-2 max-w-[20ch] text-[1.55rem] leading-[1.08] text-chalk sm:text-3xl">
-            Dove vedere Odissea. Scegli il formato.
+          <h1 className="font-display mt-2 max-w-[22ch] text-[1.55rem] leading-[1.08] text-chalk sm:text-3xl">
+            Trova la sala giusta per Odissea
           </h1>
           <p className="mt-2 max-w-md text-sm text-chalk/80">
-            Niente IMAX 70mm in Italia. Lista sotto: score, distanza, mappa.
+            In Italia non c&apos;è IMAX 70mm: confronta 70mm, IMAX digitale e
+            Atmos vicino a te.
           </p>
+
         </div>
       </div>
     </section>
