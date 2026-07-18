@@ -1,10 +1,18 @@
 import type { Cinema, Format, RankedCinema, SortMode } from '../types'
 import { haversineKm } from './geo'
 
-function formatGroup(cinema: Cinema): number {
-  if (cinema.formats.includes('film_70mm')) return 0
-  if (cinema.formats.includes('imax')) return 1
-  return 2
+const FORMAT_BONUS: Partial<Record<Format, number>> = {
+  film_70mm: 28,
+  imax: 25,
+}
+
+function formatBonus(formats: Format[]): number {
+  return formats.reduce((total, format) => total + (FORMAT_BONUS[format] ?? 0), 0)
+}
+
+function editorialSortScore(cinema: Cinema, distanceKm: number | null): number {
+  const quality = cinema.editorialQuality * 7 + cinema.audio.score * 3 + formatBonus(cinema.formats)
+  return distanceKm == null ? quality : quality - distanceKm * 0.35
 }
 
 export function rankCinemas(
@@ -13,23 +21,27 @@ export function rankCinemas(
   userLon: number | null,
   sortMode: SortMode,
 ): RankedCinema[] {
-  const ranked = cinemas.map((cinema) => ({
-    ...cinema,
-    distanceKm:
-      userLat != null && userLon != null
-        ? haversineKm(userLat, userLon, cinema.lat, cinema.lon)
-        : null,
-  }))
+  const ranked = cinemas.map((cinema) => {
+    const distanceKm = userLat != null && userLon != null
+      ? haversineKm(userLat, userLon, cinema.lat, cinema.lon)
+      : null
+    return { ...cinema, distanceKm, editorialSortScore: editorialSortScore(cinema, distanceKm) }
+  })
 
   ranked.sort((a, b) => {
+    if (sortMode === 'audio') {
+      const audioDifference = b.audio.score - a.audio.score
+      if (audioDifference !== 0) return audioDifference
+      return b.editorialSortScore - a.editorialSortScore
+    }
     if (sortMode === 'distance') {
-      if (a.distanceKm == null && b.distanceKm == null) return 0
+      if (a.distanceKm == null && b.distanceKm == null) return b.editorialSortScore - a.editorialSortScore
       if (a.distanceKm == null) return 1
       if (b.distanceKm == null) return -1
       return a.distanceKm - b.distanceKm
     }
     if (sortMode === 'name') return a.name.localeCompare(b.name, 'it')
-    return formatGroup(a) - formatGroup(b)
+    return b.editorialSortScore - a.editorialSortScore
   })
 
   return ranked

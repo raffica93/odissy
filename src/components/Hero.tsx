@@ -26,7 +26,7 @@ export function Hero() {
             IMAX · 70mm · Italia
           </p>
           <h1 className="font-display mt-2 max-w-[22ch] text-[1.55rem] leading-[1.08] text-chalk sm:text-3xl">
-            Trova la sala giusta per Odissea
+            Trova la sala giusta per vedere Odissea di Nolan
           </h1>
           <p className="mt-2 max-w-md text-sm text-chalk/80">
             In Italia non c&apos;è IMAX 70mm: confronta 70mm, IMAX e

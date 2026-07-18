@@ -14,11 +14,15 @@ export const FAQ_CORE: FaqItem[] = [
   },
   {
     question: 'Quali sale IMAX sono confermate per Odissea?',
-    answer: 'Le fonti ufficiali confermano UCI Orio | Bergamo, UCI Luxe Campi Bisenzio, UCI Porta di Roma, UCI Verona, UCI Luxe Fiumara Genova, Notorious Sesto San Giovanni e Happy Maxicinema Afragola. Non assegniamo un “migliore” senza misure ufficiali comparabili.',
+    answer: 'Le fonti ufficiali confermano UCI Orio | Bergamo, UCI Luxe Campi Bisenzio, UCI Porta di Roma, UCI Verona, UCI Luxe Fiumara Genova, Notorious Sesto San Giovanni e Happy Maxicinema Afragola. L’indice audio aiuta il confronto ma resta editoriale: le configurazioni tecniche locali non sono pubblicate in modo uniforme.',
   },
   {
     question: 'Meglio IMAX o 70mm per Odissea?',
-    answer: 'Sono presentazioni diverse. Il 70mm confermato in Italia è pellicola tradizionale non IMAX; gli spettacoli IMAX italiani non sono indicati come IMAX 70mm. Scegli in base a distanza, disponibilità e caratteristiche ufficialmente pubblicate della sala.',
+    answer: 'Sono presentazioni diverse. Il 70mm confermato in Italia è pellicola tradizionale non IMAX; gli spettacoli IMAX italiani non sono indicati come IMAX 70mm. Confronta anche l’audio: ogni scheda mostra il sistema dichiarato, un indice editoriale e quanto è specifica la fonte.',
+  },
+  {
+    question: 'Come confrontate l’audio delle sale?',
+    answer: 'Mostriamo prima le specifiche ufficiali disponibili: Dolby Atmos e Meyer Sound ad Arcadia, DTS XD-10 al Metropolitan e al 4Fontane, 7.1 al Lumière e DTS con amplificazione Powersoft a Cinergia. Per le sale IMAX, quando la configurazione locale non è pubblicata, riportiamo solo le caratteristiche generali dichiarate da IMAX e lo segnaliamo chiaramente. L’indice su 10 è una valutazione editoriale comparativa, non una certificazione del cinema.',
   },
   {
     question: 'Come riconosco lo spettacolo giusto?',
@@ -26,7 +30,7 @@ export const FAQ_CORE: FaqItem[] = [
   },
   {
     question: 'Come verificate le sale?',
-    answer: 'Usiamo programmazione e schede tecniche pubblicate dai cinema, dai circuiti e da IMAX. Ogni scheda mostra le fonti ufficiali e la data di verifica. Se una caratteristica non è pubblicata, viene dichiarata non disponibile invece di essere stimata.',
+    answer: 'Usiamo programmazione e schede tecniche pubblicate dai cinema, dai circuiti e da IMAX. Ogni scheda mostra le fonti ufficiali e la data di verifica. Se la configurazione tecnica di una sala non è pubblicata, distinguiamo il dato generale del formato dalla specifica locale invece di inventarla.',
   },
 ]
 

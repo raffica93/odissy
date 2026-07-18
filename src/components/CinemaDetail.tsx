@@ -76,6 +76,23 @@ export function CinemaDetail({ cinema, onClose }: { cinema: RankedCinema; onClos
             </div>
           </div>
 
+          <section className="mt-4 border-y border-ink/15 py-4" aria-labelledby="audio-title">
+            <div className="flex items-start justify-between gap-4">
+              <div className="min-w-0">
+                <h3 id="audio-title" className="font-mono text-[10px] font-semibold uppercase tracking-[0.16em] text-dust">Audio della sala</h3>
+                <p className="font-display mt-1 text-xl font-bold text-ink">{cinema.audio.system}</p>
+              </div>
+              <div className="shrink-0 border border-lamp/50 bg-lamp/10 px-3 py-2 text-center">
+                <span className="block font-display text-2xl font-bold leading-none text-lamp-dim">{cinema.audio.score.toFixed(1)}</span>
+                <span className="font-mono text-[8px] uppercase text-dust">indice editoriale</span>
+              </div>
+            </div>
+            <p className="mt-2 text-sm leading-relaxed text-ink/80">{cinema.audio.details}</p>
+            <p className="mt-2 font-mono text-[9px] uppercase tracking-wider text-dust">
+              {cinema.audio.evidence === 'sala' ? 'Specifiche ufficiali della sala' : 'Sistema del formato · configurazione sala non pubblicata'}
+            </p>
+          </section>
+
           <p className="mt-4 text-sm leading-relaxed text-ink/85">{cinema.notes}</p>
 
           {cinema.specialties.length > 0 && (
