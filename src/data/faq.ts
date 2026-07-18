@@ -29,6 +29,10 @@ export const FAQ_CORE: FaqItem[] = [
     answer: 'Leggi la dicitura del singolo orario. Ad Arcadia deve comparire “70MM ENERGIA”; al Metropolitan e al 4Fontane “Odissea - 70mm”; al Lumière Sala Mastroianni e 70mm; a Cinergia “Odissea - 70mm”; nelle altre sedi scegli gli orari esplicitamente contrassegnati IMAX.',
   },
   {
+    question: 'Cosa significano ITA doppiato e EN · sub ITA?',
+    answer: 'ITA doppiato indica la versione con dialoghi italiani. EN · sub ITA indica l’audio originale inglese con sottotitoli italiani. Quando una card mostra entrambe le opzioni, si tratta di spettacoli distinti: sala e formato possono cambiare, quindi controlla sempre la dicitura del singolo orario.',
+  },
+  {
     question: 'Come verificate le sale?',
     answer: 'Usiamo programmazione e schede tecniche pubblicate dai cinema, dai circuiti e da IMAX. Ogni scheda mostra le fonti ufficiali e la data di verifica. Se la configurazione tecnica di una sala non è pubblicata, distinguiamo il dato generale del formato dalla specifica locale invece di inventarla.',
   },
