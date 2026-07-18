@@ -14,6 +14,14 @@ export type OfficialSource = {
   url: string
 }
 
+export type AudioProfile = {
+  system: string
+  details: string
+  /** Indice editoriale comparativo, non una certificazione del cinema. */
+  score: number
+  evidence: 'sala' | 'formato'
+}
+
 export type Cinema = {
   id: string
   name: string
@@ -26,6 +34,7 @@ export type Cinema = {
   odysseyFormat: string
   /** Valutazione editoriale usata solo dall'ordinamento Qualità + km. */
   editorialQuality: number
+  audio: AudioProfile
   formats: Format[]
   specialties: string[]
   notes: string
@@ -43,7 +52,7 @@ export type City = {
   region: string
 }
 
-export type SortMode = 'editorial' | 'distance' | 'name'
+export type SortMode = 'editorial' | 'audio' | 'distance' | 'name'
 
 export type UserLocation = {
   lat: number

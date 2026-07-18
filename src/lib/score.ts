@@ -11,7 +11,7 @@ function formatBonus(formats: Format[]): number {
 }
 
 function editorialSortScore(cinema: Cinema, distanceKm: number | null): number {
-  const quality = cinema.editorialQuality * 10 + formatBonus(cinema.formats)
+  const quality = cinema.editorialQuality * 7 + cinema.audio.score * 3 + formatBonus(cinema.formats)
   return distanceKm == null ? quality : quality - distanceKm * 0.35
 }
 
@@ -29,6 +29,11 @@ export function rankCinemas(
   })
 
   ranked.sort((a, b) => {
+    if (sortMode === 'audio') {
+      const audioDifference = b.audio.score - a.audio.score
+      if (audioDifference !== 0) return audioDifference
+      return b.editorialSortScore - a.editorialSortScore
+    }
     if (sortMode === 'distance') {
       if (a.distanceKm == null && b.distanceKm == null) return b.editorialSortScore - a.editorialSortScore
       if (a.distanceKm == null) return 1

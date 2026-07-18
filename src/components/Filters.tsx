@@ -80,6 +80,7 @@ export function Filters({
           className="min-h-10 border border-chalk/20 bg-booth px-2 font-mono text-xs text-chalk"
         >
           <option value="editorial">Qualità + km</option>
+          <option value="audio">Solo audio</option>
           <option value="distance">Solo distanza</option>
           <option value="name">Nome cinema</option>
         </select>

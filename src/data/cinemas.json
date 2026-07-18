@@ -10,6 +10,12 @@
     "auditorium": "Sala ENERGIA PLF",
     "odysseyFormat": "Pellicola 70mm (non IMAX) · versione originale",
     "editorialQuality": 9.7,
+    "audio": {
+      "system": "Dolby Atmos · Meyer Sound",
+      "details": "Impianto immersivo della Sala Energia PLF con diffusori Meyer Sound e accesso tecnico alle singole casse.",
+      "score": 9.8,
+      "evidence": "sala"
+    },
     "formats": ["film_70mm"],
     "specialties": [
       "630 posti e schermo da 30 metri di base",
@@ -39,6 +45,12 @@
     "auditorium": "Sala 70mm — 294 posti (numero non pubblicato)",
     "odysseyFormat": "Pellicola 70mm (non IMAX) · italiano",
     "editorialQuality": 9.1,
+    "audio": {
+      "system": "DTS XD-10",
+      "details": "Sistema DTS XD-10 dichiarato da Circuito Cinema per la sala 70mm da 294 posti.",
+      "score": 8.6,
+      "evidence": "sala"
+    },
     "formats": ["film_70mm"],
     "specialties": ["Schermo Harkness di ultima generazione", "Proiettore meccanico Victoria 8 70mm", "Sistema a piatti semiautomatici", "Impianto audio DTS XD-10"],
     "notes": "Circuito Cinema conferma la sala da 294 posti, ma non ne pubblica il numero. Acquista lo spettacolo denominato “Odissea - 70mm”: nello stesso cinema sono presenti anche proiezioni digitali.",
@@ -62,6 +74,12 @@
     "auditorium": "Sala 70mm — 145 posti (numero non pubblicato)",
     "odysseyFormat": "Pellicola 70mm (non IMAX) · V.O. sottotitolata",
     "editorialQuality": 9,
+    "audio": {
+      "system": "DTS XD-10",
+      "details": "Sistema DTS XD-10 dichiarato da Circuito Cinema per la sala 70mm da 145 posti.",
+      "score": 8.5,
+      "evidence": "sala"
+    },
     "formats": ["film_70mm"],
     "specialties": ["Schermo Harkness di ultima generazione", "Proiettore meccanico Victoria 8 70mm", "Sistema a piatti semiautomatici", "Impianto audio DTS XD-10"],
     "notes": "Circuito Cinema conferma la sala da 145 posti senza pubblicarne il numero. Seleziona lo spettacolo denominato “Odissea - 70mm”.",
@@ -85,6 +103,12 @@
     "auditorium": "Sala Mastroianni",
     "odysseyFormat": "Pellicola 70mm · V.O. con sottotitoli italiani",
     "editorialQuality": 8.9,
+    "audio": {
+      "system": "Impianto 7.1",
+      "details": "La scheda tecnica ufficiale della Sala Mastroianni dichiara un impianto audio 7.1.",
+      "score": 8.2,
+      "evidence": "sala"
+    },
     "formats": ["film_70mm"],
     "specialties": ["Programmazione ufficiale in Sala Mastroianni", "Proiezione in pellicola 70mm", "Versione originale inglese con sottotitoli italiani"],
     "notes": "La Cineteca indica per ogni replica sia “Lumière | Sala Mastroianni” sia “Proiezione in 70mm”. Verifica la disponibilità: alcune repliche possono risultare esaurite.",
@@ -105,12 +129,18 @@
     "lat": 45.8866,
     "lon": 12.297,
     "address": "Conegliano (TV)",
-    "auditorium": "Sala non pubblicata",
+    "auditorium": "Sala 1",
     "odysseyFormat": "Pellicola 70mm (non IMAX)",
     "editorialQuality": 8.8,
+    "audio": {
+      "system": "DTS · amplificazione Powersoft",
+      "details": "In Sala 1 la traccia digitale non compressa è sincronizzata alla pellicola; il cinema dichiara un impianto rinnovato con amplificatori Powersoft.",
+      "score": 8.7,
+      "evidence": "sala"
+    },
     "formats": ["film_70mm"],
     "specialties": ["Proiettore in pellicola 70mm inaugurato per l'uscita del film"],
-    "notes": "Cinergia programma “Odissea - 70mm”. La pagina ufficiale non pubblica il numero della sala: controlla la dicitura del singolo spettacolo.",
+    "notes": "Cinergia programma “Odissea - 70mm” in Sala 1. Controlla comunque la dicitura del singolo spettacolo prima dell'acquisto.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
       { "label": "Cinergia: Odissea - 70mm", "url": "https://coneglianocinergia.18tickets.it/p/70mm" },
@@ -131,13 +161,20 @@
     "auditorium": "Sala 1 — IMAX",
     "odysseyFormat": "IMAX (non indicato come IMAX 70mm)",
     "editorialQuality": 9.3,
+    "audio": {
+      "system": "Sistema audio integrato IMAX",
+      "details": "IMAX dichiara posizionamento preciso dei diffusori e calibrazione quotidiana. La configurazione tecnica specifica di questa sala non è pubblicata.",
+      "score": 9,
+      "evidence": "formato"
+    },
     "formats": ["imax"],
     "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "Gli spettacoli IMAX di Odissea sono in Sala 1"],
     "notes": "Il cinema si trova ad Azzano San Paolo, non a Orio al Serio. Le fonti ufficiali non pubblicano tipo di proiettore, rapporto d'aspetto o dimensioni dello schermo.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
       { "label": "UCI: UCI Cinemas Orio | Bergamo", "url": "https://ucicinemas.it/cinema/uci-cinemas-orio-bergamo" },
-      { "label": "IMAX: Odissea a UCI Cinemas Orio", "url": "https://www.imax.com/theatre/uci-cinemas-orio-imax" }
+      { "label": "IMAX: Odissea a UCI Cinemas Orio", "url": "https://www.imax.com/theatre/uci-cinemas-orio-imax" },
+      { "label": "IMAX: sistema audio e calibrazione", "url": "https://www.imax.com/the-imax-experience" }
     ],
     "website": "https://ucicinemas.it/cinema/uci-cinemas-orio-bergamo",
     "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-orio-bergamo",
@@ -154,13 +191,20 @@
     "auditorium": "Sala IMAX",
     "odysseyFormat": "IMAX (non indicato come IMAX 70mm)",
     "editorialQuality": 8.8,
+    "audio": {
+      "system": "Sistema audio integrato IMAX",
+      "details": "IMAX dichiara posizionamento preciso dei diffusori e calibrazione quotidiana. La configurazione tecnica specifica di questa sala non è pubblicata.",
+      "score": 8.7,
+      "evidence": "formato"
+    },
     "formats": ["imax"],
     "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "La programmazione identifica l'ambiente come Sala IMAX"],
     "notes": "La programmazione usa la denominazione Sala IMAX senza un numero. Scegli esclusivamente un orario contrassegnato IMAX.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
       { "label": "UCI: UCI Cinemas Porta di Roma | Roma", "url": "https://ucicinemas.it/cinema/uci-cinemas-porta-di-roma-roma" },
-      { "label": "IMAX: Odissea a UCI Cinemas Porta di Roma", "url": "https://www.imax.com/theatre/uci-cinemas-porta-di-roma-imax" }
+      { "label": "IMAX: Odissea a UCI Cinemas Porta di Roma", "url": "https://www.imax.com/theatre/uci-cinemas-porta-di-roma-imax" },
+      { "label": "IMAX: sistema audio e calibrazione", "url": "https://www.imax.com/the-imax-experience" }
     ],
     "website": "https://ucicinemas.it/cinema/uci-cinemas-porta-di-roma-roma",
     "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-porta-di-roma-roma",
@@ -177,13 +221,20 @@
     "auditorium": "Sala IMAX",
     "odysseyFormat": "IMAX (non indicato come IMAX 70mm)",
     "editorialQuality": 8.8,
+    "audio": {
+      "system": "Sistema audio integrato IMAX",
+      "details": "IMAX dichiara posizionamento preciso dei diffusori e calibrazione quotidiana. La configurazione tecnica specifica di questa sala non è pubblicata.",
+      "score": 8.8,
+      "evidence": "formato"
+    },
     "formats": ["imax"],
     "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "La programmazione identifica l'ambiente come Sala IMAX"],
     "notes": "“Luxe” fa parte del nome del cinema, ma la scheda non attribuisce automaticamente Atmos o altri servizi al singolo spettacolo.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
       { "label": "UCI: UCI Luxe Campi Bisenzio", "url": "https://ucicinemas.it/cinema/uci-cinemas-campi-bisenzio-firenze" },
-      { "label": "IMAX: Odissea a UCI Luxe Campi Bisenzio", "url": "https://www.imax.com/theatre/uci-luxe-campi-bisenzio-imax" }
+      { "label": "IMAX: Odissea a UCI Luxe Campi Bisenzio", "url": "https://www.imax.com/theatre/uci-luxe-campi-bisenzio-imax" },
+      { "label": "IMAX: sistema audio e calibrazione", "url": "https://www.imax.com/the-imax-experience" }
     ],
     "website": "https://ucicinemas.it/cinema/uci-cinemas-campi-bisenzio-firenze",
     "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-campi-bisenzio-firenze",
@@ -200,13 +251,20 @@
     "auditorium": "Sala 1 IMAX",
     "odysseyFormat": "IMAX (non indicato come IMAX 70mm)",
     "editorialQuality": 8.7,
+    "audio": {
+      "system": "Sistema audio integrato IMAX",
+      "details": "IMAX dichiara posizionamento preciso dei diffusori e calibrazione quotidiana. La configurazione tecnica specifica di questa sala non è pubblicata.",
+      "score": 8.5,
+      "evidence": "formato"
+    },
     "formats": ["imax"],
     "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "Gli spettacoli IMAX di Odissea sono in Sala 1 IMAX"],
     "notes": "La sede ufficiale è nel comune di San Giovanni Lupatoto, non nel comune di Verona.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
       { "label": "UCI: UCI Cinemas Verona", "url": "https://ucicinemas.it/cinema/uci-cinemas-verona" },
-      { "label": "IMAX: Odissea a UCI Verona", "url": "https://www.imax.com/theatre/uci-verona-and-imax" }
+      { "label": "IMAX: Odissea a UCI Verona", "url": "https://www.imax.com/theatre/uci-verona-and-imax" },
+      { "label": "IMAX: sistema audio e calibrazione", "url": "https://www.imax.com/the-imax-experience" }
     ],
     "website": "https://ucicinemas.it/cinema/uci-cinemas-verona",
     "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-verona",
@@ -223,13 +281,20 @@
     "auditorium": "Sala 06 IMAX",
     "odysseyFormat": "IMAX (non indicato come IMAX 70mm)",
     "editorialQuality": 8.7,
+    "audio": {
+      "system": "Sistema audio integrato IMAX",
+      "details": "IMAX dichiara posizionamento preciso dei diffusori e calibrazione quotidiana. La configurazione tecnica specifica di questa sala non è pubblicata.",
+      "score": 8.6,
+      "evidence": "formato"
+    },
     "formats": ["imax"],
     "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "Gli spettacoli IMAX di Odissea sono in Sala 06 IMAX"],
     "notes": "“Luxe” fa parte del nome ufficiale del cinema; seleziona gli orari che riportano la dicitura IMAX.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
       { "label": "UCI: UCI Luxe Fiumara | Genova", "url": "https://ucicinemas.it/cinema/uci-cinemas-fiumara-genova" },
-      { "label": "IMAX: Odissea a UCI Luxe Fiumara", "url": "https://www.imax.com/theatre/uci-luxe-fiumara-genova-and-imax" }
+      { "label": "IMAX: Odissea a UCI Luxe Fiumara", "url": "https://www.imax.com/theatre/uci-luxe-fiumara-genova-and-imax" },
+      { "label": "IMAX: sistema audio e calibrazione", "url": "https://www.imax.com/the-imax-experience" }
     ],
     "website": "https://ucicinemas.it/cinema/uci-cinemas-fiumara-genova",
     "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-fiumara-genova",
@@ -246,13 +311,20 @@
     "auditorium": "Sala IMAX — Centro Sarca",
     "odysseyFormat": "IMAX (non indicato come IMAX 70mm)",
     "editorialQuality": 8.4,
+    "audio": {
+      "system": "Sistema audio IMAX",
+      "details": "Il cinema dichiara elevati standard audio e video per la sala IMAX; IMAX descrive un sistema integrato e calibrato ogni giorno. La configurazione specifica non è pubblicata.",
+      "score": 8.3,
+      "evidence": "formato"
+    },
     "formats": ["imax"],
     "specialties": ["Il cinema dispone di una sala IMAX", "La scheda ufficiale del film identifica Odissea come titolo IMAX", "Cinema al terzo piano del Centro Sarca"],
     "notes": "La pagina ufficiale identifica lo spettacolo come “Centro Sarca Sala IMAX”. Tipo di proiettore, rapporto d'aspetto e dimensioni dello schermo non sono pubblicati nelle fonti consultate.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
       { "label": "Notorious: scheda Odissea IMAX", "url": "https://www.notoriouscinemas.it/generic/scheda.php?id=48230" },
-      { "label": "Notorious: info cinema e Sala IMAX", "url": "https://www.notoriouscinemas.it/sestosangiovanni/infocinema.php" }
+      { "label": "Notorious: info cinema e Sala IMAX", "url": "https://www.notoriouscinemas.it/sestosangiovanni/infocinema.php" },
+      { "label": "IMAX: sistema audio e calibrazione", "url": "https://www.imax.com/the-imax-experience" }
     ],
     "website": "https://www.notoriouscinemas.it/sestosangiovanni/",
     "bookingUrl": "https://www.notoriouscinemas.it/generic/scheda.php?id=48230",
@@ -269,13 +341,20 @@
     "auditorium": "Sala IMAX",
     "odysseyFormat": "2D IMAX (non indicato come IMAX 70mm)",
     "editorialQuality": 8.5,
+    "audio": {
+      "system": "Sistema audio IMAX",
+      "details": "IMAX descrive un sistema audio integrato, con diffusori posizionati con precisione e calibrazione quotidiana. La configurazione specifica di questa sala non è pubblicata.",
+      "score": 8.4,
+      "evidence": "formato"
+    },
     "formats": ["imax"],
     "specialties": ["La programmazione distingue “Odissea - 2D IMAX” dagli spettacoli standard", "Gli orari corretti riportano esplicitamente la dicitura IMAX"],
     "notes": "Il sito e la biglietteria ufficiali attuali appartengono al circuito Andromeda. Seleziona “Odissea - 2D IMAX”, non la scheda standard “Odissea”.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
       { "label": "Happy Maxicinema: programmazione Odissea 2D IMAX", "url": "https://happy.andromeda.andromedacinema.it/" },
-      { "label": "IMAX: Happy Maxicinema Afragola", "url": "https://www.imax.com/theatre/happy-maxicinema-imax" }
+      { "label": "IMAX: Happy Maxicinema Afragola", "url": "https://www.imax.com/theatre/happy-maxicinema-imax" },
+      { "label": "IMAX: sistema audio e calibrazione", "url": "https://www.imax.com/the-imax-experience" }
     ],
     "website": "https://happy.andromeda.andromedacinema.it/",
     "bookingUrl": "https://andromeda.18tickets.it/film/61964",

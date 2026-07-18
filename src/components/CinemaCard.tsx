@@ -53,6 +53,16 @@ export function CinemaCard({
           <p className="font-mono text-[9px] uppercase tracking-wider text-dust">Sala Odissea</p>
           <p className="mt-1 text-sm font-semibold leading-snug text-ink">{cinema.auditorium}</p>
         </div>
+        <div className="mt-3 flex items-start justify-between gap-3 border-t border-ink/10 pt-3">
+          <div className="min-w-0">
+            <p className="font-mono text-[9px] uppercase tracking-wider text-dust">Audio</p>
+            <p className="mt-1 text-sm font-semibold leading-snug text-ink">{cinema.audio.system}</p>
+          </div>
+          <div className="shrink-0 border border-lamp/50 bg-lamp/10 px-2 py-1 text-center">
+            <span className="block font-display text-lg font-bold leading-none text-lamp-dim">{cinema.audio.score.toFixed(1)}</span>
+            <span className="font-mono text-[8px] uppercase text-dust">editoriale</span>
+          </div>
+        </div>
       </div>
     </button>
   )
