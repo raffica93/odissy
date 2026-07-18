@@ -11,7 +11,7 @@ export function GuidePage() {
     <div className="min-h-screen pb-8">
       <Seo
         title="Guida formati Odissea: IMAX, 70mm, Atmos in Italia"
-        description="Come scegliere IMAX digitale, pellicola 70mm, 35mm, Atmos e PLF per Odissea di Nolan. Gerarchia formati e FAQ."
+        description="Come riconoscere gli spettacoli IMAX e in pellicola 70mm verificati per Odissea di Nolan in Italia."
         path={"/guida-formati"}
         jsonLd={faqJsonLd()}
       />

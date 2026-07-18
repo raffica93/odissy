@@ -18,7 +18,7 @@ export function HomePage() {
       name: 'Dove vedere Odissea',
       url: 'https://dovevedereodissea.it/',
       description:
-        'Trova le migliori sale in Italia per Odissea di Christopher Nolan: IMAX, 70mm, Atmos.',
+        'Trova sale IMAX e 70mm verificate in Italia per Odissea di Christopher Nolan.',
       inLanguage: 'it-IT',
     },
     {
@@ -37,8 +37,8 @@ export function HomePage() {
   return (
     <div className="min-h-screen pb-8">
       <Seo
-        title="Dove vedere Odissea — IMAX, 70mm e le migliori sale in Italia"
-        description="Trova la sala migliore per Odissea di Christopher Nolan in Italia: IMAX digitale, pellicola 70mm, Atmos. Mappa, voti video/audio e guida formati."
+        title="Dove vedere Odissea — sale IMAX e 70mm verificate in Italia"
+        description="Trova le sale italiane verificate per Odissea di Christopher Nolan: IMAX e pellicola 70mm, con formato, sala e fonti ufficiali."
         path="/"
         jsonLd={jsonLd}
       />

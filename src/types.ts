@@ -1,5 +1,5 @@
 export type Format =
-  | 'imax_digital'
+  | 'imax'
   | 'film_70mm'
   | 'film_35mm'
   | 'laser_4k'
@@ -9,7 +9,10 @@ export type Format =
   | 'luxe'
   | 'digital_std'
 
-export type Tier = 'S' | 'A' | 'B' | 'C'
+export type OfficialSource = {
+  label: string
+  url: string
+}
 
 export type Cinema = {
   id: string
@@ -19,21 +22,17 @@ export type Cinema = {
   lat: number
   lon: number
   address?: string
+  auditorium: string
+  odysseyFormat: string
   formats: Format[]
-  videoScore: number
-  audioScore: number
-  overallScore: number
   specialties: string[]
   notes: string
+  verifiedAt: string
+  sources: OfficialSource[]
   bookingUrl?: string
   website?: string
-  /** Link recensioni (TripAdvisor o ricerca) */
-  tripadvisorUrl?: string
-  reviewUrl?: string
   mapsUrl?: string
-  tier: Tier
 }
-
 
 export type City = {
   name: string
@@ -42,7 +41,7 @@ export type City = {
   region: string
 }
 
-export type SortMode = 'experience' | 'distance' | 'quality'
+export type SortMode = 'format' | 'distance' | 'name'
 
 export type UserLocation = {
   lat: number
@@ -52,5 +51,4 @@ export type UserLocation = {
 
 export type RankedCinema = Cinema & {
   distanceKm: number | null
-  experienceScore: number
 }

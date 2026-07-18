@@ -13,18 +13,18 @@ const RUNGS = [
     rank: 2,
     code: '70mm',
     title: 'Pellicola 70mm',
-    status: 'Raro · top IT',
+    status: 'Verificato in Italia',
     tone: 'hot' as const,
-    blurb: 'Melzo, Napoli, Roma 4 Fontane, Bologna, Conegliano…',
+    blurb: 'Melzo, Napoli, Roma, Bologna e Conegliano.',
     to: '/70mm-italia',
   },
   {
     rank: 3,
     code: 'IMAX',
-    title: 'IMAX digitale',
-    status: 'Disponibile',
+    title: 'IMAX',
+    status: 'Verificato in Italia',
     tone: 'hot' as const,
-    blurb: 'Orio, Sesto, Campi, Roma, Verona, Genova, Afragola…',
+    blurb: 'Orio, Sesto, Campi Bisenzio, Roma, Verona, Genova e Afragola.',
     to: '/imax-italia',
   },
   {
@@ -76,7 +76,7 @@ export function FormatLadder() {
           Scaletta formati
         </h2>
         <p className="font-mono text-[10px] uppercase tracking-wider text-dust">
-          alto = meglio per Odissea
+          formati verificati
         </p>
       </div>
 
@@ -137,8 +137,8 @@ export function FormatLadder() {
         <span className="font-display text-[12px] tracking-[0.12em] text-lamp">
           Regola da forum Nolan ·{' '}
         </span>
-        tra le sale a ≤1,5 h prendi lo score più alto. Il multiplex comodo è il
-        nemico silenzioso del master.
+        scegli il formato e la sala indicati sul biglietto. Le fonti ufficiali
+        prevalgono sempre sui dati del sito.
       </p>
 
     </section>

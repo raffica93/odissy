@@ -35,7 +35,7 @@ export function CinemaExplorer({
   const [geoError, setGeoError] = useState<string | null>(null)
   const [activeFormats, setActiveFormats] = useState<Format[]>(initialFormats)
   const [radiusKm, setRadiusKm] = useState(initialRadiusKm)
-  const [sortMode, setSortMode] = useState<SortMode>('experience')
+  const [sortMode, setSortMode] = useState<SortMode>('format')
   const [selectedId, setSelectedId] = useState<string | null>(null)
 
   const requestGeo = useCallback(() => {
@@ -152,7 +152,7 @@ export function CinemaExplorer({
       </div>
 
       <p className="mt-3 px-4 font-mono text-[11px] text-dust">
-        {ranked.length} sale
+        {ranked.length} sale speciali verificate
         {location ? ` · da ${location.label}` : ''}
       </p>
 

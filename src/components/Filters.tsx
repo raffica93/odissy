@@ -2,7 +2,7 @@ import type { Format, SortMode } from '../types'
 import { FORMAT_LABELS } from '../lib/score'
 
 const FILTER_FORMATS: Format[] = [
-  'imax_digital',
+  'imax',
   'film_70mm',
   'film_35mm',
   'atmos',
@@ -79,9 +79,9 @@ export function Filters({
           onChange={(e) => onSort(e.target.value as SortMode)}
           className="min-h-10 border border-chalk/20 bg-booth px-2 font-mono text-xs text-chalk"
         >
-          <option value="experience">Esperienza + distanza</option>
+          <option value="format">Formato</option>
           <option value="distance">Solo distanza</option>
-          <option value="quality">Solo qualità</option>
+          <option value="name">Nome cinema</option>
         </select>
       </div>
     </section>

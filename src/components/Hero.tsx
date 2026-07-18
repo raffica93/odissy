@@ -29,7 +29,7 @@ export function Hero() {
             Trova la sala giusta per Odissea
           </h1>
           <p className="mt-2 max-w-md text-sm text-chalk/80">
-            In Italia non c&apos;è IMAX 70mm: confronta 70mm, IMAX digitale e
+            In Italia non c&apos;è IMAX 70mm: confronta 70mm, IMAX e
             Atmos vicino a te.
           </p>
 

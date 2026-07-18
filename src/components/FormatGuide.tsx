@@ -46,7 +46,8 @@ export function FormatGuide({ onBack }: { onBack?: () => void }) {
       <p className="mt-3 text-sm leading-relaxed text-dust">
         Chi segue Nolan da anni lo sa: lo “schermo grande” non è tutto uguale.
         Odissea è nata in IMAX film. In Italia non c&apos;è la proiezione IMAX
-        70mm. Scendi la scaletta solo se l&apos;opzione sopra non è raggiungibile.
+        70mm: qui trovi soltanto le presentazioni che le sale indicano
+        esplicitamente come IMAX o 70mm.
       </p>
 
       <FormatLadder />
@@ -56,11 +57,9 @@ export function FormatGuide({ onBack }: { onBack?: () => void }) {
           Il dilemma da bar dei cinefili
         </h2>
         <p className="mt-2 text-sm leading-relaxed text-ink/75">
-          Nord Italia, un&apos;ora di macchina:{' '}
-          <strong>Melzo 70mm + Atmos leggendario</strong> contro{' '}
-          <strong>Orio IMAX digitale</strong>. Uno privilegia grana e impianto,
-          l&apos;altro il campo IMAX. Nessuna delle due è “sbagliata” — sbagliato
-          è comprare il multiplex sotto casa per abitudine.
+          Confronta una proiezione 70mm e una IMAX leggendo formato, sala e
+          lingua del singolo spettacolo. Sono due presentazioni diverse e le
+          fonti non pubblicano sempre dati tecnici comparabili.
         </p>
         <div className="mt-3 flex flex-wrap gap-2">
           <Link

@@ -1,29 +1,10 @@
 import type { Cinema, Format, RankedCinema, SortMode } from '../types'
 import { haversineKm } from './geo'
 
-const FORMAT_BONUS: Partial<Record<Format, number>> = {
-  film_70mm: 28,
-  imax_digital: 25,
-  isense: 10,
-  screenx: 10,
-  film_35mm: 12,
-  atmos: 8,
-  laser_4k: 6,
-  luxe: 5,
-  digital_std: 0,
-}
-
-export function formatBonus(formats: Format[]): number {
-  return formats.reduce((sum, f) => sum + (FORMAT_BONUS[f] ?? 0), 0)
-}
-
-export function computeExperienceScore(
-  cinema: Cinema,
-  distanceKm: number | null,
-): number {
-  const base = cinema.overallScore * 10 + formatBonus(cinema.formats)
-  if (distanceKm == null) return base
-  return base - distanceKm * 0.35
+function formatGroup(cinema: Cinema): number {
+  if (cinema.formats.includes('film_70mm')) return 0
+  if (cinema.formats.includes('imax')) return 1
+  return 2
 }
 
 export function rankCinemas(
@@ -32,37 +13,30 @@ export function rankCinemas(
   userLon: number | null,
   sortMode: SortMode,
 ): RankedCinema[] {
-  const ranked: RankedCinema[] = cinemas.map((c) => {
-    const distanceKm =
+  const ranked = cinemas.map((cinema) => ({
+    ...cinema,
+    distanceKm:
       userLat != null && userLon != null
-        ? haversineKm(userLat, userLon, c.lat, c.lon)
-        : null
-    return {
-      ...c,
-      distanceKm,
-      experienceScore: computeExperienceScore(c, distanceKm),
-    }
-  })
+        ? haversineKm(userLat, userLon, cinema.lat, cinema.lon)
+        : null,
+  }))
 
   ranked.sort((a, b) => {
     if (sortMode === 'distance') {
-      if (a.distanceKm == null && b.distanceKm == null)
-        return b.overallScore - a.overallScore
+      if (a.distanceKm == null && b.distanceKm == null) return 0
       if (a.distanceKm == null) return 1
       if (b.distanceKm == null) return -1
       return a.distanceKm - b.distanceKm
     }
-    if (sortMode === 'quality') {
-      return b.overallScore - a.overallScore || b.experienceScore - a.experienceScore
-    }
-    return b.experienceScore - a.experienceScore
+    if (sortMode === 'name') return a.name.localeCompare(b.name, 'it')
+    return formatGroup(a) - formatGroup(b)
   })
 
   return ranked
 }
 
 export const FORMAT_LABELS: Record<Format, string> = {
-  imax_digital: 'IMAX',
+  imax: 'IMAX',
   film_70mm: '70mm',
   film_35mm: '35mm',
   laser_4k: 'Laser 4K',
@@ -73,9 +47,8 @@ export const FORMAT_LABELS: Record<Format, string> = {
   digital_std: 'Digitale',
 }
 
-/** Ticket-stub style format chips (ink on paper) */
 export const FORMAT_COLORS: Record<Format, string> = {
-  imax_digital: 'bg-ink text-ticket border-ink',
+  imax: 'bg-ink text-ticket border-ink',
   film_70mm: 'bg-lamp text-void border-lamp',
   film_35mm: 'bg-transparent text-ink border-ink/40',
   laser_4k: 'bg-tide/15 text-tide border-tide/40',
