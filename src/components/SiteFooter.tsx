@@ -27,6 +27,12 @@ export function SiteFooter() {
           formati
         </Link>
         <Link
+          to="/confronta-formati"
+          className="text-lamp underline decoration-lamp/30 underline-offset-2"
+        >
+          confronta trailer
+        </Link>
+        <Link
           to="/privacy"
           className="text-lamp underline decoration-lamp/30 underline-offset-2"
         >

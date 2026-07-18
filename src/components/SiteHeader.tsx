@@ -75,6 +75,16 @@ export function SiteHeader() {
           >
             Formati
           </NavLink>
+          <NavLink
+            to="/confronta-formati"
+            className={({ isActive }) =>
+              `min-h-8 shrink-0 px-2.5 py-1 font-display text-[12px] tracking-[0.12em] ${
+                isActive ? 'bg-lamp/15 text-lamp' : 'text-dust hover:text-chalk'
+              }`
+            }
+          >
+            Confronta
+          </NavLink>
         </nav>
       </div>
     </header>
