@@ -19,6 +19,12 @@ export function GuidePage() {
       <FormatGuide />
       <div className="mx-auto max-w-2xl px-4 -mt-4 mb-2">
         <Link
+          to="/confronta-formati"
+          className="mb-3 block border border-lamp/40 bg-lamp/10 px-3 py-3 font-display text-sm tracking-[0.08em] text-lamp hover:bg-lamp hover:text-void"
+        >
+          Guarda il trailer in tutti i formati →
+        </Link>
+        <Link
           to="/come-scegliere-sala-nolan"
           className="font-mono text-xs text-lamp underline"
         >
