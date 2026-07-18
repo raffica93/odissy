@@ -1,6 +1,7 @@
 import type { RankedCinema } from '../types'
 import { formatDistance } from '../lib/geo'
 import { FormatBadges } from './FormatBadges'
+import { LanguageBadges } from './LanguageBadges'
 
 export function CinemaCard({
   cinema,
@@ -52,6 +53,15 @@ export function CinemaCard({
         <div className="mt-3 border-t border-ink/10 pt-3">
           <p className="font-mono text-[9px] uppercase tracking-wider text-dust">Sala Odissea</p>
           <p className="mt-1 text-sm font-semibold leading-snug text-ink">{cinema.auditorium}</p>
+        </div>
+        <div className="mt-3 border-t border-ink/10 pt-3">
+          <div className="flex items-center justify-between gap-3">
+            <p className="font-mono text-[9px] uppercase tracking-wider text-dust">Lingua</p>
+            {cinema.languageOptions.length > 1 && (
+              <span className="font-mono text-[8px] uppercase text-dust">Spettacoli distinti</span>
+            )}
+          </div>
+          <div className="mt-1.5"><LanguageBadges options={cinema.languageOptions} /></div>
         </div>
         <div className="mt-3 flex items-start justify-between gap-3 border-t border-ink/10 pt-3">
           <div className="min-w-0">

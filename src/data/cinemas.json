@@ -8,7 +8,7 @@
     "lon": 9.419047,
     "address": "Via Martiri della Libertà, 20066 Melzo (MI)",
     "auditorium": "Sala ENERGIA PLF",
-    "odysseyFormat": "Pellicola 70mm (non IMAX) · versione originale",
+    "odysseyFormat": "Pellicola 70mm (non IMAX)",
     "editorialQuality": 9.7,
     "audio": {
       "system": "Dolby Atmos · Meyer Sound",
@@ -16,6 +16,8 @@
       "score": 9.8,
       "evidence": "sala"
     },
+    "languageOptions": ["ita", "en_sub_it"],
+    "languageNote": "Arcadia programma spettacoli distinti 70MM ENERGIA in italiano e 70MM ENERGIA ORIGINAL VERSION in inglese con sottotitoli italiani.",
     "formats": ["film_70mm"],
     "specialties": [
       "630 posti e schermo da 30 metri di base",
@@ -26,12 +28,13 @@
     "notes": "Gli spettacoli corretti sono indicati come “70MM ENERGIA”. Gli altri orari segnati soltanto come “2D” non sono la proiezione in pellicola 70mm.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
-      { "label": "Arcadia: Odissea in Sala Energia PLF 70mm", "url": "https://www.arcadiacinema.com/scheda/odissea-2026-original-version/47575/" },
+      { "label": "Arcadia: Odissea 70mm in italiano e versione originale", "url": "https://www.arcadiacinema.com/scheda/odissea-2026/47574/3364/" },
+      { "label": "Arcadia: Odissea 70mm original version", "url": "https://www.arcadiacinema.com/scheda/odissea-2026-original-version/47575/3364/" },
       { "label": "Arcadia: tecnologia Sala Energia PLF", "url": "https://www.arcadiacinema.com/content/tecnologia" },
       { "label": "Arcadia: posti e dimensione dello schermo", "url": "https://www.arcadiacinema.com/content/chi-siamo" }
     ],
     "website": "https://www.arcadiacinema.com/",
-    "bookingUrl": "https://www.arcadiacinema.com/scheda/odissea-2026-original-version/47575/",
+    "bookingUrl": "https://www.arcadiacinema.com/melzo/generic/landing.php",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Arcadia%20Cinema%20Melzo%20Via%20Martiri%20della%20Libert%C3%A0"
   },
   {
@@ -43,7 +46,7 @@
     "lon": 14.2401409,
     "address": "Via Chiaia, 149, 80132 Napoli",
     "auditorium": "Sala 70mm — 294 posti (numero non pubblicato)",
-    "odysseyFormat": "Pellicola 70mm (non IMAX) · italiano",
+    "odysseyFormat": "Pellicola 70mm (non IMAX)",
     "editorialQuality": 9.1,
     "audio": {
       "system": "DTS XD-10",
@@ -51,6 +54,8 @@
       "score": 8.6,
       "evidence": "sala"
     },
+    "languageOptions": ["ita", "en_sub_it"],
+    "languageNote": "Il Metropolitan propone spettacoli 70mm distinti in italiano e in versione originale inglese con sottotitoli italiani (V.O.S.).",
     "formats": ["film_70mm"],
     "specialties": ["Schermo Harkness di ultima generazione", "Proiettore meccanico Victoria 8 70mm", "Sistema a piatti semiautomatici", "Impianto audio DTS XD-10"],
     "notes": "Circuito Cinema conferma la sala da 294 posti, ma non ne pubblica il numero. Acquista lo spettacolo denominato “Odissea - 70mm”: nello stesso cinema sono presenti anche proiezioni digitali.",
@@ -72,7 +77,7 @@
     "lon": 12.4919985,
     "address": "Via delle Quattro Fontane, 23, 00184 Roma",
     "auditorium": "Sala 70mm — 145 posti (numero non pubblicato)",
-    "odysseyFormat": "Pellicola 70mm (non IMAX) · V.O. sottotitolata",
+    "odysseyFormat": "Pellicola 70mm (non IMAX)",
     "editorialQuality": 9,
     "audio": {
       "system": "DTS XD-10",
@@ -80,6 +85,8 @@
       "score": 8.5,
       "evidence": "sala"
     },
+    "languageOptions": ["ita", "en_sub_it"],
+    "languageNote": "Al 4Fontane gli spettacoli 70mm risultano in versione originale inglese con sottotitoli italiani; la versione doppiata è programmata separatamente in digitale.",
     "formats": ["film_70mm"],
     "specialties": ["Schermo Harkness di ultima generazione", "Proiettore meccanico Victoria 8 70mm", "Sistema a piatti semiautomatici", "Impianto audio DTS XD-10"],
     "notes": "Circuito Cinema conferma la sala da 145 posti senza pubblicarne il numero. Seleziona lo spettacolo denominato “Odissea - 70mm”.",
@@ -101,7 +108,7 @@
     "lon": 11.3347061,
     "address": "Piazzetta Pier Paolo Pasolini, ingresso via Azzo Gardino 65, Bologna",
     "auditorium": "Sala Mastroianni",
-    "odysseyFormat": "Pellicola 70mm · V.O. con sottotitoli italiani",
+    "odysseyFormat": "Pellicola 70mm",
     "editorialQuality": 8.9,
     "audio": {
       "system": "Impianto 7.1",
@@ -109,6 +116,8 @@
       "score": 8.2,
       "evidence": "sala"
     },
+    "languageOptions": ["en_sub_it"],
+    "languageNote": "Le repliche 70mm pubblicate dalla Cineteca sono in versione originale inglese con sottotitoli italiani.",
     "formats": ["film_70mm"],
     "specialties": ["Programmazione ufficiale in Sala Mastroianni", "Proiezione in pellicola 70mm", "Versione originale inglese con sottotitoli italiani"],
     "notes": "La Cineteca indica per ogni replica sia “Lumière | Sala Mastroianni” sia “Proiezione in 70mm”. Verifica la disponibilità: alcune repliche possono risultare esaurite.",
@@ -138,6 +147,8 @@
       "score": 8.7,
       "evidence": "sala"
     },
+    "languageOptions": ["ita"],
+    "languageNote": "La scheda ufficiale di Odissea 70mm indica la lingua italiana; non risulta una replica 70mm in versione originale.",
     "formats": ["film_70mm"],
     "specialties": ["Proiettore in pellicola 70mm inaugurato per l'uscita del film"],
     "notes": "Cinergia programma “Odissea - 70mm” in Sala 1. Controlla comunque la dicitura del singolo spettacolo prima dell'acquisto.",
@@ -167,6 +178,8 @@
       "score": 9,
       "evidence": "formato"
     },
+    "languageOptions": ["ita", "en_sub_it"],
+    "languageNote": "Sono presenti spettacoli distinti in italiano e in versione originale inglese con sottotitoli italiani. La V.O. IMAX può avere un numero limitato di orari.",
     "formats": ["imax"],
     "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "Gli spettacoli IMAX di Odissea sono in Sala 1"],
     "notes": "Il cinema si trova ad Azzano San Paolo, non a Orio al Serio. Le fonti ufficiali non pubblicano tipo di proiettore, rapporto d'aspetto o dimensioni dello schermo.",
@@ -197,6 +210,8 @@
       "score": 8.7,
       "evidence": "formato"
     },
+    "languageOptions": ["ita", "en_sub_it"],
+    "languageNote": "UCI Porta di Roma programma Odissea IMAX sia in italiano sia in versione originale inglese con sottotitoli italiani.",
     "formats": ["imax"],
     "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "La programmazione identifica l'ambiente come Sala IMAX"],
     "notes": "La programmazione usa la denominazione Sala IMAX senza un numero. Scegli esclusivamente un orario contrassegnato IMAX.",
@@ -227,6 +242,8 @@
       "score": 8.8,
       "evidence": "formato"
     },
+    "languageOptions": ["ita", "en_sub_it"],
+    "languageNote": "Il cinema propone spettacoli distinti in italiano e in versione originale inglese con sottotitoli italiani; verifica sul singolo orario se la V.O. è contrassegnata IMAX.",
     "formats": ["imax"],
     "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "La programmazione identifica l'ambiente come Sala IMAX"],
     "notes": "“Luxe” fa parte del nome del cinema, ma la scheda non attribuisce automaticamente Atmos o altri servizi al singolo spettacolo.",
@@ -257,6 +274,8 @@
       "score": 8.5,
       "evidence": "formato"
     },
+    "languageOptions": ["ita", "en_sub_it"],
+    "languageNote": "Il cinema propone spettacoli distinti in italiano e in versione originale inglese con sottotitoli italiani; verifica sul singolo orario se la V.O. è contrassegnata IMAX.",
     "formats": ["imax"],
     "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "Gli spettacoli IMAX di Odissea sono in Sala 1 IMAX"],
     "notes": "La sede ufficiale è nel comune di San Giovanni Lupatoto, non nel comune di Verona.",
@@ -287,6 +306,8 @@
       "score": 8.6,
       "evidence": "formato"
     },
+    "languageOptions": ["ita", "en_sub_it"],
+    "languageNote": "In Sala 06 risultano spettacoli IMAX distinti in italiano e in versione originale inglese con sottotitoli italiani.",
     "formats": ["imax"],
     "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "Gli spettacoli IMAX di Odissea sono in Sala 06 IMAX"],
     "notes": "“Luxe” fa parte del nome ufficiale del cinema; seleziona gli orari che riportano la dicitura IMAX.",
@@ -317,6 +338,8 @@
       "score": 8.3,
       "evidence": "formato"
     },
+    "languageOptions": ["ita", "en_sub_it"],
+    "languageNote": "Odissea è programmato in italiano e anche in versione originale inglese con sottotitoli italiani; la V.O. è uno spettacolo separato e non risulta contrassegnata IMAX.",
     "formats": ["imax"],
     "specialties": ["Il cinema dispone di una sala IMAX", "La scheda ufficiale del film identifica Odissea come titolo IMAX", "Cinema al terzo piano del Centro Sarca"],
     "notes": "La pagina ufficiale identifica lo spettacolo come “Centro Sarca Sala IMAX”. Tipo di proiettore, rapporto d'aspetto e dimensioni dello schermo non sono pubblicati nelle fonti consultate.",
@@ -347,6 +370,8 @@
       "score": 8.4,
       "evidence": "formato"
     },
+    "languageOptions": ["ita"],
+    "languageNote": "La programmazione ufficiale di Odissea 2D IMAX indica la lingua italiana; non risulta una replica IMAX in versione originale.",
     "formats": ["imax"],
     "specialties": ["La programmazione distingue “Odissea - 2D IMAX” dagli spettacoli standard", "Gli orari corretti riportano esplicitamente la dicitura IMAX"],
     "notes": "Il sito e la biglietteria ufficiali attuali appartengono al circuito Andromeda. Seleziona “Odissea - 2D IMAX”, non la scheda standard “Odissea”.",

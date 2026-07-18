@@ -34,7 +34,7 @@ export function SiteHeader() {
             </span>
           </Link>
           <NavLink
-            to="/come-scegliere-sala-nolan"
+            to="/confronta-formati"
             className={({ isActive }) =>
               `min-h-9 shrink-0 border px-2.5 py-1.5 font-mono text-[10px] font-semibold uppercase tracking-wider ${
                 isActive
@@ -43,7 +43,7 @@ export function SiteHeader() {
               }`
             }
           >
-            Manifesto
+            Confronta
           </NavLink>
         </div>
         <nav
@@ -76,14 +76,14 @@ export function SiteHeader() {
             Formati
           </NavLink>
           <NavLink
-            to="/confronta-formati"
+            to="/come-scegliere-sala-nolan"
             className={({ isActive }) =>
               `min-h-8 shrink-0 px-2.5 py-1 font-display text-[12px] tracking-[0.12em] ${
                 isActive ? 'bg-lamp/15 text-lamp' : 'text-dust hover:text-chalk'
               }`
             }
           >
-            Confronta
+            Manifesto
           </NavLink>
         </nav>
       </div>

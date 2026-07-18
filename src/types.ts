@@ -22,6 +22,8 @@ export type AudioProfile = {
   evidence: 'sala' | 'formato'
 }
 
+export type LanguageOption = 'ita' | 'en_sub_it'
+
 export type Cinema = {
   id: string
   name: string
@@ -35,6 +37,8 @@ export type Cinema = {
   /** Valutazione editoriale usata solo dall'ordinamento Qualità + km. */
   editorialQuality: number
   audio: AudioProfile
+  languageOptions: LanguageOption[]
+  languageNote: string
   formats: Format[]
   specialties: string[]
   notes: string

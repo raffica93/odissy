@@ -1,6 +1,7 @@
 import type { RankedCinema } from '../types'
 import { formatDistance, mapsDirectionsUrl } from '../lib/geo'
 import { FormatBadges } from './FormatBadges'
+import { LanguageBadges } from './LanguageBadges'
 import { AdSlot } from './AdSlot'
 import { FILM } from '../data/film'
 
@@ -76,7 +77,18 @@ export function CinemaDetail({ cinema, onClose }: { cinema: RankedCinema; onClos
             </div>
           </div>
 
-          <section className="mt-4 border-y border-ink/15 py-4" aria-labelledby="audio-title">
+          <section className="mt-4 border-y border-ink/15 py-4" aria-labelledby="language-title">
+            <div className="flex items-center justify-between gap-3">
+              <h3 id="language-title" className="font-mono text-[10px] font-semibold uppercase tracking-[0.16em] text-dust">Lingua degli spettacoli</h3>
+              {cinema.languageOptions.length > 1 && (
+                <span className="font-mono text-[9px] uppercase text-lamp-dim">Opzioni separate</span>
+              )}
+            </div>
+            <div className="mt-2"><LanguageBadges options={cinema.languageOptions} /></div>
+            <p className="mt-2 text-sm leading-relaxed text-ink/80">{cinema.languageNote}</p>
+          </section>
+
+          <section className="mt-4 border-b border-ink/15 pb-4" aria-labelledby="audio-title">
             <div className="flex items-start justify-between gap-4">
               <div className="min-w-0">
                 <h3 id="audio-title" className="font-mono text-[10px] font-semibold uppercase tracking-[0.16em] text-dust">Audio della sala</h3>
