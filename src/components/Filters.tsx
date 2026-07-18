@@ -79,7 +79,7 @@ export function Filters({
           onChange={(e) => onSort(e.target.value as SortMode)}
           className="min-h-10 border border-chalk/20 bg-booth px-2 font-mono text-xs text-chalk"
         >
-          <option value="format">Formato</option>
+          <option value="editorial">Qualità + km</option>
           <option value="distance">Solo distanza</option>
           <option value="name">Nome cinema</option>
         </select>

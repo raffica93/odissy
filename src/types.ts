@@ -24,6 +24,8 @@ export type Cinema = {
   address?: string
   auditorium: string
   odysseyFormat: string
+  /** Valutazione editoriale usata solo dall'ordinamento Qualità + km. */
+  editorialQuality: number
   formats: Format[]
   specialties: string[]
   notes: string
@@ -41,7 +43,7 @@ export type City = {
   region: string
 }
 
-export type SortMode = 'format' | 'distance' | 'name'
+export type SortMode = 'editorial' | 'distance' | 'name'
 
 export type UserLocation = {
   lat: number
@@ -51,4 +53,5 @@ export type UserLocation = {
 
 export type RankedCinema = Cinema & {
   distanceKm: number | null
+  editorialSortScore: number
 }

@@ -45,7 +45,7 @@ export function GeoPrompt({
           Da dove parti per la sala?
         </h2>
         <p className="mt-1 text-sm text-ink/70">
-          Ordiniamo per formato verificato, poi per distanza.
+          Ordiniamo per qualità editoriale e distanza.
         </p>
 
 
