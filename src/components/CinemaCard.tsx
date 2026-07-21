@@ -19,7 +19,7 @@ export function CinemaCard({
       className="ticket-surface group flex w-full overflow-hidden text-left shadow-[4px_4px_0_#00000022] transition hover:-translate-y-0.5 hover:shadow-[6px_6px_0_#ff6b2c44]"
     >
       <div className="sprocket w-4 shrink-0 bg-ink" aria-hidden title="Pellicola" />
-      <div className="min-w-0 flex-1 p-3.5 pl-3">
+      <div className="min-w-0 flex-1 p-3 pl-2.5">
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0">
             <div className="flex flex-wrap items-center gap-2">
@@ -42,28 +42,30 @@ export function CinemaCard({
               {cinema.city}<span className="text-ink/30"> · </span>{cinema.region}
             </p>
           </div>
+          <div className="max-w-[13rem] shrink-0 text-right">
+            <LanguageBadges options={cinema.languageOptions} compact />
+            {cinema.languageOptions.length > 1 && (
+              <span
+                className="mt-1 block font-mono text-[7px] uppercase tracking-wide text-dust"
+                title="Spettacoli distinti quando sono disponibili entrambe le versioni"
+              >
+                Spettacoli distinti
+              </span>
+            )}
+          </div>
         </div>
 
-        <div className="mt-3 flex flex-wrap items-center gap-2">
+        <div className="mt-2.5 flex flex-wrap items-center gap-2">
           <FormatBadges formats={cinema.formats} onTicket />
           <span className="font-mono text-[10px] font-semibold uppercase tracking-wider text-lamp-dim">
             {cinema.odysseyFormat}
           </span>
         </div>
-        <div className="mt-3 border-t border-ink/10 pt-3">
+        <div className="mt-2.5 border-t border-ink/10 pt-2.5">
           <p className="font-mono text-[9px] uppercase tracking-wider text-dust">Sala Odissea</p>
           <p className="mt-1 text-sm font-semibold leading-snug text-ink">{cinema.auditorium}</p>
         </div>
-        <div className="mt-3 border-t border-ink/10 pt-3">
-          <div className="flex items-center justify-between gap-3">
-            <p className="font-mono text-[9px] uppercase tracking-wider text-dust">Lingua</p>
-            {cinema.languageOptions.length > 1 && (
-              <span className="font-mono text-[8px] uppercase text-dust">Spettacoli distinti</span>
-            )}
-          </div>
-          <div className="mt-1.5"><LanguageBadges options={cinema.languageOptions} /></div>
-        </div>
-        <div className="mt-3 flex items-start justify-between gap-3 border-t border-ink/10 pt-3">
+        <div className="mt-2.5 flex items-start justify-between gap-3 border-t border-ink/10 pt-2.5">
           <div className="min-w-0">
             <p className="font-mono text-[9px] uppercase tracking-wider text-dust">Audio</p>
             <p className="mt-1 text-sm font-semibold leading-snug text-ink">{cinema.audio.system}</p>
