@@ -16,9 +16,14 @@
       "score": 9.8,
       "evidence": "sala"
     },
-    "languageOptions": ["ita", "en_sub_it"],
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
     "languageNote": "Arcadia programma spettacoli distinti 70MM ENERGIA in italiano e 70MM ENERGIA ORIGINAL VERSION in inglese con sottotitoli italiani.",
-    "formats": ["film_70mm"],
+    "formats": [
+      "film_70mm"
+    ],
     "specialties": [
       "630 posti e schermo da 30 metri di base",
       "Schermo Harkness Perlux",
@@ -28,10 +33,22 @@
     "notes": "Gli spettacoli corretti sono indicati come “70MM ENERGIA”. Gli altri orari segnati soltanto come “2D” non sono la proiezione in pellicola 70mm.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
-      { "label": "Arcadia: Odissea 70mm in italiano e versione originale", "url": "https://www.arcadiacinema.com/scheda/odissea-2026/47574/3364/" },
-      { "label": "Arcadia: Odissea 70mm original version", "url": "https://www.arcadiacinema.com/scheda/odissea-2026-original-version/47575/3364/" },
-      { "label": "Arcadia: tecnologia Sala Energia PLF", "url": "https://www.arcadiacinema.com/content/tecnologia" },
-      { "label": "Arcadia: posti e dimensione dello schermo", "url": "https://www.arcadiacinema.com/content/chi-siamo" }
+      {
+        "label": "Arcadia: Odissea 70mm in italiano e versione originale",
+        "url": "https://www.arcadiacinema.com/scheda/odissea-2026/47574/3364/"
+      },
+      {
+        "label": "Arcadia: Odissea 70mm original version",
+        "url": "https://www.arcadiacinema.com/scheda/odissea-2026-original-version/47575/3364/"
+      },
+      {
+        "label": "Arcadia: tecnologia Sala Energia PLF",
+        "url": "https://www.arcadiacinema.com/content/tecnologia"
+      },
+      {
+        "label": "Arcadia: posti e dimensione dello schermo",
+        "url": "https://www.arcadiacinema.com/content/chi-siamo"
+      }
     ],
     "website": "https://www.arcadiacinema.com/",
     "bookingUrl": "https://www.arcadiacinema.com/melzo/generic/landing.php",
@@ -54,15 +71,31 @@
       "score": 8.6,
       "evidence": "sala"
     },
-    "languageOptions": ["ita", "en_sub_it"],
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
     "languageNote": "Il Metropolitan propone spettacoli 70mm distinti in italiano e in versione originale inglese con sottotitoli italiani (V.O.S.).",
-    "formats": ["film_70mm"],
-    "specialties": ["Schermo Harkness di ultima generazione", "Proiettore meccanico Victoria 8 70mm", "Sistema a piatti semiautomatici", "Impianto audio DTS XD-10"],
+    "formats": [
+      "film_70mm"
+    ],
+    "specialties": [
+      "Schermo Harkness di ultima generazione",
+      "Proiettore meccanico Victoria 8 70mm",
+      "Sistema a piatti semiautomatici",
+      "Impianto audio DTS XD-10"
+    ],
     "notes": "Circuito Cinema conferma la sala da 294 posti, ma non ne pubblica il numero. Acquista lo spettacolo denominato “Odissea - 70mm”: nello stesso cinema sono presenti anche proiezioni digitali.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
-      { "label": "Circuito Cinema: Odissea 70mm e caratteristiche della sala", "url": "https://www.circuitocinema.com/p/odissea-70mm/" },
-      { "label": "Circuito Cinema: Metropolitan Napoli", "url": "https://www.circuitocinema.com/cinema/metropolitan/" }
+      {
+        "label": "Circuito Cinema: Odissea 70mm e caratteristiche della sala",
+        "url": "https://www.circuitocinema.com/p/odissea-70mm/"
+      },
+      {
+        "label": "Circuito Cinema: Metropolitan Napoli",
+        "url": "https://www.circuitocinema.com/cinema/metropolitan/"
+      }
     ],
     "website": "https://www.circuitocinema.com/cinema/metropolitan/",
     "bookingUrl": "https://www.circuitocinema.com/film/odissea-70mm",
@@ -85,15 +118,31 @@
       "score": 8.5,
       "evidence": "sala"
     },
-    "languageOptions": ["ita", "en_sub_it"],
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
     "languageNote": "Al 4Fontane gli spettacoli 70mm risultano in versione originale inglese con sottotitoli italiani; la versione doppiata è programmata separatamente in digitale.",
-    "formats": ["film_70mm"],
-    "specialties": ["Schermo Harkness di ultima generazione", "Proiettore meccanico Victoria 8 70mm", "Sistema a piatti semiautomatici", "Impianto audio DTS XD-10"],
+    "formats": [
+      "film_70mm"
+    ],
+    "specialties": [
+      "Schermo Harkness di ultima generazione",
+      "Proiettore meccanico Victoria 8 70mm",
+      "Sistema a piatti semiautomatici",
+      "Impianto audio DTS XD-10"
+    ],
     "notes": "Circuito Cinema conferma la sala da 145 posti senza pubblicarne il numero. Seleziona lo spettacolo denominato “Odissea - 70mm”.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
-      { "label": "Circuito Cinema: Odissea 70mm e caratteristiche della sala", "url": "https://www.circuitocinema.com/p/odissea-70mm/" },
-      { "label": "Circuito Cinema: 4Fontane", "url": "https://www.circuitocinema.com/cinema/quattro-fontane/" }
+      {
+        "label": "Circuito Cinema: Odissea 70mm e caratteristiche della sala",
+        "url": "https://www.circuitocinema.com/p/odissea-70mm/"
+      },
+      {
+        "label": "Circuito Cinema: 4Fontane",
+        "url": "https://www.circuitocinema.com/cinema/quattro-fontane/"
+      }
     ],
     "website": "https://www.circuitocinema.com/cinema/quattro-fontane/",
     "bookingUrl": "https://www.circuitocinema.com/film/odissea-70mm",
@@ -116,15 +165,29 @@
       "score": 8.2,
       "evidence": "sala"
     },
-    "languageOptions": ["en_sub_it"],
+    "languageOptions": [
+      "en_sub_it"
+    ],
     "languageNote": "Le repliche 70mm pubblicate dalla Cineteca sono in versione originale inglese con sottotitoli italiani.",
-    "formats": ["film_70mm"],
-    "specialties": ["Programmazione ufficiale in Sala Mastroianni", "Proiezione in pellicola 70mm", "Versione originale inglese con sottotitoli italiani"],
+    "formats": [
+      "film_70mm"
+    ],
+    "specialties": [
+      "Programmazione ufficiale in Sala Mastroianni",
+      "Proiezione in pellicola 70mm",
+      "Versione originale inglese con sottotitoli italiani"
+    ],
     "notes": "La Cineteca indica per ogni replica sia “Lumière | Sala Mastroianni” sia “Proiezione in 70mm”. Verifica la disponibilità: alcune repliche possono risultare esaurite.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
-      { "label": "Cineteca di Bologna: programmazione Odissea 70mm", "url": "https://cinetecadibologna.it/programmazione/proiezione/odissea/" },
-      { "label": "Cineteca di Bologna: Sala Mastroianni", "url": "https://cinetecadibologna.it/luogo/cinema-lumiere/sala-mastroianni/" }
+      {
+        "label": "Cineteca di Bologna: programmazione Odissea 70mm",
+        "url": "https://cinetecadibologna.it/programmazione/proiezione/odissea/"
+      },
+      {
+        "label": "Cineteca di Bologna: Sala Mastroianni",
+        "url": "https://cinetecadibologna.it/luogo/cinema-lumiere/sala-mastroianni/"
+      }
     ],
     "website": "https://cinetecadibologna.it/luogo/cinema-lumiere/sala-mastroianni/",
     "bookingUrl": "https://cinetecadibologna.it/programmazione/proiezione/odissea/",
@@ -147,15 +210,27 @@
       "score": 8.7,
       "evidence": "sala"
     },
-    "languageOptions": ["ita"],
+    "languageOptions": [
+      "ita"
+    ],
     "languageNote": "La scheda ufficiale di Odissea 70mm indica la lingua italiana; non risulta una replica 70mm in versione originale.",
-    "formats": ["film_70mm"],
-    "specialties": ["Proiettore in pellicola 70mm inaugurato per l'uscita del film"],
+    "formats": [
+      "film_70mm"
+    ],
+    "specialties": [
+      "Proiettore in pellicola 70mm inaugurato per l'uscita del film"
+    ],
     "notes": "Cinergia programma “Odissea - 70mm” in Sala 1. Controlla comunque la dicitura del singolo spettacolo prima dell'acquisto.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
-      { "label": "Cinergia: Odissea - 70mm", "url": "https://coneglianocinergia.18tickets.it/p/70mm" },
-      { "label": "Cinergia: biglietteria Odissea - 70mm", "url": "https://coneglianocinergia.18tickets.it/film/71057/a6e354ac-bd2b-49e5-b2f4-5bab39743b4c" }
+      {
+        "label": "Cinergia: Odissea - 70mm",
+        "url": "https://coneglianocinergia.18tickets.it/p/70mm"
+      },
+      {
+        "label": "Cinergia: biglietteria Odissea - 70mm",
+        "url": "https://coneglianocinergia.18tickets.it/film/71057/a6e354ac-bd2b-49e5-b2f4-5bab39743b4c"
+      }
     ],
     "website": "https://www.cinergia.it/",
     "bookingUrl": "https://coneglianocinergia.18tickets.it/p/70mm",
@@ -178,16 +253,33 @@
       "score": 9,
       "evidence": "formato"
     },
-    "languageOptions": ["ita", "en_sub_it"],
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
     "languageNote": "Sono presenti spettacoli distinti in italiano e in versione originale inglese con sottotitoli italiani. La V.O. IMAX può avere un numero limitato di orari.",
-    "formats": ["imax"],
-    "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "Gli spettacoli IMAX di Odissea sono in Sala 1"],
+    "formats": [
+      "imax"
+    ],
+    "specialties": [
+      "Odissea è presente nella programmazione ufficiale IMAX",
+      "Gli spettacoli IMAX di Odissea sono in Sala 1"
+    ],
     "notes": "Il cinema si trova ad Azzano San Paolo, non a Orio al Serio. Le fonti ufficiali non pubblicano tipo di proiettore, rapporto d'aspetto o dimensioni dello schermo.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
-      { "label": "UCI: UCI Cinemas Orio | Bergamo", "url": "https://ucicinemas.it/cinema/uci-cinemas-orio-bergamo" },
-      { "label": "IMAX: Odissea a UCI Cinemas Orio", "url": "https://www.imax.com/theatre/uci-cinemas-orio-imax" },
-      { "label": "IMAX: sistema audio e calibrazione", "url": "https://www.imax.com/the-imax-experience" }
+      {
+        "label": "UCI: UCI Cinemas Orio | Bergamo",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-orio-bergamo"
+      },
+      {
+        "label": "IMAX: Odissea a UCI Cinemas Orio",
+        "url": "https://www.imax.com/theatre/uci-cinemas-orio-imax"
+      },
+      {
+        "label": "IMAX: sistema audio e calibrazione",
+        "url": "https://www.imax.com/the-imax-experience"
+      }
     ],
     "website": "https://ucicinemas.it/cinema/uci-cinemas-orio-bergamo",
     "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-orio-bergamo",
@@ -210,16 +302,33 @@
       "score": 8.7,
       "evidence": "formato"
     },
-    "languageOptions": ["ita", "en_sub_it"],
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
     "languageNote": "UCI Porta di Roma programma Odissea IMAX sia in italiano sia in versione originale inglese con sottotitoli italiani.",
-    "formats": ["imax"],
-    "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "La programmazione identifica l'ambiente come Sala IMAX"],
+    "formats": [
+      "imax"
+    ],
+    "specialties": [
+      "Odissea è presente nella programmazione ufficiale IMAX",
+      "La programmazione identifica l'ambiente come Sala IMAX"
+    ],
     "notes": "La programmazione usa la denominazione Sala IMAX senza un numero. Scegli esclusivamente un orario contrassegnato IMAX.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
-      { "label": "UCI: UCI Cinemas Porta di Roma | Roma", "url": "https://ucicinemas.it/cinema/uci-cinemas-porta-di-roma-roma" },
-      { "label": "IMAX: Odissea a UCI Cinemas Porta di Roma", "url": "https://www.imax.com/theatre/uci-cinemas-porta-di-roma-imax" },
-      { "label": "IMAX: sistema audio e calibrazione", "url": "https://www.imax.com/the-imax-experience" }
+      {
+        "label": "UCI: UCI Cinemas Porta di Roma | Roma",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-porta-di-roma-roma"
+      },
+      {
+        "label": "IMAX: Odissea a UCI Cinemas Porta di Roma",
+        "url": "https://www.imax.com/theatre/uci-cinemas-porta-di-roma-imax"
+      },
+      {
+        "label": "IMAX: sistema audio e calibrazione",
+        "url": "https://www.imax.com/the-imax-experience"
+      }
     ],
     "website": "https://ucicinemas.it/cinema/uci-cinemas-porta-di-roma-roma",
     "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-porta-di-roma-roma",
@@ -242,16 +351,33 @@
       "score": 8.8,
       "evidence": "formato"
     },
-    "languageOptions": ["ita", "en_sub_it"],
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
     "languageNote": "Il cinema propone spettacoli distinti in italiano e in versione originale inglese con sottotitoli italiani; verifica sul singolo orario se la V.O. è contrassegnata IMAX.",
-    "formats": ["imax"],
-    "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "La programmazione identifica l'ambiente come Sala IMAX"],
+    "formats": [
+      "imax"
+    ],
+    "specialties": [
+      "Odissea è presente nella programmazione ufficiale IMAX",
+      "La programmazione identifica l'ambiente come Sala IMAX"
+    ],
     "notes": "“Luxe” fa parte del nome del cinema, ma la scheda non attribuisce automaticamente Atmos o altri servizi al singolo spettacolo.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
-      { "label": "UCI: UCI Luxe Campi Bisenzio", "url": "https://ucicinemas.it/cinema/uci-cinemas-campi-bisenzio-firenze" },
-      { "label": "IMAX: Odissea a UCI Luxe Campi Bisenzio", "url": "https://www.imax.com/theatre/uci-luxe-campi-bisenzio-imax" },
-      { "label": "IMAX: sistema audio e calibrazione", "url": "https://www.imax.com/the-imax-experience" }
+      {
+        "label": "UCI: UCI Luxe Campi Bisenzio",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-campi-bisenzio-firenze"
+      },
+      {
+        "label": "IMAX: Odissea a UCI Luxe Campi Bisenzio",
+        "url": "https://www.imax.com/theatre/uci-luxe-campi-bisenzio-imax"
+      },
+      {
+        "label": "IMAX: sistema audio e calibrazione",
+        "url": "https://www.imax.com/the-imax-experience"
+      }
     ],
     "website": "https://ucicinemas.it/cinema/uci-cinemas-campi-bisenzio-firenze",
     "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-campi-bisenzio-firenze",
@@ -274,16 +400,33 @@
       "score": 8.5,
       "evidence": "formato"
     },
-    "languageOptions": ["ita", "en_sub_it"],
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
     "languageNote": "Il cinema propone spettacoli distinti in italiano e in versione originale inglese con sottotitoli italiani; verifica sul singolo orario se la V.O. è contrassegnata IMAX.",
-    "formats": ["imax"],
-    "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "Gli spettacoli IMAX di Odissea sono in Sala 1 IMAX"],
+    "formats": [
+      "imax"
+    ],
+    "specialties": [
+      "Odissea è presente nella programmazione ufficiale IMAX",
+      "Gli spettacoli IMAX di Odissea sono in Sala 1 IMAX"
+    ],
     "notes": "La sede ufficiale è nel comune di San Giovanni Lupatoto, non nel comune di Verona.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
-      { "label": "UCI: UCI Cinemas Verona", "url": "https://ucicinemas.it/cinema/uci-cinemas-verona" },
-      { "label": "IMAX: Odissea a UCI Verona", "url": "https://www.imax.com/theatre/uci-verona-and-imax" },
-      { "label": "IMAX: sistema audio e calibrazione", "url": "https://www.imax.com/the-imax-experience" }
+      {
+        "label": "UCI: UCI Cinemas Verona",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-verona"
+      },
+      {
+        "label": "IMAX: Odissea a UCI Verona",
+        "url": "https://www.imax.com/theatre/uci-verona-and-imax"
+      },
+      {
+        "label": "IMAX: sistema audio e calibrazione",
+        "url": "https://www.imax.com/the-imax-experience"
+      }
     ],
     "website": "https://ucicinemas.it/cinema/uci-cinemas-verona",
     "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-verona",
@@ -306,16 +449,33 @@
       "score": 8.6,
       "evidence": "formato"
     },
-    "languageOptions": ["ita", "en_sub_it"],
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
     "languageNote": "In Sala 06 risultano spettacoli IMAX distinti in italiano e in versione originale inglese con sottotitoli italiani.",
-    "formats": ["imax"],
-    "specialties": ["Odissea è presente nella programmazione ufficiale IMAX", "Gli spettacoli IMAX di Odissea sono in Sala 06 IMAX"],
+    "formats": [
+      "imax"
+    ],
+    "specialties": [
+      "Odissea è presente nella programmazione ufficiale IMAX",
+      "Gli spettacoli IMAX di Odissea sono in Sala 06 IMAX"
+    ],
     "notes": "“Luxe” fa parte del nome ufficiale del cinema; seleziona gli orari che riportano la dicitura IMAX.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
-      { "label": "UCI: UCI Luxe Fiumara | Genova", "url": "https://ucicinemas.it/cinema/uci-cinemas-fiumara-genova" },
-      { "label": "IMAX: Odissea a UCI Luxe Fiumara", "url": "https://www.imax.com/theatre/uci-luxe-fiumara-genova-and-imax" },
-      { "label": "IMAX: sistema audio e calibrazione", "url": "https://www.imax.com/the-imax-experience" }
+      {
+        "label": "UCI: UCI Luxe Fiumara | Genova",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-fiumara-genova"
+      },
+      {
+        "label": "IMAX: Odissea a UCI Luxe Fiumara",
+        "url": "https://www.imax.com/theatre/uci-luxe-fiumara-genova-and-imax"
+      },
+      {
+        "label": "IMAX: sistema audio e calibrazione",
+        "url": "https://www.imax.com/the-imax-experience"
+      }
     ],
     "website": "https://ucicinemas.it/cinema/uci-cinemas-fiumara-genova",
     "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-fiumara-genova",
@@ -338,16 +498,34 @@
       "score": 8.3,
       "evidence": "formato"
     },
-    "languageOptions": ["ita", "en_sub_it"],
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
     "languageNote": "Odissea è programmato in italiano e anche in versione originale inglese con sottotitoli italiani; la V.O. è uno spettacolo separato e non risulta contrassegnata IMAX.",
-    "formats": ["imax"],
-    "specialties": ["Il cinema dispone di una sala IMAX", "La scheda ufficiale del film identifica Odissea come titolo IMAX", "Cinema al terzo piano del Centro Sarca"],
+    "formats": [
+      "imax"
+    ],
+    "specialties": [
+      "Il cinema dispone di una sala IMAX",
+      "La scheda ufficiale del film identifica Odissea come titolo IMAX",
+      "Cinema al terzo piano del Centro Sarca"
+    ],
     "notes": "La pagina ufficiale identifica lo spettacolo come “Centro Sarca Sala IMAX”. Tipo di proiettore, rapporto d'aspetto e dimensioni dello schermo non sono pubblicati nelle fonti consultate.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
-      { "label": "Notorious: scheda Odissea IMAX", "url": "https://www.notoriouscinemas.it/generic/scheda.php?id=48230" },
-      { "label": "Notorious: info cinema e Sala IMAX", "url": "https://www.notoriouscinemas.it/sestosangiovanni/infocinema.php" },
-      { "label": "IMAX: sistema audio e calibrazione", "url": "https://www.imax.com/the-imax-experience" }
+      {
+        "label": "Notorious: scheda Odissea IMAX",
+        "url": "https://www.notoriouscinemas.it/generic/scheda.php?id=48230"
+      },
+      {
+        "label": "Notorious: info cinema e Sala IMAX",
+        "url": "https://www.notoriouscinemas.it/sestosangiovanni/infocinema.php"
+      },
+      {
+        "label": "IMAX: sistema audio e calibrazione",
+        "url": "https://www.imax.com/the-imax-experience"
+      }
     ],
     "website": "https://www.notoriouscinemas.it/sestosangiovanni/",
     "bookingUrl": "https://www.notoriouscinemas.it/generic/scheda.php?id=48230",
@@ -370,19 +548,2171 @@
       "score": 8.4,
       "evidence": "formato"
     },
-    "languageOptions": ["ita"],
+    "languageOptions": [
+      "ita"
+    ],
     "languageNote": "La programmazione ufficiale di Odissea 2D IMAX indica la lingua italiana; non risulta una replica IMAX in versione originale.",
-    "formats": ["imax"],
-    "specialties": ["La programmazione distingue “Odissea - 2D IMAX” dagli spettacoli standard", "Gli orari corretti riportano esplicitamente la dicitura IMAX"],
+    "formats": [
+      "imax"
+    ],
+    "specialties": [
+      "La programmazione distingue “Odissea - 2D IMAX” dagli spettacoli standard",
+      "Gli orari corretti riportano esplicitamente la dicitura IMAX"
+    ],
     "notes": "Il sito e la biglietteria ufficiali attuali appartengono al circuito Andromeda. Seleziona “Odissea - 2D IMAX”, non la scheda standard “Odissea”.",
     "verifiedAt": "18 luglio 2026",
     "sources": [
-      { "label": "Happy Maxicinema: programmazione Odissea 2D IMAX", "url": "https://happy.andromeda.andromedacinema.it/" },
-      { "label": "IMAX: Happy Maxicinema Afragola", "url": "https://www.imax.com/theatre/happy-maxicinema-imax" },
-      { "label": "IMAX: sistema audio e calibrazione", "url": "https://www.imax.com/the-imax-experience" }
+      {
+        "label": "Happy Maxicinema: programmazione Odissea 2D IMAX",
+        "url": "https://happy.andromeda.andromedacinema.it/"
+      },
+      {
+        "label": "IMAX: Happy Maxicinema Afragola",
+        "url": "https://www.imax.com/theatre/happy-maxicinema-imax"
+      },
+      {
+        "label": "IMAX: sistema audio e calibrazione",
+        "url": "https://www.imax.com/the-imax-experience"
+      }
     ],
     "website": "https://happy.andromeda.andromedacinema.it/",
     "bookingUrl": "https://andromeda.18tickets.it/film/61964",
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Happy%20Maxicinema%20Via%20Santa%20Maria%20La%20Nova%201%20Afragola"
+  },
+  {
+    "id": "uci-casoria",
+    "name": "UCI Cinemas Casoria | Napoli",
+    "city": "Casoria",
+    "region": "Campania",
+    "lat": 40.8975727,
+    "lon": 14.3152994,
+    "address": "Via San Salvatore, Circumvallazione Esterna, Casoria (NA)",
+    "auditorium": "Sala iSense",
+    "odysseyFormat": "iSense (4K laser · Dolby Atmos)",
+    "editorialQuality": 7.7,
+    "audio": {
+      "system": "Dolby Atmos (iSense)",
+      "details": "UCI descrive le sale iSense con proiettore 4K laser e audio Dolby Atmos. La configurazione specifica di questa sala non è pubblicata.",
+      "score": 7.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "UCI propone di norma spettacoli distinti in italiano e in V.O. sottotitolata; verifica se l’orario iSense è contrassegnato V.O.",
+    "formats": [
+      "isense",
+      "atmos",
+      "laser_4k"
+    ],
+    "specialties": [
+      "Formato iSense dichiarato sul sito UCI",
+      "Odissea in programmazione ufficiale UCI Casoria"
+    ],
+    "notes": "Seleziona soltanto gli orari contrassegnati iSense. Le proiezioni XL o 2D nello stesso complesso non equivalgono alla sala iSense.",
+    "sources": [
+      {
+        "label": "UCI: Casoria | Napoli",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-casoria-napoli"
+      },
+      {
+        "label": "UCI: esperienza iSense",
+        "url": "https://ucicinemas.it/esperienze/premium/isense"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-casoria-napoli",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-casoria-napoli",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Casoria%20%7C%20Napoli%20Via%20San%20Salvatore%2C%20Circumvallazione%20Esterna%2C%20Casoria%20(NA)"
+  },
+  {
+    "id": "uci-catania",
+    "name": "UCI Cinemas Catania",
+    "city": "Misterbianco",
+    "region": "Sicilia",
+    "lat": 37.4767257,
+    "lon": 15.0125995,
+    "address": "Centro Sicilia, Misterbianco (CT)",
+    "auditorium": "Sala iSense",
+    "odysseyFormat": "iSense (4K laser · Dolby Atmos)",
+    "editorialQuality": 7.6,
+    "audio": {
+      "system": "Dolby Atmos (iSense)",
+      "details": "UCI descrive le sale iSense con proiettore 4K laser e audio Dolby Atmos. La configurazione specifica di questa sala non è pubblicata.",
+      "score": 7.8,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica sulla biglietteria UCI se sono disponibili orari iSense in versione originale.",
+    "formats": [
+      "isense",
+      "atmos",
+      "laser_4k"
+    ],
+    "specialties": [
+      "Formato iSense dichiarato sul sito UCI",
+      "Odissea in programmazione ufficiale UCI Catania"
+    ],
+    "notes": "Il cinema è a Misterbianco (Centro Sicilia), non nel comune di Catania. Seleziona gli orari iSense.",
+    "sources": [
+      {
+        "label": "UCI: Catania",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-catania"
+      },
+      {
+        "label": "UCI: esperienza iSense",
+        "url": "https://ucicinemas.it/esperienze/premium/isense"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-catania",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-catania",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Catania%20Centro%20Sicilia%2C%20Misterbianco%20(CT)"
+  },
+  {
+    "id": "uci-lissone",
+    "name": "UCI Cinemas Lissone | Milano",
+    "city": "Lissone",
+    "region": "Lombardia",
+    "lat": 45.6338327,
+    "lon": 9.2238369,
+    "address": "Via Madre Teresa, S.S. Valassina, Lissone (MB)",
+    "auditorium": "Sala iSense",
+    "odysseyFormat": "iSense (4K laser · Dolby Atmos)",
+    "editorialQuality": 7.7,
+    "audio": {
+      "system": "Dolby Atmos (iSense)",
+      "details": "UCI descrive le sale iSense con proiettore 4K laser e audio Dolby Atmos. La configurazione specifica di questa sala non è pubblicata.",
+      "score": 7.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "UCI propone di norma spettacoli distinti in italiano e in V.O. sottotitolata; verifica se l’orario iSense è contrassegnato V.O.",
+    "formats": [
+      "isense",
+      "atmos",
+      "laser_4k"
+    ],
+    "specialties": [
+      "Formato iSense dichiarato sul sito UCI",
+      "Odissea in programmazione ufficiale UCI Lissone"
+    ],
+    "notes": "Seleziona soltanto gli orari contrassegnati iSense. Gli orari XL/2D non sono la sala iSense.",
+    "sources": [
+      {
+        "label": "UCI: Lissone | Milano",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-lissone-milano"
+      },
+      {
+        "label": "UCI: esperienza iSense",
+        "url": "https://ucicinemas.it/esperienze/premium/isense"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-lissone-milano",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-lissone-milano",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Lissone%20%7C%20Milano%20Via%20Madre%20Teresa%2C%20S.S.%20Valassina%2C%20Lissone%20(MB)"
+  },
+  {
+    "id": "uci-parco-leonardo",
+    "name": "UCI Cinemas Parco Leonardo | Roma",
+    "city": "Fiumicino",
+    "region": "Lazio",
+    "lat": 41.7982846,
+    "lon": 12.2952591,
+    "address": "Parco Leonardo, Fiumicino (RM)",
+    "auditorium": "Sala iSense",
+    "odysseyFormat": "iSense (4K laser · Dolby Atmos)",
+    "editorialQuality": 7.6,
+    "audio": {
+      "system": "Dolby Atmos (iSense)",
+      "details": "UCI descrive le sale iSense con proiettore 4K laser e audio Dolby Atmos. La configurazione specifica di questa sala non è pubblicata.",
+      "score": 7.8,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica sulla biglietteria se l’orario iSense è in italiano o in V.O. sottotitolata.",
+    "formats": [
+      "isense",
+      "atmos",
+      "laser_4k"
+    ],
+    "specialties": [
+      "Formato iSense dichiarato sul sito UCI",
+      "Odissea in programmazione ufficiale UCI Parco Leonardo"
+    ],
+    "notes": "Il cinema è a Fiumicino (Parco Leonardo). Seleziona esclusivamente gli orari iSense per Odissea.",
+    "sources": [
+      {
+        "label": "UCI: Parco Leonardo | Roma",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-parco-leonardo-roma"
+      },
+      {
+        "label": "UCI: esperienza iSense",
+        "url": "https://ucicinemas.it/esperienze/premium/isense"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-parco-leonardo-roma",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-parco-leonardo-roma",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Parco%20Leonardo%20%7C%20Roma%20Parco%20Leonardo%2C%20Fiumicino%20(RM)"
+  },
+  {
+    "id": "uci-roma-est",
+    "name": "UCI Cinemas Roma Est | Roma",
+    "city": "Roma",
+    "region": "Lazio",
+    "lat": 41.9155,
+    "lon": 12.6508,
+    "address": "Via Collatina, Roma Est / Lunghezza",
+    "auditorium": "Sala iSense",
+    "odysseyFormat": "iSense (4K laser · Dolby Atmos)",
+    "editorialQuality": 7.6,
+    "audio": {
+      "system": "Dolby Atmos (iSense)",
+      "details": "UCI descrive le sale iSense con proiettore 4K laser e audio Dolby Atmos. La configurazione specifica di questa sala non è pubblicata.",
+      "score": 7.8,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica sulla biglietteria se l’orario iSense è in italiano o in V.O. sottotitolata.",
+    "formats": [
+      "isense",
+      "atmos",
+      "laser_4k"
+    ],
+    "specialties": [
+      "Formato iSense dichiarato sul sito UCI",
+      "Odissea in programmazione ufficiale UCI Roma Est"
+    ],
+    "notes": "Seleziona soltanto gli orari contrassegnati iSense; XL e 2D non sono equivalenti.",
+    "sources": [
+      {
+        "label": "UCI: Roma Est | Roma",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-romaest-roma"
+      },
+      {
+        "label": "UCI: esperienza iSense",
+        "url": "https://ucicinemas.it/esperienze/premium/isense"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-romaest-roma",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-romaest-roma",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Roma%20Est%20%7C%20Roma%20Via%20Collatina%2C%20Roma%20Est%20%2F%20Lunghezza"
+  },
+  {
+    "id": "uci-luxe-maximo",
+    "name": "UCI Luxe Maximo | Roma",
+    "city": "Roma",
+    "region": "Lazio",
+    "lat": 41.8402,
+    "lon": 12.4789,
+    "address": "Centro Commerciale Maximo, Roma",
+    "auditorium": "Sala iSense / Luxe",
+    "odysseyFormat": "iSense (4K laser · Dolby Atmos) · Luxe",
+    "editorialQuality": 7.8,
+    "audio": {
+      "system": "Dolby Atmos (iSense)",
+      "details": "UCI elenca Maximo tra le sedi iSense e Luxe. La configurazione tecnica specifica della sala non è pubblicata.",
+      "score": 7.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica sulla biglietteria la lingua e la dicitura iSense del singolo orario.",
+    "formats": [
+      "isense",
+      "atmos",
+      "laser_4k",
+      "luxe"
+    ],
+    "specialties": [
+      "Marchio UCI Luxe",
+      "Formato iSense dichiarato sul sito UCI"
+    ],
+    "notes": "“Luxe” è il brand del cinema; per Odissea seleziona gli orari con dicitura iSense se disponibili.",
+    "sources": [
+      {
+        "label": "UCI: Luxe Maximo | Roma",
+        "url": "https://ucicinemas.it/cinema/uci-luxe-maximo"
+      },
+      {
+        "label": "UCI: esperienza iSense",
+        "url": "https://ucicinemas.it/esperienze/premium/isense"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-luxe-maximo",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-luxe-maximo",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Luxe%20Maximo%20%7C%20Roma%20Centro%20Commerciale%20Maximo%2C%20Roma"
+  },
+  {
+    "id": "uci-luxe-megalo",
+    "name": "UCI Luxe Megalò | Chieti",
+    "city": "Chieti",
+    "region": "Abruzzo",
+    "lat": 42.3436104,
+    "lon": 14.1287767,
+    "address": "Centro Commerciale Megalò, Chieti",
+    "auditorium": "Sala iSense / Luxe",
+    "odysseyFormat": "iSense (4K laser · Dolby Atmos) · Luxe",
+    "editorialQuality": 7.7,
+    "audio": {
+      "system": "Dolby Atmos (iSense)",
+      "details": "UCI elenca Megalò tra le sedi iSense e Luxe. La configurazione tecnica specifica della sala non è pubblicata.",
+      "score": 7.8,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica sulla biglietteria UCI se sono disponibili orari iSense in versione originale.",
+    "formats": [
+      "isense",
+      "atmos",
+      "laser_4k",
+      "luxe"
+    ],
+    "specialties": [
+      "Marchio UCI Luxe",
+      "Formato iSense dichiarato sul sito UCI"
+    ],
+    "notes": "Seleziona gli orari iSense. Il brand Luxe non implica automaticamente Atmos su ogni spettacolo.",
+    "sources": [
+      {
+        "label": "UCI: Luxe Megalò | Chieti",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-megalo"
+      },
+      {
+        "label": "UCI: esperienza iSense",
+        "url": "https://ucicinemas.it/esperienze/premium/isense"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-megalo",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-megalo",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Luxe%20Megal%C3%B2%20%7C%20Chieti%20Centro%20Commerciale%20Megal%C3%B2%2C%20Chieti"
+  },
+  {
+    "id": "uci-luxe-marcon",
+    "name": "UCI Luxe Marcon",
+    "city": "Marcon",
+    "region": "Veneto",
+    "lat": 45.5487729,
+    "lon": 12.3055655,
+    "address": "Marcon (VE)",
+    "auditorium": "Sala ScreenX / Luxe",
+    "odysseyFormat": "Sala Luxe / ScreenX (verifica dicitura orario)",
+    "editorialQuality": 7.5,
+    "audio": {
+      "system": "Audio sala premium Luxe",
+      "details": "UCI Marcon è l’unica sede italiana con ScreenX dichiarata sul sito. Non attribuire ScreenX a Odissea se l’orario non lo indica esplicitamente.",
+      "score": 7.4,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e formato (ScreenX, XL, 2D) sul singolo orario.",
+    "formats": [
+      "screenx",
+      "luxe"
+    ],
+    "specialties": [
+      "Unica sala ScreenX UCI in Italia (dichiarata dal circuito)",
+      "Marchio UCI Luxe",
+      "Odissea in programmazione UCI"
+    ],
+    "notes": "ScreenX richiede un master multiproiezione: seleziona Odissea solo se l’orario riporta ScreenX. In assenza di dicitura, considera XL/Luxe/2D.",
+    "sources": [
+      {
+        "label": "UCI: Luxe Marcon",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-venezia-marcon"
+      },
+      {
+        "label": "UCI: esperienza ScreenX",
+        "url": "https://ucicinemas.it/esperienze/premium/screenx"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-venezia-marcon",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-venezia-marcon",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Luxe%20Marcon%20Marcon%20(VE)"
+  },
+  {
+    "id": "uci-luxe-palladio",
+    "name": "UCI Luxe Palladio | Vicenza",
+    "city": "Vicenza",
+    "region": "Veneto",
+    "lat": 45.5455,
+    "lon": 11.5354,
+    "address": "Vicenza",
+    "auditorium": "Sala Luxe / XL",
+    "odysseyFormat": "Luxe / XL (verifica dicitura orario)",
+    "editorialQuality": 7.3,
+    "audio": {
+      "system": "Audio sala Luxe",
+      "details": "UCI elenca Palladio come Luxe con sala XL. La configurazione audio specifica non è pubblicata sulle fonti consultate.",
+      "score": 7.2,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL/Luxe sul singolo orario.",
+    "formats": [
+      "luxe"
+    ],
+    "specialties": [
+      "Marchio UCI Luxe",
+      "Sala XL dichiarata sul sito UCI"
+    ],
+    "notes": "Preferisci gli orari XL se disponibili; non confondere Luxe con IMAX o iSense.",
+    "sources": [
+      {
+        "label": "UCI: Luxe Palladio | Vicenza",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-vicenza-palladio"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-vicenza-palladio",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-vicenza-palladio",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Luxe%20Palladio%20%7C%20Vicenza%20Vicenza"
+  },
+  {
+    "id": "uci-bicocca",
+    "name": "UCI Cinemas Bicocca | Milano",
+    "city": "Milano",
+    "region": "Lombardia",
+    "lat": 45.5219373,
+    "lon": 9.2161433,
+    "address": "Bicocca Village, Milano",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Seleziona gli orari contrassegnati XL quando disponibili. Una replica generica “2D” non equivale alla sala XL.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas Bicocca | Milano",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-bicocca-milano"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-bicocca-milano",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-bicocca-milano",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Bicocca%20%7C%20Milano%20Bicocca%20Village%2C%20Milano"
+  },
+  {
+    "id": "uci-milanofiori",
+    "name": "UCI Cinemas MilanoFiori | Milano",
+    "city": "Assago",
+    "region": "Lombardia",
+    "lat": 45.4065,
+    "lon": 9.155,
+    "address": "MilanoFiori, Assago (MI)",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Seleziona gli orari contrassegnati XL quando disponibili. Una replica generica “2D” non equivale alla sala XL.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas MilanoFiori | Milano",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-milanofiori-milano"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-milanofiori-milano",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-milanofiori-milano",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20MilanoFiori%20%7C%20Milano%20MilanoFiori%2C%20Assago%20(MI)"
+  },
+  {
+    "id": "uci-pioltello",
+    "name": "UCI Cinemas Pioltello | Milano",
+    "city": "Pioltello",
+    "region": "Lombardia",
+    "lat": 45.5031911,
+    "lon": 9.3218062,
+    "address": "Pioltello (MI)",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Fonti storiche citavano un IMAX a Pioltello; la pagina UCI attuale elenca XL/2D. Non selezionare IMAX se non compare sulla biglietteria. Preferisci gli orari XL per Odissea.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas Pioltello | Milano",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-pioltello-milano"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-pioltello-milano",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-pioltello-milano",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Pioltello%20%7C%20Milano%20Pioltello%20(MI)"
+  },
+  {
+    "id": "uci-torino-lingotto",
+    "name": "UCI Cinemas Torino Lingotto",
+    "city": "Torino",
+    "region": "Piemonte",
+    "lat": 45.0325,
+    "lon": 7.665,
+    "address": "Via Nizza, Lingotto, Torino",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Seleziona gli orari contrassegnati XL quando disponibili. Una replica generica “2D” non equivale alla sala XL.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas Torino Lingotto",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-torino-lingotto"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-torino-lingotto",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-torino-lingotto",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Torino%20Lingotto%20Via%20Nizza%2C%20Lingotto%2C%20Torino"
+  },
+  {
+    "id": "uci-firenze",
+    "name": "UCI Cinemas Firenze",
+    "city": "Firenze",
+    "region": "Toscana",
+    "lat": 43.794,
+    "lon": 11.225,
+    "address": "Firenze (area Novoli)",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Seleziona gli orari contrassegnati XL quando disponibili. Una replica generica “2D” non equivale alla sala XL.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas Firenze",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-firenze"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-firenze",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-firenze",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Firenze%20Firenze%20(area%20Novoli)"
+  },
+  {
+    "id": "uci-meridiana",
+    "name": "UCI Cinemas Meridiana | Bologna",
+    "city": "Casalecchio di Reno",
+    "region": "Emilia-Romagna",
+    "lat": 44.477,
+    "lon": 11.276,
+    "address": "Centro Meridiana, Casalecchio di Reno (BO)",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Seleziona gli orari contrassegnati XL quando disponibili. Una replica generica “2D” non equivale alla sala XL.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas Meridiana | Bologna",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-meridiana-bologna"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-meridiana-bologna",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-meridiana-bologna",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Meridiana%20%7C%20Bologna%20Centro%20Meridiana%2C%20Casalecchio%20di%20Reno%20(BO)"
+  },
+  {
+    "id": "uci-reggio-emilia",
+    "name": "UCI Cinemas Reggio Emilia",
+    "city": "Reggio Emilia",
+    "region": "Emilia-Romagna",
+    "lat": 44.715078,
+    "lon": 10.6509743,
+    "address": "Reggio Emilia",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Seleziona gli orari contrassegnati XL quando disponibili. Una replica generica “2D” non equivale alla sala XL.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas Reggio Emilia",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-reggio-emilia"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-reggio-emilia",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-reggio-emilia",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Reggio%20Emilia%20Reggio%20Emilia"
+  },
+  {
+    "id": "uci-romagna",
+    "name": "UCI Cinemas Romagna | Forlì Cesena",
+    "city": "Savignano sul Rubicone",
+    "region": "Emilia-Romagna",
+    "lat": 44.1568773,
+    "lon": 12.4272726,
+    "address": "Savignano sul Rubicone (FC)",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Seleziona gli orari contrassegnati XL quando disponibili. Una replica generica “2D” non equivale alla sala XL.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas Romagna | Forlì Cesena",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-forli-cesena"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-forli-cesena",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-forli-cesena",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Romagna%20%7C%20Forl%C3%AC%20Cesena%20Savignano%20sul%20Rubicone%20(FC)"
+  },
+  {
+    "id": "uci-arezzo",
+    "name": "UCI Cinemas Arezzo",
+    "city": "Arezzo",
+    "region": "Toscana",
+    "lat": 43.479121,
+    "lon": 11.8689333,
+    "address": "Arezzo",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Seleziona gli orari contrassegnati XL quando disponibili. Una replica generica “2D” non equivale alla sala XL.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas Arezzo",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-arezzo"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-arezzo",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-arezzo",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Arezzo%20Arezzo"
+  },
+  {
+    "id": "uci-bolzano",
+    "name": "UCI Cinemas Bolzano",
+    "city": "Bolzano",
+    "region": "Trentino-Alto Adige",
+    "lat": 46.486415,
+    "lon": 11.335606,
+    "address": "Centro commerciale Twenty, Bolzano",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Seleziona gli orari contrassegnati XL quando disponibili. Una replica generica “2D” non equivale alla sala XL.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas Bolzano",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-bolzano"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-bolzano",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-bolzano",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Bolzano%20Centro%20commerciale%20Twenty%2C%20Bolzano"
+  },
+  {
+    "id": "uci-palermo",
+    "name": "UCI Cinemas Palermo",
+    "city": "Palermo",
+    "region": "Sicilia",
+    "lat": 38.0902824,
+    "lon": 13.4125087,
+    "address": "Forum Palermo",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Seleziona gli orari contrassegnati XL quando disponibili. Una replica generica “2D” non equivale alla sala XL.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas Palermo",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-palermo"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-palermo",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-palermo",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Palermo%20Forum%20Palermo"
+  },
+  {
+    "id": "uci-showville",
+    "name": "UCI Cinemas Showville | Bari",
+    "city": "Bari",
+    "region": "Puglia",
+    "lat": 41.0907988,
+    "lon": 16.8877846,
+    "address": "Showville, Bari",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Seleziona gli orari contrassegnati XL quando disponibili. Una replica generica “2D” non equivale alla sala XL.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas Showville | Bari",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-showville-bari"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-showville-bari",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-showville-bari",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Showville%20%7C%20Bari%20Showville%2C%20Bari"
+  },
+  {
+    "id": "uci-molfetta",
+    "name": "UCI Cinemas Molfetta | Bari",
+    "city": "Molfetta",
+    "region": "Puglia",
+    "lat": 41.2168229,
+    "lon": 16.5469299,
+    "address": "Molfetta (BA)",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Seleziona gli orari contrassegnati XL quando disponibili. Una replica generica “2D” non equivale alla sala XL.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas Molfetta | Bari",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-molfetta-bari"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-molfetta-bari",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-molfetta-bari",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Molfetta%20%7C%20Bari%20Molfetta%20(BA)"
+  },
+  {
+    "id": "uci-marcianise",
+    "name": "UCI Cinemas Cinepolis Marcianise | Caserta",
+    "city": "Marcianise",
+    "region": "Campania",
+    "lat": 41.0040164,
+    "lon": 14.3295152,
+    "address": "Centro Commerciale Campania, Marcianise (CE)",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Seleziona gli orari contrassegnati XL quando disponibili. Una replica generica “2D” non equivale alla sala XL.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas Cinepolis Marcianise | Caserta",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-cinepolis-marcianise-caserta"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-cinepolis-marcianise-caserta",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-cinepolis-marcianise-caserta",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Cinepolis%20Marcianise%20%7C%20Caserta%20Centro%20Commerciale%20Campania%2C%20Marcianise%20(CE)"
+  },
+  {
+    "id": "uci-villesse",
+    "name": "UCI Cinemas Villesse | Gorizia",
+    "city": "Villesse",
+    "region": "Friuli-Venezia Giulia",
+    "lat": 45.8655462,
+    "lon": 13.428685,
+    "address": "Tiare Shopping Center, Villesse (GO)",
+    "auditorium": "Sala XL",
+    "odysseyFormat": "Sala XL (premium UCI)",
+    "editorialQuality": 6.8,
+    "audio": {
+      "system": "Audio sala XL",
+      "details": "UCI presenta le sale XL come ambienti premium più grandi delle sale standard. Tipo di proiettore e layout audio specifici non sono pubblicati su tutte le schede.",
+      "score": 6.9,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e dicitura XL sul singolo orario UCI.",
+    "formats": [],
+    "specialties": [
+      "Sala XL dichiarata sul sito UCI",
+      "Odissea in programmazione ufficiale UCI"
+    ],
+    "notes": "Seleziona gli orari contrassegnati XL quando disponibili. Una replica generica “2D” non equivale alla sala XL.",
+    "sources": [
+      {
+        "label": "UCI: UCI Cinemas Villesse | Gorizia",
+        "url": "https://ucicinemas.it/cinema/uci-cinemas-villesse-gorizia"
+      },
+      {
+        "label": "UCI: esperienza Sala XL",
+        "url": "https://ucicinemas.it/esperienze/premium/salaxl"
+      }
+    ],
+    "website": "https://ucicinemas.it/cinema/uci-cinemas-villesse-gorizia",
+    "bookingUrl": "https://ucicinemas.it/cinema/uci-cinemas-villesse-gorizia",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=UCI%20Cinemas%20Villesse%20%7C%20Gorizia%20Tiare%20Shopping%20Center%2C%20Villesse%20(GO)"
+  },
+  {
+    "id": "space-rozzano-epic",
+    "name": "The Space Cinema Rozzano",
+    "city": "Rozzano",
+    "region": "Lombardia",
+    "lat": 45.3815,
+    "lon": 9.1555,
+    "address": "Rozzano (MI)",
+    "auditorium": "Sala EPIC",
+    "odysseyFormat": "EPIC (Laser HDR Barco · Dolby Atmos)",
+    "editorialQuality": 8.3,
+    "audio": {
+      "system": "Dolby Atmos (EPIC)",
+      "details": "The Space descrive EPIC con suono Dolby Atmos e proiezione laser HDR Barco sullo schermo più grande della struttura. La configurazione locale non è pubblicata in dettaglio.",
+      "score": 8.4,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica sulla biglietteria The Space se l’orario EPIC è in italiano o in V.O.",
+    "formats": [
+      "atmos",
+      "laser_4k"
+    ],
+    "specialties": [
+      "Formato Premium Large Format EPIC",
+      "Laser HDR Barco dichiarato dal circuito",
+      "Dolby Atmos dichiarato per EPIC"
+    ],
+    "notes": "Seleziona solo gli orari contrassegnati EPIC. Le altre sale del multisala non sono EPIC.",
+    "sources": [
+      {
+        "label": "The Space: esperienza EPIC",
+        "url": "https://www.thespacecinema.it/explore/epic"
+      },
+      {
+        "label": "The Space: cinema Rozzano",
+        "url": "https://www.thespacecinema.it/cinema/rozzano/al-cinema"
+      }
+    ],
+    "website": "https://www.thespacecinema.it/cinema/rozzano/al-cinema",
+    "bookingUrl": "https://www.thespacecinema.it/cinema/rozzano/al-cinema",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Rozzano%20Rozzano%20(MI)"
+  },
+  {
+    "id": "space-silea-epic",
+    "name": "The Space Cinema Silea",
+    "city": "Silea",
+    "region": "Veneto",
+    "lat": 45.6521172,
+    "lon": 12.2929448,
+    "address": "Silea (TV)",
+    "auditorium": "Sala EPIC",
+    "odysseyFormat": "EPIC (Laser HDR Barco · Dolby Atmos)",
+    "editorialQuality": 8.3,
+    "audio": {
+      "system": "Dolby Atmos (EPIC)",
+      "details": "The Space descrive EPIC con suono Dolby Atmos e proiezione laser HDR Barco. La configurazione locale non è pubblicata in dettaglio.",
+      "score": 8.4,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica sulla biglietteria The Space se l’orario EPIC è in italiano o in V.O.",
+    "formats": [
+      "atmos",
+      "laser_4k"
+    ],
+    "specialties": [
+      "Formato Premium Large Format EPIC",
+      "Laser HDR Barco dichiarato dal circuito",
+      "Dolby Atmos dichiarato per EPIC"
+    ],
+    "notes": "Seleziona solo gli orari contrassegnati EPIC.",
+    "sources": [
+      {
+        "label": "The Space: esperienza EPIC",
+        "url": "https://www.thespacecinema.it/explore/epic"
+      },
+      {
+        "label": "The Space: cinema Silea",
+        "url": "https://www.thespacecinema.it/cinema/silea/al-cinema"
+      }
+    ],
+    "website": "https://www.thespacecinema.it/cinema/silea/al-cinema",
+    "bookingUrl": "https://www.thespacecinema.it/cinema/silea/al-cinema",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Silea%20Silea%20(TV)"
+  },
+  {
+    "id": "arcadia-stezzano",
+    "name": "ARCADIA Stezzano",
+    "city": "Stezzano",
+    "region": "Lombardia",
+    "lat": 45.6471383,
+    "lon": 9.6286421,
+    "address": "Stezzano (BG)",
+    "auditorium": "Sala ENERGIA PLF",
+    "odysseyFormat": "Premium Large Format Energia (verifica dicitura)",
+    "editorialQuality": 8.5,
+    "audio": {
+      "system": "Dolby Atmos · PLF Energia",
+      "details": "Arcadia Stezzano ospita sale Energia PLF con standard immersivo analoghi al brand Energia. Controlla sulla scheda ufficiale se Odissea è in Energia e con quale audio.",
+      "score": 8.5,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica sulla biglietteria Arcadia la lingua e la dicitura Energia/70mm/digitale del singolo spettacolo.",
+    "formats": [
+      "atmos",
+      "laser_4k"
+    ],
+    "specialties": [
+      "Sale Energia PLF del circuito Arcadia",
+      "Distinto da Arcadia Melzo (70mm)"
+    ],
+    "notes": "Non confondere con Arcadia Melzo (pellicola 70mm). A Stezzano seleziona gli spettacoli con dicitura Energia o formato premium esplicito.",
+    "sources": [
+      {
+        "label": "Arcadia Cinema",
+        "url": "https://www.arcadiacinema.com/"
+      },
+      {
+        "label": "Arcadia: tecnologia",
+        "url": "https://www.arcadiacinema.com/content/tecnologia"
+      }
+    ],
+    "website": "https://www.arcadiacinema.com/",
+    "bookingUrl": "https://www.arcadiacinema.com/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=ARCADIA%20Stezzano%20Stezzano%20(BG)"
+  },
+  {
+    "id": "anteo-citylife",
+    "name": "Anteo CityLife",
+    "city": "Milano",
+    "region": "Lombardia",
+    "lat": 45.4782164,
+    "lon": 9.1547246,
+    "address": "CityLife, Milano",
+    "auditorium": "Sala Atmos (es. Maestoso — verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.8,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Anteo CityLife dichiara una sala con impianto Dolby Atmos. Seleziona solo gli orari che riportano la dicitura Atmos.",
+      "score": 7.9,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Anteo programma spesso V.O. sottotitolata: controlla la dicitura sul singolo spettacolo.",
+    "formats": [
+      "atmos",
+      "laser_4k"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata a CityLife",
+      "Proiezioni 4K dichiarate dal circuito Anteo"
+    ],
+    "notes": "Non tutte le sale del complesso sono Atmos. Controlla sala e dicitura Atmos sulla biglietteria Anteo/spazioCinema.",
+    "sources": [
+      {
+        "label": "Anteo / spazioCinema",
+        "url": "https://www.spaziocinema.info/"
+      },
+      {
+        "label": "Biglietteria Anteo",
+        "url": "https://anteo.spaziocinema.18tickets.it/"
+      }
+    ],
+    "website": "https://www.spaziocinema.info/",
+    "bookingUrl": "https://anteo.spaziocinema.18tickets.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Anteo%20CityLife%20CityLife%2C%20Milano"
+  },
+  {
+    "id": "anteo-palazzo",
+    "name": "Anteo Palazzo del Cinema",
+    "city": "Milano",
+    "region": "Lombardia",
+    "lat": 45.4815,
+    "lon": 9.1865,
+    "address": "Piazza XXV Aprile 8, Milano",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.7,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Anteo Palazzo del Cinema dichiara una sala con Dolby Atmos. La configurazione specifica non è sempre pubblicata per singolo spettacolo.",
+      "score": 7.8,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Anteo programma spesso V.O. sottotitolata: controlla la dicitura sul singolo spettacolo.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata",
+      "Odissea in programmazione Anteo"
+    ],
+    "notes": "Seleziona gli orari con dicitura Atmos. Le altre sale del Palazzo non sono automaticamente Atmos.",
+    "sources": [
+      {
+        "label": "Anteo / spazioCinema",
+        "url": "https://www.spaziocinema.info/"
+      },
+      {
+        "label": "Biglietteria Anteo Palazzo",
+        "url": "https://anteo.spaziocinema.18tickets.it/"
+      }
+    ],
+    "website": "https://www.spaziocinema.info/",
+    "bookingUrl": "https://anteo.spaziocinema.18tickets.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Anteo%20Palazzo%20del%20Cinema%20Piazza%20XXV%20Aprile%208%2C%20Milano"
+  },
+  {
+    "id": "andromeda-roma",
+    "name": "Andromeda",
+    "city": "Roma",
+    "region": "Lazio",
+    "lat": 41.9130107,
+    "lon": 12.4180813,
+    "address": "Roma",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.4,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Andromeda è citato tra le sale italiane con Dolby Atmos. Verifica sulla biglietteria del circuito se Odissea è in Atmos.",
+      "score": 7.5,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica la lingua sulla biglietteria ufficiale.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo gli orari con dicitura Atmos o formato premium esplicito.",
+    "sources": [
+      {
+        "label": "Andromeda Cinema",
+        "url": "https://andromeda.andromedacinema.it/"
+      }
+    ],
+    "website": "https://andromeda.andromedacinema.it/",
+    "bookingUrl": "https://andromeda.andromedacinema.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Andromeda%20Roma"
+  },
+  {
+    "id": "barberini-roma",
+    "name": "Barberini",
+    "city": "Roma",
+    "region": "Lazio",
+    "lat": 41.9034023,
+    "lon": 12.4892688,
+    "address": "Piazza Barberini, Roma",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.5,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Il Barberini ha installato Dolby Atmos (documentato da fonti di settore). Controlla la dicitura del singolo spettacolo di Odissea.",
+      "score": 7.6,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e formato sul singolo orario.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Dolby Atmos in sala storica del centro di Roma"
+    ],
+    "notes": "Non tutti gli orari sono Atmos: seleziona la dicitura esplicita sulla biglietteria.",
+    "sources": [
+      {
+        "label": "Cinema Barberini",
+        "url": "https://www.barberinicinema.it/"
+      }
+    ],
+    "website": "https://www.barberinicinema.it/",
+    "bookingUrl": "https://www.barberinicinema.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Barberini%20Piazza%20Barberini%2C%20Roma"
+  },
+  {
+    "id": "giulio-cesare-roma",
+    "name": "Giulio Cesare",
+    "city": "Roma",
+    "region": "Lazio",
+    "lat": 41.9087349,
+    "lon": 12.4560902,
+    "address": "Viale Giulio Cesare, Roma",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.3,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Il Giulio Cesare è documentato tra le sale romane con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.4,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica la lingua sulla biglietteria ufficiale.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos.",
+    "sources": [
+      {
+        "label": "Cinema Giulio Cesare",
+        "url": "https://www.circuitocinema.com/cinema/giulio-cesare/"
+      }
+    ],
+    "website": "https://www.circuitocinema.com/cinema/giulio-cesare/",
+    "bookingUrl": "https://www.circuitocinema.com/cinema/giulio-cesare/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Giulio%20Cesare%20Viale%20Giulio%20Cesare%2C%20Roma"
+  },
+  {
+    "id": "img-candiani",
+    "name": "IMG Cinemas Candiani",
+    "city": "Venezia Mestre",
+    "region": "Veneto",
+    "lat": 45.4946854,
+    "lon": 12.2402098,
+    "address": "Centro Candiani, Mestre (VE)",
+    "auditorium": "Sale Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.6,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "IMG Candiani dichiara installazioni Dolby Atmos in più sale fin dall’apertura. Controlla quale sala e dicitura per Odissea.",
+      "score": 7.7,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e sala Atmos sul singolo orario.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Più sale con Dolby Atmos documentate"
+    ],
+    "notes": "Scegli lo spettacolo che indica Atmos: non tutte le proiezioni del complesso lo usano.",
+    "sources": [
+      {
+        "label": "IMG Cinemas Candiani",
+        "url": "https://www.imgcinemas.it/"
+      }
+    ],
+    "website": "https://www.imgcinemas.it/",
+    "bookingUrl": "https://www.imgcinemas.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=IMG%20Cinemas%20Candiani%20Centro%20Candiani%2C%20Mestre%20(VE)"
+  },
+  {
+    "id": "victoria-modena",
+    "name": "Victoria Multiplex",
+    "city": "Modena",
+    "region": "Emilia-Romagna",
+    "lat": 44.6471,
+    "lon": 10.9252,
+    "address": "Modena",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.3,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Victoria Multiplex è documentato tra le sedi con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.4,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica la lingua sulla biglietteria ufficiale.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos.",
+    "sources": [
+      {
+        "label": "Victoria Multiplex Modena",
+        "url": "https://www.victoriamultiplex.it/"
+      }
+    ],
+    "website": "https://www.victoriamultiplex.it/",
+    "bookingUrl": "https://www.victoriamultiplex.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Victoria%20Multiplex%20Modena"
+  },
+  {
+    "id": "oz-brescia",
+    "name": "Oz Multisala",
+    "city": "Brescia",
+    "region": "Lombardia",
+    "lat": 45.5233788,
+    "lon": 10.1778353,
+    "address": "Brescia",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.3,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Oz Multisala è documentato tra le sedi con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.4,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica la lingua sulla biglietteria ufficiale.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos.",
+    "sources": [
+      {
+        "label": "Oz Multisala Brescia",
+        "url": "https://www.ozcinema.it/"
+      }
+    ],
+    "website": "https://www.ozcinema.it/",
+    "bookingUrl": "https://www.ozcinema.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oz%20Multisala%20Brescia"
+  },
+  {
+    "id": "massaua-torino",
+    "name": "Massaua",
+    "city": "Torino",
+    "region": "Piemonte",
+    "lat": 45.0736939,
+    "lon": 7.6202174,
+    "address": "Corso Francia / area Massaua, Torino",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.4,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Il Massaua è documentato tra le sale torinesi con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.5,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e formato sul singolo orario.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos.",
+    "sources": [
+      {
+        "label": "Cinema Massaua",
+        "url": "https://www.thespacecinema.it/"
+      }
+    ],
+    "website": "https://www.thespacecinema.it/",
+    "bookingUrl": "https://www.thespacecinema.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Massaua%20Corso%20Francia%20%2F%20area%20Massaua%2C%20Torino"
+  },
+  {
+    "id": "movie-planet-busnago",
+    "name": "Movie Planet Busnago",
+    "city": "Busnago",
+    "region": "Lombardia",
+    "lat": 45.617,
+    "lon": 9.465,
+    "address": "Busnago (MB)",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.2,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Movie Planet Busnago è documentato tra le sedi con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.3,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica la lingua sulla biglietteria ufficiale.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos.",
+    "sources": [
+      {
+        "label": "Movie Planet",
+        "url": "https://www.movieplanet.it/"
+      }
+    ],
+    "website": "https://www.movieplanet.it/",
+    "bookingUrl": "https://www.movieplanet.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Movie%20Planet%20Busnago%20Busnago%20(MB)"
+  },
+  {
+    "id": "movie-planet-parona",
+    "name": "Movie Planet Parona",
+    "city": "Parona",
+    "region": "Lombardia",
+    "lat": 45.2763517,
+    "lon": 8.7884298,
+    "address": "Parona (PV)",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.2,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Movie Planet Parona è documentato tra le sedi con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.3,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica la lingua sulla biglietteria ufficiale.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos.",
+    "sources": [
+      {
+        "label": "Movie Planet",
+        "url": "https://www.movieplanet.it/"
+      }
+    ],
+    "website": "https://www.movieplanet.it/",
+    "bookingUrl": "https://www.movieplanet.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Movie%20Planet%20Parona%20Parona%20(PV)"
+  },
+  {
+    "id": "movie-planet-cineverbano",
+    "name": "Movie Planet Cineverbano Metropolis",
+    "city": "Castelletto sopra Ticino",
+    "region": "Piemonte",
+    "lat": 45.72,
+    "lon": 8.645,
+    "address": "Castelletto sopra Ticino (NO)",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.2,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Cineverbano Metropolis è documentato tra le sedi Movie Planet con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.3,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica la lingua sulla biglietteria ufficiale.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos.",
+    "sources": [
+      {
+        "label": "Movie Planet",
+        "url": "https://www.movieplanet.it/"
+      }
+    ],
+    "website": "https://www.movieplanet.it/",
+    "bookingUrl": "https://www.movieplanet.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Movie%20Planet%20Cineverbano%20Metropolis%20Castelletto%20sopra%20Ticino%20(NO)"
+  },
+  {
+    "id": "cinelandia-gallarate",
+    "name": "Cinelandia Gallarate",
+    "city": "Gallarate",
+    "region": "Lombardia",
+    "lat": 45.6588879,
+    "lon": 8.80973,
+    "address": "Gallarate (VA)",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.2,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Cinelandia Gallarate è documentato tra le sedi con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.3,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica la lingua sulla biglietteria ufficiale.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos.",
+    "sources": [
+      {
+        "label": "Cinelandia",
+        "url": "https://www.cinelandia.it/"
+      }
+    ],
+    "website": "https://www.cinelandia.it/",
+    "bookingUrl": "https://www.cinelandia.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinelandia%20Gallarate%20Gallarate%20(VA)"
+  },
+  {
+    "id": "cinelandia-arosio",
+    "name": "Cinelandia Arosio",
+    "city": "Arosio",
+    "region": "Lombardia",
+    "lat": 45.7213139,
+    "lon": 9.2151609,
+    "address": "Arosio (MB)",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.2,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Cinelandia Arosio è documentato tra le sedi con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.3,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica la lingua sulla biglietteria ufficiale.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos.",
+    "sources": [
+      {
+        "label": "Cinelandia",
+        "url": "https://www.cinelandia.it/"
+      }
+    ],
+    "website": "https://www.cinelandia.it/",
+    "bookingUrl": "https://www.cinelandia.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinelandia%20Arosio%20Arosio%20(MB)"
+  },
+  {
+    "id": "cinelandia-camerlata",
+    "name": "Cinelandia Camerlata",
+    "city": "Como",
+    "region": "Lombardia",
+    "lat": 45.7905606,
+    "lon": 9.0819709,
+    "address": "Camerlata, Como",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.2,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Cinelandia Camerlata è documentato tra le sedi con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.3,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica la lingua sulla biglietteria ufficiale.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos.",
+    "sources": [
+      {
+        "label": "Cinelandia",
+        "url": "https://www.cinelandia.it/"
+      }
+    ],
+    "website": "https://www.cinelandia.it/",
+    "bookingUrl": "https://www.cinelandia.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinelandia%20Camerlata%20Camerlata%2C%20Como"
+  },
+  {
+    "id": "visionario-udine",
+    "name": "Cinema Visionario",
+    "city": "Udine",
+    "region": "Friuli-Venezia Giulia",
+    "lat": 46.0647909,
+    "lon": 13.2291118,
+    "address": "Udine",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.3,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Il Visionario è documentato tra le sedi con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.4,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e formato sul singolo orario.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos.",
+    "sources": [
+      {
+        "label": "Cinema Visionario Udine",
+        "url": "https://www.cinemavisionario.it/"
+      }
+    ],
+    "website": "https://www.cinemavisionario.it/",
+    "bookingUrl": "https://www.cinemavisionario.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinema%20Visionario%20Udine"
+  },
+  {
+    "id": "grandapulia-foggia",
+    "name": "Cinema GrandApulia",
+    "city": "Foggia",
+    "region": "Puglia",
+    "lat": 41.415094,
+    "lon": 15.6503129,
+    "address": "Foggia",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.2,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "GrandApulia è documentato tra le sedi con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.3,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica la lingua sulla biglietteria ufficiale.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos.",
+    "sources": [
+      {
+        "label": "GrandApulia Foggia",
+        "url": "https://www.grandapulia.it/"
+      }
+    ],
+    "website": "https://www.grandapulia.it/",
+    "bookingUrl": "https://www.grandapulia.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinema%20GrandApulia%20Foggia"
+  },
+  {
+    "id": "cinedream-faenza",
+    "name": "Cinedream Faenza",
+    "city": "Faenza",
+    "region": "Emilia-Romagna",
+    "lat": 44.3119615,
+    "lon": 11.897357,
+    "address": "Faenza (RA)",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.2,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Cinedream Faenza è documentato tra le sedi con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.3,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica la lingua sulla biglietteria ufficiale.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos.",
+    "sources": [
+      {
+        "label": "Cinedream Faenza",
+        "url": "https://www.cinedream.it/"
+      }
+    ],
+    "website": "https://www.cinedream.it/",
+    "bookingUrl": "https://www.cinedream.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinedream%20Faenza%20Faenza%20(RA)"
+  },
+  {
+    "id": "space-beinasco",
+    "name": "The Space Cinema Beinasco",
+    "city": "Beinasco",
+    "region": "Piemonte",
+    "lat": 45.0215726,
+    "lon": 7.5937168,
+    "address": "Beinasco (TO)",
+    "auditorium": "Sala premium (verifica EPIC/Atmos)",
+    "odysseyFormat": "Premium Space (verifica dicitura orario)",
+    "editorialQuality": 7,
+    "audio": {
+      "system": "Audio sala premium",
+      "details": "The Space Beinasco programma Odissea: verifica se lo spettacolo è in EPIC, Atmos o sala standard sulla biglietteria ufficiale.",
+      "score": 7,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e formato sul singolo orario The Space.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Odissea in programmazione The Space",
+      "Circuito Vue / The Space"
+    ],
+    "notes": "Preferisci orari con dicitura EPIC o Atmos se presenti; altrimenti resta una proiezione digitale del circuito.",
+    "sources": [
+      {
+        "label": "The Space: Beinasco",
+        "url": "https://www.thespacecinema.it/cinema/beinasco/al-cinema"
+      },
+      {
+        "label": "The Space: film ed eventi",
+        "url": "https://www.thespacecinema.it/"
+      }
+    ],
+    "website": "https://www.thespacecinema.it/cinema/beinasco/al-cinema",
+    "bookingUrl": "https://www.thespacecinema.it/cinema/beinasco/al-cinema",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Beinasco%20Beinasco%20(TO)"
+  },
+  {
+    "id": "space-firenze",
+    "name": "The Space Cinema Firenze",
+    "city": "Firenze",
+    "region": "Toscana",
+    "lat": 43.7911718,
+    "lon": 11.2289463,
+    "address": "Firenze",
+    "auditorium": "Sala premium (verifica EPIC/Atmos)",
+    "odysseyFormat": "Premium Space (verifica dicitura orario)",
+    "editorialQuality": 7,
+    "audio": {
+      "system": "Audio sala premium",
+      "details": "The Space Firenze programma Odissea: verifica dicitura EPIC/Atmos/standard sulla biglietteria.",
+      "score": 7,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e formato sul singolo orario The Space.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Odissea in programmazione The Space"
+    ],
+    "notes": "Preferisci orari con dicitura EPIC o Atmos se presenti.",
+    "sources": [
+      {
+        "label": "The Space: Firenze",
+        "url": "https://www.thespacecinema.it/cinema/firenze/al-cinema"
+      },
+      {
+        "label": "The Space: film ed eventi",
+        "url": "https://www.thespacecinema.it/"
+      }
+    ],
+    "website": "https://www.thespacecinema.it/cinema/firenze/al-cinema",
+    "bookingUrl": "https://www.thespacecinema.it/cinema/firenze/al-cinema",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Firenze%20Firenze"
+  },
+  {
+    "id": "space-bologna",
+    "name": "The Space Cinema Bologna",
+    "city": "Bologna",
+    "region": "Emilia-Romagna",
+    "lat": 44.511329,
+    "lon": 11.3728853,
+    "address": "Bologna",
+    "auditorium": "Sala premium (verifica EPIC/Atmos)",
+    "odysseyFormat": "Premium Space (verifica dicitura orario)",
+    "editorialQuality": 7,
+    "audio": {
+      "system": "Audio sala premium",
+      "details": "The Space Bologna programma Odissea: verifica dicitura EPIC/Atmos/standard sulla biglietteria.",
+      "score": 7,
+      "evidence": "formato"
+    },
+    "languageOptions": [
+      "ita",
+      "en_sub_it"
+    ],
+    "languageNote": "Verifica lingua e formato sul singolo orario The Space.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Odissea in programmazione The Space"
+    ],
+    "notes": "Preferisci orari con dicitura EPIC o Atmos se presenti. Distinto dalle proiezioni 70mm del Cinema Lumière.",
+    "sources": [
+      {
+        "label": "The Space: Bologna",
+        "url": "https://www.thespacecinema.it/cinema/bologna/al-cinema"
+      },
+      {
+        "label": "The Space: film ed eventi",
+        "url": "https://www.thespacecinema.it/"
+      }
+    ],
+    "website": "https://www.thespacecinema.it/cinema/bologna/al-cinema",
+    "bookingUrl": "https://www.thespacecinema.it/cinema/bologna/al-cinema",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Space%20Cinema%20Bologna%20Bologna"
+  },
+  {
+    "id": "cinelandia-borgo-san-dalmazzo",
+    "name": "Cinelandia Borgo San Dalmazzo",
+    "city": "Borgo San Dalmazzo",
+    "region": "Piemonte",
+    "lat": 44.3471538,
+    "lon": 7.5064258,
+    "address": "Borgo San Dalmazzo (CN)",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.2,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Cinelandia Borgo San Dalmazzo è documentato tra le sedi con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.3,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica la lingua sulla biglietteria ufficiale.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos.",
+    "sources": [
+      {
+        "label": "Cinelandia",
+        "url": "https://www.cinelandia.it/"
+      }
+    ],
+    "website": "https://www.cinelandia.it/",
+    "bookingUrl": "https://www.cinelandia.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cinelandia%20Borgo%20San%20Dalmazzo%20Borgo%20San%20Dalmazzo%20(CN)"
+  },
+  {
+    "id": "planet-catania",
+    "name": "Planet Multisala",
+    "city": "Catania",
+    "region": "Sicilia",
+    "lat": 37.5079,
+    "lon": 15.083,
+    "address": "Catania",
+    "auditorium": "Sala Atmos (verifica orario)",
+    "odysseyFormat": "Dolby Atmos (se orario contrassegnato)",
+    "editorialQuality": 7.2,
+    "audio": {
+      "system": "Dolby Atmos",
+      "details": "Planet Catania è documentato tra le sedi con Dolby Atmos. Verifica la dicitura su Odissea.",
+      "score": 7.3,
+      "evidence": "sala"
+    },
+    "languageOptions": [
+      "ita"
+    ],
+    "languageNote": "Verifica la lingua sulla biglietteria ufficiale.",
+    "formats": [
+      "atmos"
+    ],
+    "specialties": [
+      "Sala Dolby Atmos documentata"
+    ],
+    "notes": "Seleziona solo orari con dicitura Atmos. Distinto da UCI Catania (iSense a Misterbianco).",
+    "sources": [
+      {
+        "label": "Planet Cinema Catania",
+        "url": "https://www.planetcinema.it/"
+      }
+    ],
+    "website": "https://www.planetcinema.it/",
+    "bookingUrl": "https://www.planetcinema.it/",
+    "verifiedAt": "21 luglio 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Planet%20Multisala%20Catania"
   }
 ]

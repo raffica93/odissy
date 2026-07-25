@@ -26,7 +26,11 @@ export const FAQ_CORE: FaqItem[] = [
   },
   {
     question: 'Come riconosco lo spettacolo giusto?',
-    answer: 'Leggi la dicitura del singolo orario. Ad Arcadia deve comparire “70MM ENERGIA”; al Metropolitan e al 4Fontane “Odissea - 70mm”; al Lumière Sala Mastroianni e 70mm; a Cinergia “Odissea - 70mm”; nelle altre sedi scegli gli orari esplicitamente contrassegnati IMAX.',
+    answer: 'Leggi la dicitura del singolo orario. Ad Arcadia deve comparire “70MM ENERGIA”; al Metropolitan e al 4Fontane “Odissea - 70mm”; al Lumière Sala Mastroianni e 70mm; a Cinergia “Odissea - 70mm”; per IMAX, iSense, EPIC, Atmos o XL scegli solo gli orari che riportano esplicitamente quella dicitura.',
+  },
+  {
+    question: 'Cosa sono iSense, EPIC, Atmos e XL?',
+    answer: 'Sono formati premium diversi da IMAX e dal 70mm. iSense (UCI) unisce 4K laser e Dolby Atmos; EPIC (The Space) è un PLF con laser HDR e Atmos; Atmos indica l’audio immersivo in sala; XL è la sala premium più grande di molti UCI. Restano sotto IMAX e 70mm nell’ordinamento editoriale: controlla sempre la dicitura del biglietto.',
   },
   {
     question: 'Cosa significano ITA doppiato e EN · sub ITA?',

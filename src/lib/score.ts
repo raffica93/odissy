@@ -4,6 +4,11 @@ import { haversineKm } from './geo'
 const FORMAT_BONUS: Partial<Record<Format, number>> = {
   film_70mm: 28,
   imax: 25,
+  isense: 12,
+  atmos: 10,
+  laser_4k: 10,
+  screenx: 8,
+  luxe: 6,
 }
 
 function formatBonus(formats: Format[]): number {
